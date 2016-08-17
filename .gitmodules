@@ -1,0 +1,3 @@
+[submodule "bin/cli"]
+	path = bin/cli
+	url = https://github.com/Webcampak/cli.git
