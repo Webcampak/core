@@ -1,0 +1,10 @@
+Bonjour,
+
+Vous recevez cet email car le Webcampak vient de terminer le traitement des images post-prod.
+
+Ces images sont disponibles soit dans le répertoire /pictures/process-videopost/ soit dans le répertoire /pictures/ de la source si vous avez demandé un déplacement des images.
+
+Merci.
+
+Votre Webcampak
+

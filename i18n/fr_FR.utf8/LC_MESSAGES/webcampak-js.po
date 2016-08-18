@@ -1,0 +1,1880 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Webcampak\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-25 11:49+0200\n"
+"PO-Revision-Date: 2012-09-06 13:49+0100\n"
+"Last-Translator: Francois Gerthoffert <contact@webcampak.com>\n"
+"Language-Team: François Gerthoffert <contact@webcampak.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../www/interface/app/model/cloud/User.js:6
+#: ../../www/interface/app/model/permissions/User.js:7
+#: ../../www/interface/app/model/User.js:6
+msgid "NewUser"
+msgstr "NouvelUtilisateur"
+
+#: ../../www/interface/app/model/cloud/User.js:7
+#: ../../www/interface/app/model/permissions/User.js:8
+#: ../../www/interface/app/model/User.js:7
+msgid "NewPassword"
+msgstr "Mot de passe"
+
+#: ../../www/interface/app/model/cloud/User.js:8
+#: ../../www/interface/app/model/permissions/User.js:9
+#: ../../www/interface/app/model/User.js:8
+msgid "email@email.com"
+msgstr "email@email.com"
+
+#: ../../www/interface/app/model/cloud/User.js:9
+#: ../../www/interface/app/model/permissions/User.js:10
+#: ../../www/interface/app/model/User.js:9
+#: ../../www/interface/app/view/cloud/UsersList.js:51
+#: ../../www/interface/app/view/cloud/AddUser.js:64
+#: ../../www/interface/app/view/permissions/groups/GroupAvailableUsers.js:22
+#: ../../www/interface/app/view/permissions/groups/GroupMembers.js:22
+#: ../../www/interface/app/view/permissions/users/UsersList.js:14
+#: ../../www/interface/app/view/permissions/users/AddUser.js:43
+#: ../../www/interface/app/view/permissions/sources/SourceAvailableUsers.js:22
+#: ../../www/interface/app/view/permissions/sources/SourceMembers.js:23
+msgid "Firstname"
+msgstr "Nom"
+
+#: ../../www/interface/app/model/cloud/User.js:10
+#: ../../www/interface/app/model/permissions/User.js:11
+#: ../../www/interface/app/model/User.js:10
+#: ../../www/interface/app/view/cloud/UsersList.js:52
+#: ../../www/interface/app/view/cloud/AddUser.js:71
+#: ../../www/interface/app/view/permissions/groups/GroupAvailableUsers.js:23
+#: ../../www/interface/app/view/permissions/groups/GroupMembers.js:23
+#: ../../www/interface/app/view/permissions/users/UsersList.js:15
+#: ../../www/interface/app/view/permissions/users/AddUser.js:49
+#: ../../www/interface/app/view/permissions/sources/SourceAvailableUsers.js:23
+#: ../../www/interface/app/view/permissions/sources/SourceMembers.js:24
+msgid "Lastname"
+msgstr "Prénom"
+
+#: ../../www/interface/app/model/cloud/User.js:15
+#: ../../www/interface/app/model/permissions/User.js:18
+#: ../../www/interface/app/model/User.js:17
+#: ../../www/interface/app/view/cloud/UsersList.js:53
+msgid "Invoice"
+msgstr "# Facture"
+
+#: ../../www/interface/app/model/cloud/User.js:18
+#: ../../www/interface/app/model/User.js:20
+msgid "New Source"
+msgstr "Nouvelle Source"
+
+#: ../../www/interface/app/model/cloud/User.js:19
+msgid "http://www.newsource.com/test.jpg"
+msgstr "http://www.newsource.com/test.jpg"
+
+#: ../../www/interface/app/model/permissions/Page.js:7
+msgid "Page Name"
+msgstr "Nom de la page"
+
+#: ../../www/interface/app/model/permissions/Company.js:4
+#: ../../www/interface/app/view/permissions/AddCompany.js:20
+msgid "Company Name"
+msgstr "Entreprise"
+
+#: ../../www/interface/app/model/permissions/Group.js:7
+#: ../../www/interface/app/view/permissions/groups/AddGroup.js:20
+msgid "Group Name"
+msgstr "Groupe"
+
+#: ../../www/interface/app/model/permissions/Source.js:8
+#: ../../www/interface/app/view/cloud/AddUser.js:139
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:25
+msgid "Source Name"
+msgstr "Nom de la source"
+
+#: ../../www/interface/app/view/ViewMenus.js:23
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:97
+#: ../../www/interface/app/view/toolbar/Menu.js:17
+#: ../../www/interface/app/view/toolbar/Menu.js:34
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFiles.js:15
+#: ../../www/interface/app/view/TopToolbar.js:15
+msgid "Pictures"
+msgstr "Photos"
+
+#: ../../www/interface/app/view/ViewMenus.js:38
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:151
+#: ../../www/interface/app/view/toolbar/Menu.js:21
+#: ../../www/interface/app/view/TopToolbar.js:16
+msgid "Videos"
+msgstr "Vidéos"
+
+#: ../../www/interface/app/view/videos/VideosList.js:48
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:10
+#: ../../www/interface/app/view/configuration/SourcesList.js:13
+#: ../../www/interface/app/view/permissions/CompaniesList.js:14
+#: ../../www/interface/app/view/permissions/groups/GroupsList.js:14
+#: ../../www/interface/app/view/permissions/groups/GroupAvailablePages.js:24
+#: ../../www/interface/app/view/permissions/users/UserSources.js:23
+#: ../../www/interface/app/view/permissions/users/UserAvailableSources.js:21
+#: ../../www/interface/app/view/permissions/sources/SourcesList.js:16
+#: ../../www/interface/app/view/log/SourcesList.js:13
+msgid "Name"
+msgstr "Nom"
+
+#: ../../www/interface/app/view/videos/VideosList.js:49
+msgid "Format"
+msgstr "Format"
+
+#: ../../www/interface/app/view/videos/VideosList.js:50
+#: ../../www/interface/app/view/configuration/postprodvideos/Transition.js:22
+#: ../../www/interface/app/view/configuration/postprodvideos/Resize.js:18
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:34
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:67
+msgid "Size"
+msgstr "Taille"
+
+#: ../../www/interface/app/view/videos/VideosList.js:51
+msgid "D/L"
+msgstr "T/L"
+
+#: ../../www/interface/app/view/videos/CurrentVideo.js:11
+msgid "Loading video ..."
+msgstr "Chargement vidéo"
+
+#: ../../www/interface/app/view/videos/VideosWindow.js:9
+msgid "Webcampak Videos"
+msgstr "Vidéos Webcampak"
+
+#: ../../www/interface/app/view/videos/VideosWindow.js:60
+#: ../../www/interface/app/view/pictures/PicturesWindow.js:65
+msgid "Previous"
+msgstr "Précédent"
+
+#: ../../www/interface/app/view/videos/VideosWindow.js:70
+#: ../../www/interface/app/view/pictures/PicturesWindow.js:75
+msgid "Next"
+msgstr "Suivant"
+
+#: ../../www/interface/app/view/videos/SourcesList.js:14
+#: ../../www/interface/app/view/pictures/SourcesList.js:14
+msgid "Select a source..."
+msgstr "Sélectionnez une source"
+
+#: ../../www/interface/app/view/cloud/ConfigCloudWindow.js:7
+#: ../../www/interface/app/view/cloud/CloudWindow.js:7
+msgid "Manage Cloud users"
+msgstr "Gérer les utilisateurs cloud"
+
+#: ../../www/interface/app/view/cloud/ConfigCloudWindow.js:18
+msgid "Available Webcampak Cloud users"
+msgstr "Utilisateurs Webcampak Cloud disponibles"
+
+#: ../../www/interface/app/view/cloud/ConfigCloudWindow.js:24
+#: ../../www/interface/app/view/cloud/CloudWindow.js:24
+#: ../../www/interface/app/view/cloud/CloudWindow.js:98
+#: ../../www/interface/app/view/cloud/AddUser.js:159
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:64
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:22
+#: ../../www/interface/app/view/permissions/UsersWindow.js:21
+#: ../../www/interface/app/view/permissions/CompaniesList.js:25
+#: ../../www/interface/app/view/permissions/groups/AddGroup.js:26
+#: ../../www/interface/app/view/permissions/users/AddUser.js:75
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:39
+#: ../../www/interface/app/view/permissions/AddCompany.js:26
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:22
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:95
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../../www/interface/app/view/cloud/ConfigCloudWindow.js:30
+#: ../../www/interface/app/view/cloud/CloudWindow.js:30
+#: ../../www/interface/app/view/cloud/CloudWindow.js:104
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:28
+#: ../../www/interface/app/view/permissions/UsersWindow.js:27
+#: ../../www/interface/app/view/permissions/CompaniesList.js:31
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:28
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:101
+msgid "Delete"
+msgstr "Supprimmer"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:18
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:16
+msgid "Available Groups"
+msgstr "Groups disponibles"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:50
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:48
+msgid "Manage group members"
+msgstr "Gérer les membres du groupe"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:59
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:57
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:57
+msgid "Webcampak users"
+msgstr "Utilisateurs Webcampak"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:65
+#: ../../www/interface/app/view/cloud/CloudWindow.js:76
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:63
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:74
+#: ../../www/interface/app/view/permissions/UsersWindow.js:56
+#: ../../www/interface/app/view/permissions/UsersWindow.js:70
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:63
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:74
+msgid "Tip:"
+msgstr "Astuce:"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:65
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:63
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:63
+msgid "Drag users to the right grid to add them to members list"
+msgstr "Déplacer les utilisateurs sur la liste des membres pour l'y ajouter"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:76
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:74
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:74
+msgid "Drag users to the left grid to remove them from members list"
+msgstr "Déplacer les utilisateurs sur la liste de gauche pour les supprimer de la liste des membres"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:83
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:80
+msgid "Manage page access for group members"
+msgstr "Gérer les accès pour les membres du groupe"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:92
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:89
+msgid "Webcampak pages"
+msgstr "Pages Webcampak"
+
+#: ../../www/interface/app/view/cloud/CloudWindow.js:113
+#: ../../www/interface/app/view/permissions/GroupsWindow.js:110
+msgid "Access allowed"
+msgstr "Accès autorisé"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:47
+#: ../../www/interface/app/view/configuration/capture/Phidget.js:9
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:9
+#: ../../www/interface/app/view/permissions/users/UsersList.js:10
+msgid "ID"
+msgstr "ID"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:48
+#: ../../www/interface/app/view/cloud/AddUser.js:29
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:12
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:36
+#: ../../www/interface/app/view/configuration/advanced/LocalFTP.js:14
+#: ../../www/interface/app/view/permissions/groups/GroupAvailableUsers.js:21
+#: ../../www/interface/app/view/permissions/groups/GroupMembers.js:21
+#: ../../www/interface/app/view/permissions/users/UsersList.js:11
+#: ../../www/interface/app/view/permissions/users/AddUser.js:21
+#: ../../www/interface/app/view/permissions/sources/SourceAvailableUsers.js:21
+#: ../../www/interface/app/view/permissions/sources/SourceMembers.js:22
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:49
+#: ../../www/interface/app/view/cloud/AddUser.js:38
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:13
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:43
+#: ../../www/interface/app/view/configuration/advanced/LocalFTP.js:20
+#: ../../www/interface/app/view/permissions/users/UsersList.js:12
+#: ../../www/interface/app/view/permissions/users/AddUser.js:29
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:50
+#: ../../www/interface/app/view/cloud/AddUser.js:51
+#: ../../www/interface/app/view/permissions/users/UsersList.js:13
+#: ../../www/interface/app/view/permissions/users/AddUser.js:37
+msgid "Email"
+msgstr "Email"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:54
+msgid "Expire on"
+msgstr "Expire le"
+
+#: ../../www/interface/app/view/cloud/UsersList.js:55
+#: ../../www/interface/app/view/cloud/AddUser.js:95
+#: ../../www/interface/app/view/permissions/users/UsersList.js:18
+#: ../../www/interface/app/view/permissions/users/AddUser.js:65
+msgid "Enable Interface"
+msgstr "Activer interface"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:7
+msgid "Add a Webcampak Cloud User"
+msgstr "Ajouter un utilisateur Webcampak Cloud"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:19
+msgid "User details"
+msgstr "Détail utilisateur"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:82
+#: ../../www/interface/app/view/permissions/users/UsersList.js:16
+#: ../../www/interface/app/view/permissions/users/AddUser.js:55
+msgid "Company"
+msgstr "Entreprise"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:89
+#: ../../www/interface/app/view/permissions/users/UsersList.js:17
+#: ../../www/interface/app/view/permissions/users/AddUser.js:61
+msgid "Group"
+msgstr "Groupe"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:103
+msgid "Administrative details"
+msgstr "Détails administratifs"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:113
+msgid "Invoice #"
+msgstr "# Facture"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:124
+msgid "Account Expiry date"
+msgstr "Date d'expiration"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:129
+msgid "Source details"
+msgstr "Détails source"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:151
+msgid "Source URL"
+msgstr "URL de la source"
+
+#: ../../www/interface/app/view/cloud/AddUser.js:163
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:69
+#: ../../www/interface/app/view/permissions/groups/AddGroup.js:30
+#: ../../www/interface/app/view/permissions/users/AddUser.js:79
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:43
+#: ../../www/interface/app/view/permissions/AddCompany.js:30
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../../www/interface/app/view/configuration/capture/Webcam.js:13
+msgid "Native Webcam resolution"
+msgstr "Résolution native de la webcam"
+
+#: ../../www/interface/app/view/configuration/capture/Webcam.js:24
+msgid "Brightness"
+msgstr "Luminosité"
+
+#: ../../www/interface/app/view/configuration/capture/Webcam.js:32
+msgid "Contrast"
+msgstr "Contraste"
+
+#: ../../www/interface/app/view/configuration/capture/Webcam.js:40
+msgid "Saturation"
+msgstr "Saturation"
+
+#: ../../www/interface/app/view/configuration/capture/Webcam.js:48
+msgid "Gain"
+msgstr "Gain"
+
+#: ../../www/interface/app/view/configuration/capture/Webfile.js:12
+msgid "URL File/Stream"
+msgstr "URL Fichier/Flux"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:11
+msgid "Activate Source"
+msgstr "Activer source"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:21
+msgid "Compact or DSLR USB Camera (Gphoto2 PTP mode)"
+msgstr "Appareil Compact ou Reflex (Gphoto2 PTP mode)"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:22
+msgid "USB Webcam"
+msgstr "Webcam USB"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:23
+msgid "IP Camera (FTP) / Webcampak"
+msgstr "Caméra IP / Webcampak (FTP0"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:24
+msgid "Internet Picture (HTTP ou FTP)"
+msgstr "Image Internet (HTTP or FTP)"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:25
+msgid "Video Streaming (RTSP)"
+msgstr "Streaming Vidéo (RTSP)"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:26
+msgid "Sensor (Phidget)"
+msgstr "Capture Phidget"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:37
+msgid "Capture every"
+msgstr "Capturer tous les"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:63
+#: ../../www/interface/app/view/configuration/capture/Source.js:99
+#: ../../www/interface/app/view/configuration/capture/Source.js:145
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:56
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:63
+msgid "Minutes"
+msgstr "Minutes"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:64
+#: ../../www/interface/app/view/configuration/capture/Source.js:100
+#: ../../www/interface/app/view/configuration/capture/Source.js:146
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:57
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:64
+msgid "Seconds"
+msgstr "Secondes"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:73
+msgid "Minimum Interval"
+msgstr "Intervale minimale"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:117
+msgid "Capture delay"
+msgstr "Retard de capture"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:160
+msgid "Picture date"
+msgstr "Date Image"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:169
+msgid "Capture time"
+msgstr "Heure de capture"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:170
+msgid "Script start time"
+msgstr "Déclenchement du script"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:184
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:240
+msgid "Debug"
+msgstr "Debug"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:248
+msgid "Email alerts"
+msgstr "Alertes email"
+
+#: ../../www/interface/app/view/configuration/capture/Source.js:256
+msgid "Block capture"
+msgstr "Bloquer la capture"
+
+#: ../../www/interface/app/view/configuration/capture/CameraPort.js:7
+msgid "Camera Port"
+msgstr "Port Caméra"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:13
+msgid "Activate calendar"
+msgstr "Activer le calendrier"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:14
+msgid "If disabled, the system will capture 24/7"
+msgstr "Si désactivé, le système capturera 24/7"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:19
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:20
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:34
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:48
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:62
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:76
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:90
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:104
+msgid "Between"
+msgstr "Entre"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:24
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:38
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:52
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:66
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:80
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:94
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:108
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:29
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:36
+msgid "and"
+msgstr "et"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:33
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:47
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:61
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:75
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:89
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../../www/interface/app/view/configuration/capture/Calendar.js:103
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:16
+msgid "Define picture date based upon"
+msgstr "Définir la date de capture depuis"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:24
+msgid "Date when file was save into /tmp/ directory"
+msgstr "Date d'enregistrement de fichier dans le répertoire /tmp/"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:25
+msgid "Picture filename (Webcampak) - (YYYYMMDDHHMMSS.jpg)"
+msgstr "Nom de fichier (Webcampak) - (YYYYMMDDHHMMSS.jpg)"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:26
+msgid "EXIF Metadata (date)"
+msgstr "EXIF Metadata (date)"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:35
+msgid "Limit hotlink processing to one picture per rotation"
+msgstr "Limiter le traitement des fichiers hotlink à une image par rotation"
+
+#: ../../www/interface/app/view/configuration/capture/IPCamera.js:42
+msgid "Take actions if no new pictures in /tmp/ directory."
+msgstr "Déclencher des alertes si aucune image n'est présente dans le répertoire /tmp/"
+
+#: ../../www/interface/app/view/configuration/capture/Phidget.js:10
+msgid "Type"
+msgstr "Type"
+
+#: ../../www/interface/app/view/configuration/capture/Phidget.js:11
+msgid "Port"
+msgstr "Port"
+
+#: ../../www/interface/app/view/configuration/capture/Phidget.js:12
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:20
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:18
+#: ../../www/interface/app/view/configuration/pictures/Text.js:20
+msgid "Legend"
+msgstr "Légende"
+
+#: ../../www/interface/app/view/configuration/capture/Phidget.js:13
+msgid "Color"
+msgstr "Couleur"
+
+#: ../../www/interface/app/view/configuration/capture/Gphoto.js:13
+msgid "Camera Model"
+msgstr "Modèle Caméra"
+
+#: ../../www/interface/app/view/configuration/capture/Gphoto.js:14
+#: ../../www/interface/app/view/configuration/capture/Gphoto.js:26
+msgid "Multi-Camera environment only"
+msgstr "Environement multi-appareils uniquement"
+
+#: ../../www/interface/app/view/configuration/capture/Gphoto.js:25
+msgid "Camera Owner (TAG)"
+msgstr "Propriétaire caméra (TAG)"
+
+#: ../../www/interface/app/view/configuration/capture/WebcamPort.js:7
+msgid "Webcam Port"
+msgstr "Port Webcam"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:12
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:12
+#: ../../www/interface/app/view/configuration/pictures/Text.js:12
+msgid "Insert legend"
+msgstr "Insérer une légende"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:22
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:20
+#: ../../www/interface/app/view/configuration/pictures/Text.js:22
+msgid "Date format"
+msgstr "Format date"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:29
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:27
+#: ../../www/interface/app/view/configuration/pictures/Text.js:29
+msgid "Do not insert date"
+msgstr "Ne pas insérer de date"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:30
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:28
+#: ../../www/interface/app/view/configuration/pictures/Text.js:30
+msgid "25/01/2010 - 09h30"
+msgstr "25/01/2010 - 09h30"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:31
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:29
+#: ../../www/interface/app/view/configuration/pictures/Text.js:31
+msgid "25/01/2010"
+msgstr "25/01/2010"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:32
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:30
+#: ../../www/interface/app/view/configuration/pictures/Text.js:32
+msgid "09h30"
+msgstr "09h30"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:33
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:31
+#: ../../www/interface/app/view/configuration/pictures/Text.js:33
+msgid "Thursday 25 January 2010 - 09h30"
+msgstr "Jeudi 25 Janvier 2010 - 09h30"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:34
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:32
+#: ../../www/interface/app/view/configuration/pictures/Text.js:34
+msgid "25 January 2010 - 09h30"
+msgstr "25 Janvier 2010 - 09h30"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:44
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:42
+#: ../../www/interface/app/view/configuration/pictures/Text.js:44
+msgid "Text size"
+msgstr "Taille texte"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:53
+#: ../../www/interface/app/view/configuration/pictures/Text.js:53
+msgid "Text location"
+msgstr "Emplacement texte"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:67
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:65
+#: ../../www/interface/app/view/configuration/pictures/Text.js:67
+msgid "South West"
+msgstr "Sud Ouest"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:68
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:66
+#: ../../www/interface/app/view/configuration/pictures/Text.js:68
+msgid "South"
+msgstr "Sud"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:69
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:67
+#: ../../www/interface/app/view/configuration/pictures/Text.js:69
+msgid "South East"
+msgstr "Sud Esr"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:70
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:68
+#: ../../www/interface/app/view/configuration/pictures/Text.js:70
+msgid "East"
+msgstr "Est"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:71
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:69
+#: ../../www/interface/app/view/configuration/pictures/Text.js:71
+msgid "North East"
+msgstr "Nord Est"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:72
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:70
+#: ../../www/interface/app/view/configuration/pictures/Text.js:72
+msgid "North"
+msgstr "Nord"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:73
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:71
+#: ../../www/interface/app/view/configuration/pictures/Text.js:73
+msgid "North West"
+msgstr "Nord Ouest"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:74
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:72
+#: ../../www/interface/app/view/configuration/pictures/Text.js:74
+msgid "West"
+msgstr "Ouest"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:88
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:86
+#: ../../www/interface/app/view/configuration/pictures/Text.js:88
+msgid "Legend Coordinates"
+msgstr "Coordonnées légende"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:94
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:92
+#: ../../www/interface/app/view/configuration/pictures/Text.js:94
+msgid "Legend Color"
+msgstr "Couleur légende"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:104
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:102
+#: ../../www/interface/app/view/configuration/pictures/Text.js:104
+msgid "Shadow Coordinates"
+msgstr "Coordonnées ombre"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:110
+#: ../../www/interface/app/view/configuration/postprodvideos/Text.js:108
+#: ../../www/interface/app/view/configuration/pictures/Text.js:110
+msgid "Shadow Color"
+msgstr "Couleur ombre"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:125
+msgid "Resize picture before video creation"
+msgstr "Redimensionner les images avant de créer la vidéo"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:133
+msgid "Picture size (1920x1080)"
+msgstr "Taille image (1920x1080)"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:143
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:7
+msgid "Video effect"
+msgstr "Effet vidéo"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:150
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:14
+msgid "No effect"
+msgstr "Pas d'effet"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:151
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:15
+msgid "Tilt Shift"
+msgstr "Tilt Shift"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:152
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:16
+msgid "charcoal"
+msgstr "Charcoal"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:153
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:17
+msgid "colorin"
+msgstr "Color-In"
+
+#: ../../www/interface/app/view/configuration/videos/PreProcess.js:154
+#: ../../www/interface/app/view/configuration/postprodvideos/Effect.js:18
+msgid "sketch"
+msgstr "Sketch"
+
+#: ../../www/interface/app/view/configuration/videos/Audio.js:12
+msgid "Add an audio track"
+msgstr "Ajouter une piste audio"
+
+#: ../../www/interface/app/view/configuration/videos/FTP.js:11
+msgid "Send AVI video files to:"
+msgstr "Envoyer les fichiers AVI vers:"
+
+#: ../../www/interface/app/view/configuration/videos/FTP.js:13
+#: ../../www/interface/app/view/configuration/videos/FTP.js:22
+#: ../../www/interface/app/view/configuration/videos/FTP.js:31
+#: ../../www/interface/app/view/configuration/videos/FTP.js:40
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:13
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:22
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:31
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:43
+msgid "Number of retry:"
+msgstr "Nombre d'essais"
+
+#: ../../www/interface/app/view/configuration/videos/FTP.js:20
+msgid "Send MP4 video files to:"
+msgstr "Envoyer les fichiers MP4 vers:"
+
+#: ../../www/interface/app/view/configuration/videos/FTP.js:29
+msgid "Send hotlink AVI video files to:"
+msgstr "Envoyer les hotlink AVI vers:"
+
+#: ../../www/interface/app/view/configuration/videos/FTP.js:38
+msgid "Send hotlink MP4 video files to:"
+msgstr "Envoyer les hotlink MP4 vers:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:12
+msgid "1080p:"
+msgstr "1080p:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:13
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:33
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:53
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:73
+msgid "Bitrate:"
+msgstr "Bitrate:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:15
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:35
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:55
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:75
+msgid "Size:"
+msgstr "Taille:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:19
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:39
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:59
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:79
+msgid "Crop:"
+msgstr "Découpe:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:32
+msgid "720p:"
+msgstr "720p:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:52
+msgid "480p:"
+msgstr "480p:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreationAdvanced.js:72
+msgid "Custom:"
+msgstr "Personnalisé:"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:12
+msgid "H. 264 (1080p)"
+msgstr "H. 264 (1080p)"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:13
+msgid "HD Format, Highest quality."
+msgstr "Format HD, Haute qualité"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:14
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:23
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:32
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:41
+msgid "Web (MP4)"
+msgstr "Web (MP4)"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:15
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:24
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:33
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:42
+msgid "FPS"
+msgstr "FPS"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:21
+msgid "H. 264 (720p)"
+msgstr "H. 264 (720p)"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:22
+msgid "HD Format, High quality."
+msgstr "Format HD, Bonne qualité"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:30
+msgid "H. 264 (480p)"
+msgstr "H. 264 (480p)"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:31
+msgid "Similar to DVD."
+msgstr "Similaire au DVD."
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:39
+msgid "H. 264 (Custom)"
+msgstr "H. 264 (Personnalisé)"
+
+#: ../../www/interface/app/view/configuration/videos/VideoCreation.js:40
+msgid "H.264, custom settings."
+msgstr "H.264, reglages personnalisés."
+
+#: ../../www/interface/app/view/configuration/videos/AudioFile.js:7
+msgid "Audio File"
+msgstr "Fichier audio"
+
+#: ../../www/interface/app/view/configuration/videos/Filter.js:12
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:181
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:246
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:300
+msgid "Filter similar pictures"
+msgstr "Filtrer les images similaires"
+
+#: ../../www/interface/app/view/configuration/videos/Filter.js:25
+msgid "Max distance"
+msgstr "Distance maximale"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:12
+msgid "Upload video to Youtube"
+msgstr "Uploader la vidéo vers Youtube"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:23
+msgid "Film"
+msgstr "Film"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:24
+msgid "Autos"
+msgstr "Autos"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:25
+msgid "Music"
+msgstr "Musique"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:26
+msgid "Animals"
+msgstr "Animaux"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:27
+msgid "Sports"
+msgstr "Sports"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:28
+msgid "Travel"
+msgstr "Voyage"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:29
+msgid "Shortmov"
+msgstr "Courts-métrages"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:30
+msgid "Games"
+msgstr "Jeux"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:31
+msgid "Comedy"
+msgstr "Comédi"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:32
+msgid "People"
+msgstr "People"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:33
+msgid "News"
+msgstr "Nouvelles"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:34
+msgid "Entertainment"
+msgstr "Loisirs"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:35
+msgid "Education"
+msgstr "Educatif"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:36
+msgid "Howto"
+msgstr "Instructions"
+
+#: ../../www/interface/app/view/configuration/videos/Youtube.js:37
+msgid "Nonprofit"
+msgstr "Associations"
+
+#: ../../www/interface/app/view/configuration/videos/Watermark.js:12
+#: ../../www/interface/app/view/configuration/pictures/Watermark.js:12
+msgid "Insert a watermark"
+msgstr "Ajouter un watermark"
+
+#: ../../www/interface/app/view/configuration/videos/Watermark.js:25
+#: ../../www/interface/app/view/configuration/pictures/Watermark.js:23
+msgid "Transparency"
+msgstr "Transparence"
+
+#: ../../www/interface/app/view/configuration/videos/Watermark.js:32
+#: ../../www/interface/app/view/configuration/pictures/Watermark.js:30
+msgid "Location of the watermark"
+msgstr "Emplacement du watermark"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Transition.js:11
+msgid "Activate Transition"
+msgstr "Activer transition"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Resize.js:11
+msgid "Resize Picture"
+msgstr "Redimentionner l'image"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:11
+msgid "Insert a thumbnail"
+msgstr "Ajouter une miniature"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:19
+msgid "Insert a border around thumbnail"
+msgstr "Intégrer une bordure autour de la miniature"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:25
+msgid "Thumbnail captured from Source Picture"
+msgstr "Miniature capturée depuis l'image source"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:45
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:78
+#: ../../www/interface/app/view/configuration/pictures/Crop.js:33
+msgid "Location"
+msgstr "Emplacement"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Thumbnail.js:58
+msgid "Thumbnail inside Destination Picture"
+msgstr "Thumbnail à intégrée dans l'image de destination"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:10
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:17
+msgid "From"
+msgstr "Du"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:17
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:24
+msgid "To"
+msgstr "Au"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:25
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:32
+msgid "Only keep pictures between:"
+msgstr "Conserver uniquement les images entre:"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:38
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:45
+msgid "Minimum interval between two pictures:"
+msgstr "Intervale minimum entre deux images:"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:65
+msgid "Move pictures to:"
+msgstr "Déplacer les images vers:"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:82
+msgid "Send an email once completed"
+msgstr "Envoyer un email en fin de traitement"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:88
+msgid "Start processing"
+msgstr "Démarrer le traitement"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:103
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:95
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:104
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:96
+msgid "As Soon As Possible"
+msgstr "Dès que possible"
+
+#: ../../www/interface/app/view/configuration/postprodvideos/Prepare.js:105
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:97
+msgid "At 4:00 am"
+msgstr "A 4h00"
+
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:11
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:29
+msgid "Host"
+msgstr "Hôte"
+
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:14
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:50
+msgid "Directory"
+msgstr "Répertoire"
+
+#: ../../www/interface/app/view/configuration/ftpservers/FTPServersList.js:15
+msgid "Active"
+msgstr "Actif"
+
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:7
+msgid "Add a FTP Server"
+msgstr "Ajouter un serveur FTP"
+
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:21
+msgid "Server Name (Description)"
+msgstr "Nom du serveur (description)"
+
+#: ../../www/interface/app/view/configuration/ftpservers/AddFTPServer.js:55
+msgid "Active Mode"
+msgstr "Mode actif"
+
+#: ../../www/interface/app/view/configuration/pictures/WatermarkFile.js:7
+msgid "Watermark File"
+msgstr "Fichier watermark"
+
+#: ../../www/interface/app/view/configuration/pictures/Hotlink.js:12
+msgid "Hotlink 1 size"
+msgstr "Taille Hotlink 1"
+
+#: ../../www/interface/app/view/configuration/pictures/Hotlink.js:18
+msgid "Hotlink 2 size"
+msgstr "Taille Hotlink 2"
+
+#: ../../www/interface/app/view/configuration/pictures/Hotlink.js:24
+msgid "Hotlink 3 size"
+msgstr "Taille Hotlink 3"
+
+#: ../../www/interface/app/view/configuration/pictures/Hotlink.js:30
+msgid "Hotlink 4 size"
+msgstr "Taille Hotlink 4"
+
+#: ../../www/interface/app/view/configuration/pictures/Hotlink.js:38
+msgid "Generate hotlink image in case of capture error"
+msgstr "Générer un fichier hotlink en cas d'erreur de capture"
+
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:11
+msgid "Send pictures to:"
+msgstr "Envoyer les images vers:"
+
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:20
+msgid "Send pictures to (copy):"
+msgstr "Envoyer les images vers (copie):"
+
+#: ../../www/interface/app/view/configuration/pictures/FTP.js:29
+msgid "Send hotlink pictures to:"
+msgstr "Envoyer les images hotlink vers:"
+
+#: ../../www/interface/app/view/configuration/pictures/TextFont.js:7
+msgid "Text font"
+msgstr "Police"
+
+#: ../../www/interface/app/view/configuration/pictures/Crop.js:11
+msgid "Crop pictures"
+msgstr "Découper les images"
+
+#: ../../www/interface/app/view/configuration/pictures/Crop.js:22
+msgid "Size of the area"
+msgstr "Taille de la zone"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:14
+msgid "Save pictures into archives"
+msgstr "Archiver les images"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:15
+msgid "Warning, if pictures are not saved it will not be possible to generate videos."
+msgstr "Attention, si les images ne sont pas archivées il ne sera pas possible de générer des vidéos"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:21
+msgid "Resize pictures before saving"
+msgstr "Redimensionner les images avant enregistrement"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:28
+msgid "Minimum single picture size"
+msgstr "Taille minimale d'une image"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:36
+msgid "Delete pictures after (days, 0 = no limit)"
+msgstr "Supprimer les images after (jours, 0 = pas de limite)"
+
+#: ../../www/interface/app/view/configuration/pictures/Archive.js:43
+msgid "Maximum archive size (Mbytes, 0 = no limit)"
+msgstr "Taille maximale des archives (Mo, 0 = no limit)"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:12
+msgid "Send email to"
+msgstr "Envoyer un email à"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:18
+msgid "Send email to (CC)"
+msgstr "Envoyer un email à (CC)"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:24
+msgid "Send email from (source email)"
+msgstr "Envoyer un email depuis (source email)"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:29
+msgid "Number of failure before sending email:"
+msgstr "Nombre d'échecs avant d'envoyer un email:"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:31
+msgid "send a reminder every:"
+msgstr "Envoyer un rappel tous les:"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:33
+msgid "failures (0 = never)"
+msgstr "echecs (0 = jamais)"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:38
+msgid "Outgoing email server"
+msgstr "Serveur email sortant"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:43
+msgid "SMTP Server:"
+msgstr "Serveur SMTP"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:45
+msgid "Port:"
+msgstr "Port:"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:55
+msgid "SMTP Start TTLS"
+msgstr "SMTP Start TTLS"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:63
+msgid "SMTP Auth"
+msgstr "SMTP Auth"
+
+#: ../../www/interface/app/view/configuration/advanced/Email.js:69
+#: ../../www/interface/app/view/configuration/advanced/Email.js:75
+msgid "SMTP Auth Username"
+msgstr "SMTP Auth Username"
+
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:14
+msgid "Powercycle camera in case of failure"
+msgstr "Redémarrer l'appareil en cas d'erreurs"
+
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:21
+msgid "Number of failure before camera powercycle"
+msgstr "Nombre d'erreurs avant redémarrage"
+
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:28
+msgid "Phidget camera port"
+msgstr "Port phidget appareil"
+
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:36
+msgid "Generate Phidget sensor graph"
+msgstr "Générer un graphique phidget"
+
+#: ../../www/interface/app/view/configuration/advanced/Phidget.js:41
+msgid "Send sensor to:"
+msgstr "Envoyer les mesure vers:"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:7
+msgid "Manage Webcampak Sources settings"
+msgstr "Gérer les réglages des sources Webcampak"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:23
+#: ../../www/interface/app/view/toolbar/Menu.js:57
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:42
+#: ../../www/interface/app/view/ConfigMenus.js:38
+#: ../../www/interface/app/view/log/LogWindow.js:23
+msgid "Sources"
+msgstr "Sources"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:29
+msgid "Configuration of source ID: Name"
+msgstr "Configuration de la source ID: Nom"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:32
+msgid "Capture"
+msgstr "Capture"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:41
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:106
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:160
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:225
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:290
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:363
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:45
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:110
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:164
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:229
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:294
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:367
+msgid "Reset Form"
+msgstr "Réinitialiser"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:51
+msgid "Source configuration"
+msgstr "Configuration Source"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:55
+msgid "Capture calendar"
+msgstr "Calendrier de capture"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:61
+msgid "Configuration of \"<u>Compact or DSLR USB Camera (Gphoto2 PTP mode)</u>\""
+msgstr "Configuration de \"<u>Compact ou Reflex USB (Gphoto2 PTP mode)</u>\""
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:67
+msgid "Configuration of \"<u>USB Webcam</u>\""
+msgstr "Configuration de \"<u>Webcam USB</u>\""
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:73
+msgid "Configuration of \"<u>IP Camera (FTP) / Webcampak</u>\""
+msgstr "Configuration de \"<u>Camera IP (FTP) / Webcampak</u>\""
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:79
+msgid "Configuration of \"<u>Internet Picture</u>\" or \"<u>Video Streaming</u>\""
+msgstr "Configuration de \"<u>Image Internet</u>\" ou \"<u>Streaming Vidéo</u>\""
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:86
+msgid "Configuration of \"<u>Sensor (Phidget)</u>\""
+msgstr "Configuration de \"<u>Capteur Phidget</u>\""
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:116
+msgid "Crop picture"
+msgstr "Découpe image"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:122
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:187
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:252
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:336
+msgid "Insert Watermark"
+msgstr "Insérer un Watermark"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:128
+msgid "Insert Text"
+msgstr "Insérer un texte"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:134
+msgid "Static pictures (hotlink)"
+msgstr "Images statiques (hotlink)"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:139
+msgid "Archives"
+msgstr "Archives"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:145
+msgid "Send pictures via FTP"
+msgstr "Envoyer les images via FTP"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:170
+msgid "Daily video creation"
+msgstr "Création de vidéos journalières"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:175
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:240
+msgid "Advanced video settings"
+msgstr "Réglages vidéo avancés"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:192
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:257
+msgid "Pre-processing manipulations (advanced)"
+msgstr "Manipulations pré-traitement (avancé)"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:198
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:263
+msgid "Add an audio file"
+msgstr "Ajouter un fichier audio"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:204
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:269
+msgid "Upload to youtube"
+msgstr "Envoyer la vidéo vers youtube"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:210
+msgid "Send videos via FTP"
+msgstr "Envoyer les vidéos via FTP"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:216
+msgid "Custom Vids."
+msgstr "Vidéos perso."
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:235
+msgid "Video settings"
+msgstr "Réglages vidéo"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:275
+msgid "Create a custom video"
+msgstr "Créer une vidéo perso."
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:281
+msgid "Post-prod Vids."
+msgstr "Vidéos Post-Prod."
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:306
+msgid "Zone selection within source picture (Crop)"
+msgstr "Sélection de la zone au sein de l'image source (Crop)"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:312
+msgid "Activate transition (from Crop selection)"
+msgstr "Activer une transition (depuis la sélection crop)"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:318
+msgid "Resize Pictures"
+msgstr "Redimensionner l'image"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:324
+msgid "Add an effect"
+msgstr "Ajouter un effet"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:330
+msgid "Insert a Thumbnail"
+msgstr "Ajouter une miniature"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:342
+msgid "Insert a legend"
+msgstr "Ajouter une légende"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:348
+msgid "Prepare Post-Prod pictures"
+msgstr "Préparer les images post-prod"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:354
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:49
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:373
+msgid "Configuration of local FTP account"
+msgstr "Configuration du compte FTP local"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:378
+msgid "Emails"
+msgstr "Emails"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:383
+msgid "Phidget board"
+msgstr "Platine phidget"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:389
+msgid "FTP Servers"
+msgstr "Serveurs FTP"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:398
+msgid "Add FTP Server"
+msgstr "Ajouter un serveur FTP"
+
+#: ../../www/interface/app/view/configuration/ConfigurationWindow.js:403
+msgid "Delete FTP Server"
+msgstr "Suppression du serveur FTP"
+
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:13
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:74
+msgid "Send an email once creation completed"
+msgstr "Envoyer un email en fin de traitement"
+
+#: ../../www/interface/app/view/configuration/customvideos/Create.js:80
+msgid "Start creation"
+msgstr "Démarrer la création"
+
+#: ../../www/interface/app/view/configuration/SourcesList.js:12
+#: ../../www/interface/app/view/permissions/users/UserSources.js:22
+#: ../../www/interface/app/view/permissions/users/UserAvailableSources.js:20
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:18
+#: ../../www/interface/app/view/permissions/sources/SourcesList.js:14
+#: ../../www/interface/app/view/log/SourcesList.js:12
+msgid "Source ID"
+msgstr "ID Source"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:8
+msgid "Webcampak"
+msgstr "Webcampak"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:25
+msgid "Statistics & Reports"
+msgstr "Statistiques et rapports"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:30
+#: ../../www/interface/app/view/dashboard/sourcediskusage/SourceDiskUsage.js:15
+msgid "Disk Usage"
+msgstr "Utilisation disque"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:38
+msgid "Misc"
+msgstr "Divers"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:44
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:49
+#: ../../www/interface/app/view/ConfigMenus.js:23
+#: ../../www/interface/app/view/TopToolbar.js:19
+msgid "Cloud Users"
+msgstr "Utilisateurs Cloud"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:53
+msgid "Cloud Config."
+msgstr "Conf. Cloud"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:61
+#: ../../www/interface/app/view/ConfigMenus.js:53
+msgid "Permissions"
+msgstr "Permissions"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:65
+msgid "General"
+msgstr "Général"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:69
+#: ../../www/interface/app/view/TopToolbar.js:20
+msgid "Logs"
+msgstr "Logs"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:75
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:80
+msgid "Blog"
+msgstr "Blog"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:85
+msgid "About"
+msgstr "A propos"
+
+#: ../../www/interface/app/view/toolbar/Menu.js:90
+msgid "Log Out"
+msgstr "Déconnexion"
+
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:16
+#, fuzzy
+msgid "Available Sources"
+msgstr "Sources disponibles"
+
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:48
+msgid "Manage source members"
+msgstr "Gérer les membres de la source"
+
+#: ../../www/interface/app/view/permissions/SourcesWindow.js:68
+msgid "Members of the source"
+msgstr "Membres de la source"
+
+#: ../../www/interface/app/view/permissions/UsersWindow.js:37
+msgid "Select a user in the list above"
+msgstr "Sélectionnez un utilisateur dans la liste ci-dessous"
+
+#: ../../www/interface/app/view/permissions/UsersWindow.js:48
+msgid "Webcampak sources"
+msgstr "Sources Webcampak"
+
+#: ../../www/interface/app/view/permissions/UsersWindow.js:56
+msgid "Drag sources to the right grid to add them to granted list"
+msgstr "Glissez les souces vers la droite pour les ajouter à la liste"
+
+#: ../../www/interface/app/view/permissions/UsersWindow.js:62
+msgid "Access granted to the following sources"
+msgstr "Accès autorisé aux sources ci-dessous"
+
+#: ../../www/interface/app/view/permissions/UsersWindow.js:70
+msgid "Drag sources to the left grid to remove them from granted list"
+msgstr "Glissez les sources vers la gauche pour les supprimer"
+
+#: ../../www/interface/app/view/permissions/CompaniesList.js:13
+#: ../../www/interface/app/view/permissions/groups/GroupPages.js:21
+#: ../../www/interface/app/view/permissions/groups/GroupsList.js:13
+#: ../../www/interface/app/view/permissions/groups/GroupAvailableUsers.js:20
+#: ../../www/interface/app/view/permissions/groups/GroupAvailablePages.js:23
+#: ../../www/interface/app/view/permissions/groups/GroupMembers.js:20
+#: ../../www/interface/app/view/permissions/users/UserSources.js:21
+#: ../../www/interface/app/view/permissions/users/UserAvailableSources.js:19
+#: ../../www/interface/app/view/permissions/sources/SourceAvailableUsers.js:20
+#: ../../www/interface/app/view/permissions/sources/SourceMembers.js:21
+#: ../../www/interface/app/view/permissions/sources/SourcesList.js:13
+msgid "ID #"
+msgstr "ID #"
+
+#: ../../www/interface/app/view/permissions/groups/GroupPages.js:10
+#: ../../www/interface/app/view/permissions/groups/GroupAvailableUsers.js:10
+#: ../../www/interface/app/view/permissions/groups/GroupAvailablePages.js:11
+#: ../../www/interface/app/view/permissions/groups/GroupMembers.js:9
+msgid "Drag users to add them to the group"
+msgstr "Glissez les utilisateurs pour les ajouter au groupe"
+
+#: ../../www/interface/app/view/permissions/groups/GroupPages.js:22
+msgid "name"
+msgstr "Nom d'utilisateur"
+
+#: ../../www/interface/app/view/permissions/groups/AddGroup.js:7
+msgid "Add a Group"
+msgstr "Ajouter un Groupe"
+
+#: ../../www/interface/app/view/permissions/users/UserSources.js:10
+#: ../../www/interface/app/view/permissions/users/UserAvailableSources.js:10
+msgid "Drag sources to add them to the user"
+msgstr "Glissez les sources pour les ajouter à l'utilisateur"
+
+#: ../../www/interface/app/view/permissions/users/AddUser.js:7
+msgid "Add a User"
+msgstr "Ajouter un utilisateur"
+
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:7
+msgid "Add a Source"
+msgstr "Ajouter une source"
+
+#: ../../www/interface/app/view/permissions/sources/AddSource.js:32
+#: ../../www/interface/app/view/permissions/sources/SourcesList.js:15
+msgid "Weight"
+msgstr "Poids"
+
+#: ../../www/interface/app/view/permissions/sources/SourceAvailableUsers.js:10
+#: ../../www/interface/app/view/permissions/sources/SourceMembers.js:10
+msgid "Drag users to add them to the source"
+msgstr "Glissez les utilisateurs pour les ajouter à la source"
+
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:13
+msgid "Manage Permissions & interface settings"
+msgstr "Gestion des permissions et réglages de l'interface"
+
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:25
+msgid "Users"
+msgstr "Util. Cloud"
+
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:30
+msgid "Groups"
+msgstr "Groupe"
+
+#: ../../www/interface/app/view/permissions/PermissionsWindow.js:37
+msgid "Companies"
+msgstr "Entreprise"
+
+#: ../../www/interface/app/view/permissions/AddCompany.js:7
+msgid "Add a Company"
+msgstr "Ajouter une entreprise"
+
+#: ../../www/interface/app/view/pictures/PicturesWindow.js:9
+msgid "Webcampak Pictures"
+msgstr "Photos"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:20
+msgid "12:10"
+msgstr "12:10"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:39
+msgid "12:20"
+msgstr "12:20"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:57
+msgid "12:30"
+msgstr "12:30"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:75
+msgid "12:40"
+msgstr "12:40"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:93
+msgid "12:50"
+msgstr "12:50"
+
+#: ../../www/interface/app/view/pictures/Thumbnails.js:111
+msgid "13:00"
+msgstr "13:00"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFilesWindow.js:12
+#: ../../www/interface/app/view/dashboard/sourcediskusage/SourceDiskUsageWindow.js:12
+msgid "Graph: Number of pictures per sources per day"
+msgstr "Graphique: Nombre d'images par sources et par jour"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFilesWindow.js:15
+#: ../../www/interface/app/view/dashboard/sourcediskusage/SourceDiskUsageWindow.js:15
+#: ../../www/interface/app/view/dashboard/sourcepicturesizes/SourcePictureSizesWindow.js:15
+msgid "Save Chart"
+msgstr "Enregistrer"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFilesWindow.js:18
+#: ../../www/interface/app/controller/dashboard/SourcePictureSizes.js:98
+#: ../../www/interface/app/controller/dashboard/SourceDiskUsage.js:86
+#: ../../www/interface/app/controller/dashboard/SourcePictureFiles.js:86
+msgid "Confirm Download"
+msgstr "Confirmer le téléchargement"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFilesWindow.js:18
+#: ../../www/interface/app/controller/dashboard/SourcePictureSizes.js:98
+#: ../../www/interface/app/controller/dashboard/SourceDiskUsage.js:86
+#: ../../www/interface/app/controller/dashboard/SourcePictureFiles.js:86
+msgid "Would you like to download the chart as an image?"
+msgstr "Souhaitez-vous télécharger le graphique en tant qu'image"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFilesWindow.js:27
+#: ../../www/interface/app/view/dashboard/sourcediskusage/SourceDiskUsageWindow.js:18
+#: ../../www/interface/app/view/dashboard/sourcepicturesizes/SourcePictureSizesWindow.js:18
+msgid "Reload Data"
+msgstr "Recharger"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFiles.js:52
+#: ../../www/interface/app/view/dashboard/sourcepicturefiles/SourcePictureFiles.js:69
+#: ../../www/interface/app/controller/dashboard/SourceDiskUsage.js:71
+#: ../../www/interface/app/controller/dashboard/SourcePictureFiles.js:71
+msgid "pictures in"
+msgstr "images le"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturesizes/SourcePictureSizes.js:15
+msgid "Size (MB)"
+msgstr "Taille (Mo)"
+
+#: ../../www/interface/app/view/dashboard/sourcepicturesizes/SourcePictureSizesWindow.js:12
+msgid "Graph: Size of pictures per sources per day"
+msgstr "Graphique: Taille des images par source et par jour"
+
+#: ../../www/interface/app/view/log/LogWindow.js:7
+msgid "Webcampak Logs"
+msgstr "Ajouter un utilisateur Webcampak Cloud"
+
+#: ../../www/interface/app/view/log/LogWindow.js:29
+msgid "Log of source ID: Name"
+msgstr "Nom de la source"
+
+#: ../../www/interface/app/view/log/LogWindow.js:32
+msgid "Capture Logs"
+msgstr "Logs de capture"
+
+#: ../../www/interface/app/view/log/LogWindow.js:41
+#: ../../www/interface/app/view/log/LogWindow.js:57
+#: ../../www/interface/app/view/log/LogWindow.js:73
+#: ../../www/interface/app/view/log/LogWindow.js:89
+msgid "Refresh"
+msgstr "Rafraichir"
+
+#: ../../www/interface/app/view/log/LogWindow.js:48
+msgid "Daily Video logs"
+msgstr "Logs vidéo journalière"
+
+#: ../../www/interface/app/view/log/LogWindow.js:64
+msgid "Custom Video Logs"
+msgstr "Logs vidéo perso."
+
+#: ../../www/interface/app/view/log/LogWindow.js:80
+msgid "Post-prod logs"
+msgstr "Logs Post-Prod"
+
+#: ../../www/interface/app/view/TopToolbar.js:17
+msgid "Permissions Conf."
+msgstr "Conf. Permissions"
+
+#: ../../www/interface/app/view/TopToolbar.js:18
+msgid "Sources Conf."
+msgstr "Conf. Sources"
+
+#: ../../www/interface/app/view/TopToolbar.js:21
+msgid "FTP Servers Conf."
+msgstr "Conf. FTP Serveurs"
+
+#: ../../www/interface/app/view/TopToolbar.js:22
+msgid "General Conf."
+msgstr "Conf. Générale"
+
+#: ../../www/interface/app/view/TopToolbar.js:23
+msgid "Pictures Stat."
+msgstr "Stat. Photos"
+
+#: ../../www/interface/app/view/TopToolbar.js:24
+msgid "Disk Usage Stat."
+msgstr "Stat. Utilisation disque"
+
+#: ../../www/interface/app/view/TopToolbar.js:25
+msgid "Misc Stat."
+msgstr "Stat. Divers"
+
+#: ../../www/interface/app/controller/cloud/Cloud.js:96
+#: ../../www/interface/app/controller/permissions/Groups.js:161
+#: ../../www/interface/app/controller/permissions/Groups.js:200
+#: ../../www/interface/app/controller/permissions/Sources.js:132
+#: ../../www/interface/app/controller/permissions/Users.js:146
+msgid "Delete Record ?"
+msgstr "Supprimer ?"
+
+#: ../../www/interface/app/controller/cloud/Cloud.js:97
+#: ../../www/interface/app/controller/configuration/Configuration.js:530
+#: ../../www/interface/app/controller/permissions/Groups.js:162
+#: ../../www/interface/app/controller/permissions/Groups.js:201
+#: ../../www/interface/app/controller/permissions/Companies.js:62
+#: ../../www/interface/app/controller/permissions/Sources.js:133
+#: ../../www/interface/app/controller/permissions/Users.js:147
+msgid "You are deleting a record permanently, this cannot be undone. Proceed ?"
+msgstr "La suppression est permanente, les données seront perdués. Continuer ?"
+
+#: ../../www/interface/app/controller/configuration/Configuration.js:463
+msgid "Configuration of"
+msgstr "Configuration de"
+
+#: ../../www/interface/app/controller/permissions/Groups.js:146
+#: ../../www/interface/app/controller/permissions/Sources.js:117
+msgid "Manage members of"
+msgstr "Gérer les membres de"
+
+#: ../../www/interface/app/controller/permissions/Groups.js:146
+#: ../../www/interface/app/controller/permissions/Groups.js:147
+msgid "group"
+msgstr "Groupe"
+
+#: ../../www/interface/app/controller/permissions/Groups.js:147
+msgid "Manage pages access for"
+msgstr "Gérer l'accès aux pages pour"
+
+#: ../../www/interface/app/controller/permissions/Sources.js:117
+msgid "source"
+msgstr "Sources"
+
+#: ../../www/interface/app/controller/permissions/Users.js:131
+msgid "Manage sources for"
+msgstr "Gérer les sources pour"
+
+#: ../../www/interface/app/controller/pictures/Pictures.js:199
+msgid "Webcampak Zoom"
+msgstr "Webcampak Zoom"
+
+#: ../../www/interface/app/controller/pictures/Pictures.js:217
+msgid "Webcampak Picture"
+msgstr "Image Webcampak"
+
+#: ../../www/interface/app/controller/dashboard/SourcePictureSizes.js:83
+msgid "of pictures in"
+msgstr "d'images le"
+
+#: ../../www/interface/app/controller/log/Log.js:129
+msgid "Log of"
+msgstr "Log de"
+
+#: ../../www/interface/app/store/videos/VideosList.js:2
+#: ../../www/interface/app/store/videos/ViewVideo.js:2
+#: ../../www/interface/app/store/cloud/Users.js:2
+#: ../../www/interface/app/store/configuration/Advanced.js:2
+#: ../../www/interface/app/store/configuration/WatermarkFile.js:2
+#: ../../www/interface/app/store/configuration/FTPServer.js:2
+#: ../../www/interface/app/store/configuration/TextFont.js:2
+#: ../../www/interface/app/store/configuration/PhidgetSensor.js:2
+#: ../../www/interface/app/store/configuration/Picture.js:2
+#: ../../www/interface/app/store/configuration/Capture.js:2
+#: ../../www/interface/app/store/configuration/CameraPort.js:2
+#: ../../www/interface/app/store/configuration/PostprodVideo.js:2
+#: ../../www/interface/app/store/configuration/CustomVideo.js:2
+#: ../../www/interface/app/store/configuration/Phidget.js:2
+#: ../../www/interface/app/store/configuration/Video.js:2
+#: ../../www/interface/app/store/configuration/WebcamPort.js:2
+#: ../../www/interface/app/store/permissions/Companies.js:2
+#: ../../www/interface/app/store/permissions/groups/GroupPages.js:2
+#: ../../www/interface/app/store/permissions/groups/GroupAvailableUsers.js:2
+#: ../../www/interface/app/store/permissions/groups/Groups.js:2
+#: ../../www/interface/app/store/permissions/groups/GroupAvailablePages.js:2
+#: ../../www/interface/app/store/permissions/groups/GroupMembers.js:2
+#: ../../www/interface/app/store/permissions/Users.js:2
+#: ../../www/interface/app/store/permissions/users/UserSources.js:2
+#: ../../www/interface/app/store/permissions/users/UserAvailableSources.js:2
+#: ../../www/interface/app/store/permissions/sources/SourceAvailableUsers.js:2
+#: ../../www/interface/app/store/permissions/sources/Sources.js:2
+#: ../../www/interface/app/store/permissions/sources/SourceMembers.js:2
+#: ../../www/interface/app/store/pictures/ViewPicture.js:2
+#: ../../www/interface/app/store/pictures/HoursList.js:2
+#: ../../www/interface/app/store/UserAuthorizations.js:2
+#: ../../www/interface/app/store/dashboard/SourcePictureSizes.js:2
+#: ../../www/interface/app/store/dashboard/SourceDiskUsage.js:2
+#: ../../www/interface/app/store/dashboard/SourcePictureFiles.js:2
+#: ../../www/interface/app/store/log/LogFile.js:2
+msgid "Please wait, loading content..."
+msgstr "Patientez, chargement en cours ..."
+
+#: ../../www/interface/app/store/cloud/Users.js:35
+#: ../../www/interface/app/store/configuration/Advanced.js:37
+#: ../../www/interface/app/store/configuration/FTPServer.js:36
+#: ../../www/interface/app/store/configuration/PhidgetSensor.js:35
+#: ../../www/interface/app/store/configuration/Picture.js:39
+#: ../../www/interface/app/store/configuration/Capture.js:39
+#: ../../www/interface/app/store/configuration/PostprodVideo.js:39
+#: ../../www/interface/app/store/configuration/CustomVideo.js:39
+#: ../../www/interface/app/store/configuration/Phidget.js:36
+#: ../../www/interface/app/store/configuration/Video.js:39
+msgid "Destroyed"
+msgstr "Détruit"
+
+#: ../../www/interface/app/store/cloud/Users.js:39
+#: ../../www/interface/app/store/permissions/Users.js:41
+msgid "User:"
+msgstr "Nom d'utilisateur"
+
+#: ../../www/interface/app/store/configuration/FTPServer.js:40
+msgid "Server:"
+msgstr "Serveur:"
+
+#: ../../www/interface/app/store/configuration/PhidgetSensor.js:39
+msgid "Phidget Sensor:"
+msgstr "Captuer Phidget:"
+
+#: ../../www/interface/app/store/configuration/Phidget.js:40
+msgid "Phidget:"
+msgstr "Phidget:"
+
+#: ../../www/interface/app/store/permissions/Companies.js:40
+msgid "Company:"
+msgstr "Entreprise"
+
+#: ../../www/interface/app/store/permissions/groups/GroupPages.js:36
+#: ../../www/interface/app/store/permissions/groups/GroupAvailableUsers.js:36
+#: ../../www/interface/app/store/permissions/groups/GroupAvailablePages.js:39
+#: ../../www/interface/app/store/permissions/groups/GroupMembers.js:30
+#: ../../www/interface/app/store/permissions/users/UserSources.js:36
+#: ../../www/interface/app/store/permissions/users/UserAvailableSources.js:39
+#: ../../www/interface/app/store/permissions/sources/SourceMembers.js:30
+msgid "Information Message"
+msgstr "Message d'information"
+
+#: ../../www/interface/app/store/permissions/groups/GroupPages.js:36
+#: ../../www/interface/app/store/permissions/groups/GroupAvailableUsers.js:36
+#: ../../www/interface/app/store/permissions/groups/GroupAvailablePages.js:39
+#: ../../www/interface/app/store/permissions/groups/GroupMembers.js:30
+#: ../../www/interface/app/store/permissions/users/UserSources.js:36
+#: ../../www/interface/app/store/permissions/users/UserAvailableSources.js:39
+#: ../../www/interface/app/store/permissions/sources/SourceMembers.js:30
+msgid "Operation successful"
+msgstr "Opération réussie"
+
+#: ../../www/interface/app/store/permissions/groups/Groups.js:40
+msgid "Group:"
+msgstr "Groupe"
+
+#~ msgid "Number of Pictures"
+#~ msgstr "Nombre d'images"

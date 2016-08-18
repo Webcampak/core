@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WebcampakMobile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-05 20:53+0100\n"
+"PO-Revision-Date: 2013-02-05 20:57+0100\n"
+"Last-Translator: Francois Gerthoffert <contact@webcampak.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:22
+msgid "Source name"
+msgstr "Nom de la source"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:31
+msgid "Prev."
+msgstr "Prec."
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:37
+msgid "Next"
+msgstr "Suiv."
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:61
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:105
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:116
+msgid "Image loading..."
+msgstr "Chargement image"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:84
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:134
+msgid "No date"
+msgstr "Pas de date"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/Show.js:84
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:134
+msgid "available"
+msgstr "disponible"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/DatePicker.js:29
+msgid "Done"
+msgstr "Fait"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/source/DatePicker.js:34
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/CommentWindow.js:49
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:49
+msgid "Cancel"
+msgstr "Annuler"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/videos/VideoList.js:28
+msgid "MB"
+msgstr "Mo"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/videos/Card.js:22
+msgid "Videos"
+msgstr "Vidéos"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/settings/Settings.js:44
+msgid "Language"
+msgstr "Langue"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/settings/Settings.js:89
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Card.js:23
+msgid "Pictures"
+msgstr "Images"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/settings/Settings.js:92
+msgid "Optimize bandwidth"
+msgstr "Optimisation bande passante"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:48
+msgid "Webcampak Mobile"
+msgstr "Webcampak Mobile"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:54
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/controller/Application.js:214
+msgid "Hide Sources"
+msgstr "Cacher Sources"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:60
+msgid "Settings"
+msgstr "Réglages"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:86
+msgid "Welcome to Webcampak"
+msgstr "Bienvenue sur l'interface Webcampak"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:86
+msgid "This is Webcampak Mobile &#8212; an easy-to use simplified version of Webcampak aimed to be used on smartphones and tablets."
+msgstr "Vous êtes connectés à l'interface Webcampak Mobile  &#8212; une interface simplifiée permettant de consulter les images et vidéos depuis un smartphone ou une tablette."
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:86
+msgid "Webcampak is also available on your desktop, with a fully featured web-based application to be used with your favorite Web browser."
+msgstr "Webcampak est aussi disponible sur votre ordinateur, par le biais d'une application web avancée, accessible depuis votre navigateur Web préféré."
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Main.js:86
+msgid "Learn more at <a href=\"http://www.webcampak.com\" target=\"blank\">webcampak.com</a>"
+msgstr "Apprenez-en plus sur <a href=\"http://www.webcampak.com\" target=\"blank\">webcampak.com</a>"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/Sources.js:38
+msgid "No picture captured"
+msgstr "Aucune image capturée"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/CommentWindow.js:58
+msgid "Save"
+msgstr "Enregistrer"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/CommentWindow.js:65
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:82
+msgid "Picture"
+msgstr "Image"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/CommentWindow.js:77
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/store/InsertComment.js:38
+msgid "Comment"
+msgstr "Commentaire"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/DrawWindow.js:44
+msgid "Draw Color"
+msgstr "Couleur du trait"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/DrawWindow.js:63
+msgid "Draw Size"
+msgstr "Taille du trait"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:80
+msgid "Clear Drawing"
+msgstr "Effacer le dessin"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:82
+msgid "Email Drawing"
+msgstr "Envoyer par email"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:83
+msgid "Draw Settings"
+msgstr "Réglages du dessin"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/Show.js:85
+msgid "Close"
+msgstr "Fermer"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:58
+msgid "Send"
+msgstr "Envoyer"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:66
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/store/SendEmail.js:38
+msgid "Email"
+msgstr "Email"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:69
+msgid "To"
+msgstr "Destinataire"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:73
+msgid "Subject"
+msgstr "Sujet"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/view/pictures/EmailWindow.js:90
+msgid "Email Content"
+msgstr "Contenu de l'email"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/controller/Application.js:217
+msgid "Show Sources"
+msgstr "Afficher Sources"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/store/InsertComment.js:38
+msgid "Comment successfully inserted/updated"
+msgstr "Commentaire ajouté/mis à jour avec succès"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/mobile/dev/app/store/SendEmail.js:38
+msgid "Email successfully sent"
+msgstr "Email envoyé avec succès"
+
+#~ msgid "Send Picture"
+#~ msgstr "Envoyer une image"
+
+#~ msgid "Insert or edit comment"
+#~ msgstr "Ajouter ou éditer un commentaire"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Logout"
+#~ msgstr "Déconnexion"
+
+#~ msgid "Logout from Webcampak Mobile"
+#~ msgstr "Déconnexion de Webcampak Mobile"
+
+#~ msgid "View Pictures"
+#~ msgstr "Afficher les Images"
+
+#~ msgid "Watch Videos"
+#~ msgstr "Regarder les vidéos"
+
+#~ msgid "About"
+#~ msgstr "A propos"
+
+#~ msgid "contact@webcampak.com"
+#~ msgstr "contact@webcampak.com"
+
+#~ msgid "Webcampak is developped and maintained by Eurotechnia Ltd. "
+#~ msgstr "Webcampak est développé et maintenu par Eurotechnia Ltd."
+
+#~ msgid ""
+#~ "If you have any question, you can get in touch by phone or email, our "
+#~ "contact details are listed on our website:"
+#~ msgstr ""
+#~ "N'hésitez pas à nous contacter par téléphone ou par email. Nos "
+#~ "coordonnées sont listées sur notre site Internet:"
+
+#~ msgid "http://www.webcampak.com/en/contact/"
+#~ msgstr "http://www.webcampak.com/fr/contact/"
+
+#~ msgid "Last capture"
+#~ msgstr "Dernière capture"

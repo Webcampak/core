@@ -1,0 +1,10 @@
+Bonjour,
+
+Vous recevez cet email car le Webcampak vient de terminer la créations d'une vidéo personnalisée pour la source.
+
+Cette vidéo est accessible par l'interface web ou via FTP dans le répertoire /videos/ de la source.
+
+Merci.
+
+Votre Webcampak
+

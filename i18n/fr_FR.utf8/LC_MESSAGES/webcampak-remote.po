@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Webcampak 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-13 23:05+0100\n"
+"PO-Revision-Date: 2012-11-13 23:09+0100\n"
+"Last-Translator: Francois Gerthoffert <contact@webcampak.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configsystem.php:55
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configpostprodvideo.php:53
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configvideo.php:53
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/cloudconfigadvanced.php:70
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/cloudconfigpicture.php:71
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configpicture.php:57
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/cloudconfigvideo.php:59
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configcustomvideo.php:53
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/cloudconfigcustomvideo.php:55
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configcapture.php:102
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/cloudconfigcapture.php:86
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/configadvanced.php:68
+msgid "Configuration successfully updated"
+msgstr "Configuration mise à jour avec succès"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/picturessendemail.php:119
+msgid "Email successfully sent to: #EMAILRECEIPIENT#"
+msgstr "Email envoyé à  #EMAILRECEIPIENT#"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/app/models/picturesinsertcomment.php:41
+msgid "Comment successfully attached to: #PICTURENAME#"
+msgstr "Commentaire enregistré avec succès (#PICTURENAME#)"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/lib/database/sources.php:205
+msgid "Source: #SID# updated successfully (source id: #SOURCEID#)"
+msgstr "Source: #SID# mise à jour avec succès (source id: #SOURCEID#)"
+
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/lib/configuration/configobj.php:170
+#: /home/fanfoue/Bureau/Webcampak/Releases/webcampak2/www/interface/remote/lib/configuration/configobj.php:338
+msgid "Disabled"
+msgstr "Désactivé"
+

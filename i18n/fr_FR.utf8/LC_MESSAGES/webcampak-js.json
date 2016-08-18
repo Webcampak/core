@@ -1,0 +1,1499 @@
+var json_locale_data = {
+      "" : {
+         "MIME-Version" : " 1.0",
+         "POT-Creation-Date" : " 2012-08-25 11:49+0200",
+         "Language" : " ",
+         "Last-Translator" : " Francois Gerthoffert <contact@webcampak.com>",
+         "Content-Type" : " text/plain; charset=UTF-8",
+         "PO-Revision-Date" : " 2012-08-25 11:50+0100",
+         "Language-Team" : " François Gerthoffert <contact@webcampak.com>",
+         "Content-Transfer-Encoding" : " 8bit",
+         "Project-Id-Version" : " Webcampak",
+         "Report-Msgid-Bugs-To" : " "
+      },
+      "Thumbnail captured from Source Picture" : [
+         null,
+         "Miniature capturée depuis l'image source"
+      ],
+      "Resize pictures before saving" : [
+         null,
+         "Redimensionner les images avant enregistrement"
+      ],
+      "Date format" : [
+         null,
+         "Format date"
+      ],
+      "IP Camera (FTP) / Webcampak" : [
+         null,
+         "Caméra IP / Webcampak (FTP0"
+      ],
+      "Capture every" : [
+         null,
+         "Capturer tous les"
+      ],
+      "Password" : [
+         null,
+         "Mot de passe"
+      ],
+      "Transparency" : [
+         null,
+         "Transparence"
+      ],
+      "Tip:" : [
+         null,
+         "Astuce:"
+      ],
+      "Send pictures to:" : [
+         null,
+         "Envoyer les images vers:"
+      ],
+      "Thursday 25 January 2010 - 09h30" : [
+         null,
+         "Jeudi 25 Janvier 2010 - 09h30"
+      ],
+      "Add a User" : [
+         null,
+         "Ajouter un utilisateur"
+      ],
+      "Number of retry:" : [
+         null,
+         "Nombre d'essais"
+      ],
+      "Zone selection within source picture (Crop)" : [
+         null,
+         "Sélection de la zone au sein de l'image source (Crop)"
+      ],
+      "Configuration of" : [
+         null,
+         "Configuration de"
+      ],
+      "Webcampak Zoom" : [
+         null,
+         "Webcampak Zoom"
+      ],
+      "Seconds" : [
+         null,
+         "Secondes"
+      ],
+      "Permissions Conf." : [
+         null,
+         "Conf. Permissions"
+      ],
+      "Reset Form" : [
+         null,
+         "Réinitialiser"
+      ],
+      "Email alerts" : [
+         null,
+         "Alertes email"
+      ],
+      "Post-prod Vids." : [
+         null,
+         "Vidéos Post-Prod."
+      ],
+      "Insert a Thumbnail" : [
+         null,
+         "Ajouter une miniature"
+      ],
+      "Sports" : [
+         null,
+         "Sports"
+      ],
+      "Wednesday" : [
+         null,
+         "Mercredi"
+      ],
+      "Capture delay" : [
+         null,
+         "Retard de capture"
+      ],
+      "ID #" : [
+         null,
+         "ID #"
+      ],
+      "email@email.com" : [
+         null,
+         "email@email.com"
+      ],
+      "Text font" : [
+         null,
+         "Police"
+      ],
+      "Phidget Sensor:" : [
+         null,
+         "Captuer Phidget:"
+      ],
+      "Hotlink 3 size" : [
+         null,
+         "Taille Hotlink 3"
+      ],
+      "North West" : [
+         null,
+         "Nord Ouest"
+      ],
+      "Delete Record ?" : [
+         null,
+         "Supprimer ?"
+      ],
+      "Do not insert date" : [
+         null,
+         "Ne pas insérer de date"
+      ],
+      "Between" : [
+         null,
+         "Entre"
+      ],
+      "Brightness" : [
+         null,
+         "Luminosité"
+      ],
+      "Compact or DSLR USB Camera (Gphoto2 PTP mode)" : [
+         null,
+         "Appareil Compact ou Reflex (Gphoto2 PTP mode)"
+      ],
+      "Save Chart" : [
+         null,
+         "Sauvegarder le graphique"
+      ],
+      "Available Groups" : [
+         null,
+         "Groups disponibles"
+      ],
+      "Insert legend" : [
+         null,
+         "Insérer une légende"
+      ],
+      "Confirm Download" : [
+         null,
+         "Confirmer le téléchargement"
+      ],
+      "Video effect" : [
+         null,
+         "Effet vidéo"
+      ],
+      "NewUser" : [
+         null,
+         "NouvelUtilisateur"
+      ],
+      "Configuration" : [
+         null,
+         "Configuration"
+      ],
+      "13:00" : [
+         null,
+         "13:00"
+      ],
+      "Drag users to add them to the source" : [
+         null,
+         "Glissez les utilisateurs pour les ajouter à la source"
+      ],
+      "Entertainment" : [
+         null,
+         "Loisirs"
+      ],
+      "Crop picture" : [
+         null,
+         "Découpe image"
+      ],
+      "Manage Webcampak Sources settings" : [
+         null,
+         "Gérer les réglages des sources Webcampak"
+      ],
+      "SMTP Start TTLS" : [
+         null,
+         "SMTP Start TTLS"
+      ],
+      "Groups" : [
+         null,
+         "Groupe"
+      ],
+      "Users" : [
+         null,
+         "Util. Cloud"
+      ],
+      "Sensor (Phidget)" : [
+         null,
+         "Capture Phidget"
+      ],
+      "User details" : [
+         null,
+         "Détail utilisateur"
+      ],
+      "Send AVI video files to:" : [
+         null,
+         "Envoyer les fichiers AVI vers:"
+      ],
+      "Pre-processing manipulations (advanced)" : [
+         null,
+         "Manipulations pré-traitement (avancé)"
+      ],
+      "Shadow Color" : [
+         null,
+         "Couleur ombre"
+      ],
+      "Filter similar pictures" : [
+         null,
+         "Filtrer les images similaires"
+      ],
+      "Add an audio track" : [
+         null,
+         "Ajouter une piste audio"
+      ],
+      "Webcampak Logs" : [
+         null,
+         "Ajouter un utilisateur Webcampak Cloud"
+      ],
+      "Camera Owner (TAG)" : [
+         null,
+         "Propriétaire caméra (TAG)"
+      ],
+      "Email" : [
+         null,
+         "Email"
+      ],
+      "Size (MB)" : [
+         null,
+         "Taille (Mo)"
+      ],
+      "Drag sources to the right grid to add them to granted list" : [
+         null,
+         "Glissez les souces vers la droite pour les ajouter à la liste"
+      ],
+      "Minimum single picture size" : [
+         null,
+         "Taille minimale d'une image"
+      ],
+      "Add a Source" : [
+         null,
+         "Ajouter une source"
+      ],
+      "Activate Source" : [
+         null,
+         "Activer source"
+      ],
+      "General" : [
+         null,
+         "Général"
+      ],
+      "Configuration of \"<u>IP Camera (FTP) / Webcampak</u>\"" : [
+         null,
+         "Configuration de \"<u>Camera IP (FTP) / Webcampak</u>\""
+      ],
+      "Internet Picture (HTTP ou FTP)" : [
+         null,
+         "Image Internet (HTTP or FTP)"
+      ],
+      "Expire on" : [
+         null,
+         "Expire le"
+      ],
+      "Logs" : [
+         null,
+         "Logs"
+      ],
+      "Disk Usage" : [
+         null,
+         "Utilisation disque"
+      ],
+      "ID" : [
+         null,
+         "ID"
+      ],
+      "720p:" : [
+         null,
+         "720p:"
+      ],
+      "Account Expiry date" : [
+         null,
+         "Date d'expiration"
+      ],
+      "Video settings" : [
+         null,
+         "Réglages vidéo"
+      ],
+      "Generate Phidget sensor graph" : [
+         null,
+         "Générer un graphique phidget"
+      ],
+      "Phidget camera port" : [
+         null,
+         "Port phidget appareil"
+      ],
+      "Save pictures into archives" : [
+         null,
+         "Archiver les images"
+      ],
+      "Color" : [
+         null,
+         "Couleur"
+      ],
+      "Insert a thumbnail" : [
+         null,
+         "Ajouter une miniature"
+      ],
+      "Source Name" : [
+         null,
+         "Nom de la source"
+      ],
+      "SMTP Server:" : [
+         null,
+         "Serveur SMTP"
+      ],
+      "Enable Interface" : [
+         null,
+         "Activer interface"
+      ],
+      "Nonprofit" : [
+         null,
+         "Associations"
+      ],
+      "Manage Cloud users" : [
+         null,
+         "Gérer les utilisateurs cloud"
+      ],
+      "Company" : [
+         null,
+         "Entreprise"
+      ],
+      "Drag users to add them to the group" : [
+         null,
+         "Glissez les utilisateurs pour les ajouter au groupe"
+      ],
+      "Take actions if no new pictures in /tmp/ directory." : [
+         null,
+         "Déclencher des alertes si aucune image n'est présente dans le répertoire /tmp/"
+      ],
+      "Insert a watermark" : [
+         null,
+         "Ajouter un watermark"
+      ],
+      "Text location" : [
+         null,
+         "Emplacement texte"
+      ],
+      "Drag users to the left grid to remove them from members list" : [
+         null,
+         "Déplacer les utilisateurs sur la liste de gauche pour les supprimer de la liste des membres"
+      ],
+      "Multi-Camera environment only" : [
+         null,
+         "Environement multi-appareils uniquement"
+      ],
+      "FPS" : [
+         null,
+         "FPS"
+      ],
+      "Size" : [
+         null,
+         "Taille"
+      ],
+      "Sources Conf." : [
+         null,
+         "Conf. Sources"
+      ],
+      "South East" : [
+         null,
+         "Sud Esr"
+      ],
+      "Warning, if pictures are not saved it will not be possible to generate videos." : [
+         null,
+         "Attention, si les images ne sont pas archivées il ne sera pas possible de générer des vidéos"
+      ],
+      "Delete" : [
+         null,
+         "Supprimmer"
+      ],
+      "Outgoing email server" : [
+         null,
+         "Serveur email sortant"
+      ],
+      "Archives" : [
+         null,
+         "Archives"
+      ],
+      "Capture" : [
+         null,
+         "Capture"
+      ],
+      "H.264, custom settings." : [
+         null,
+         "H.264, reglages personnalisés."
+      ],
+      "Insert a border around thumbnail" : [
+         null,
+         "Intégrer une bordure autour de la miniature"
+      ],
+      "Static pictures (hotlink)" : [
+         null,
+         "Images statiques (hotlink)"
+      ],
+      "Directory" : [
+         null,
+         "Répertoire"
+      ],
+      "Webcampak" : [
+         null,
+         "Webcampak"
+      ],
+      "Firstname" : [
+         null,
+         "Nom"
+      ],
+      "Camera Port" : [
+         null,
+         "Port Caméra"
+      ],
+      "Howto" : [
+         null,
+         "Instructions"
+      ],
+      "Upload video to Youtube" : [
+         null,
+         "Uploader la vidéo vers Youtube"
+      ],
+      "Configuration of \"<u>Internet Picture</u>\" or \"<u>Video Streaming</u>\"" : [
+         null,
+         "Configuration de \"<u>Image Internet</u>\" ou \"<u>Streaming Vidéo</u>\""
+      ],
+      "source" : [
+         null,
+         "Sources"
+      ],
+      "Capture Logs" : [
+         null,
+         "Logs de capture"
+      ],
+      "Invoice" : [
+         null,
+         "# Facture"
+      ],
+      "Send email to" : [
+         null,
+         "Envoyer un email à"
+      ],
+      "Send pictures to (copy):" : [
+         null,
+         "Envoyer les images vers (copie):"
+      ],
+      "South West" : [
+         null,
+         "Sud Ouest"
+      ],
+      "Operation successful" : [
+         null,
+         "Opération réussie"
+      ],
+      "Hotlink 4 size" : [
+         null,
+         "Taille Hotlink 4"
+      ],
+      "General Conf." : [
+         null,
+         "Conf. Générale"
+      ],
+      "Capture time" : [
+         null,
+         "Heure de capture"
+      ],
+      "Webcam Port" : [
+         null,
+         "Port Webcam"
+      ],
+      "Gain" : [
+         null,
+         "Gain"
+      ],
+      "As Soon As Possible" : [
+         null,
+         "Dès que possible"
+      ],
+      "HD Format, Highest quality." : [
+         null,
+         "Format HD, Haute qualité"
+      ],
+      "SMTP Auth" : [
+         null,
+         "SMTP Auth"
+      ],
+      "Animals" : [
+         null,
+         "Animaux"
+      ],
+      "Name" : [
+         null,
+         "Nom"
+      ],
+      "New Source" : [
+         null,
+         "Nouvelle Source"
+      ],
+      "User:" : [
+         null,
+         "Nom d'utilisateur"
+      ],
+      "Contrast" : [
+         null,
+         "Contraste"
+      ],
+      "Access granted to the following sources" : [
+         null,
+         "Accès autorisé aux sources ci-dessous"
+      ],
+      "Loading video ..." : [
+         null,
+         "Chargement vidéo"
+      ],
+      "Music" : [
+         null,
+         "Musique"
+      ],
+      "Format" : [
+         null,
+         "Format"
+      ],
+      "Max distance" : [
+         null,
+         "Distance maximale"
+      ],
+      "Add a Webcampak Cloud User" : [
+         null,
+         "Ajouter un utilisateur Webcampak Cloud"
+      ],
+      "Activate transition (from Crop selection)" : [
+         null,
+         "Activer une transition (depuis la sélection crop)"
+      ],
+      "Minimum interval between two pictures:" : [
+         null,
+         "Intervale minimum entre deux images:"
+      ],
+      "Information Message" : [
+         null,
+         "Message d'information"
+      ],
+      "12:50" : [
+         null,
+         "12:50"
+      ],
+      "Configuration of local FTP account" : [
+         null,
+         "Configuration du compte FTP local"
+      ],
+      "Crop pictures" : [
+         null,
+         "Découper les images"
+      ],
+      "Webcampak Picture" : [
+         null,
+         "Image Webcampak"
+      ],
+      "1080p:" : [
+         null,
+         "1080p:"
+      ],
+      "Daily Video logs" : [
+         null,
+         "Logs vidéo journalière"
+      ],
+      "Company Name" : [
+         null,
+         "Entreprise"
+      ],
+      "Minimum Interval" : [
+         null,
+         "Intervale minimale"
+      ],
+      "Add FTP Server" : [
+         null,
+         "Ajouter un serveur FTP"
+      ],
+      "SMTP Auth Username" : [
+         null,
+         "SMTP Auth Username"
+      ],
+      "To" : [
+         null,
+         "Au"
+      ],
+      "Crop:" : [
+         null,
+         "Découpe:"
+      ],
+      "Port:" : [
+         null,
+         "Port:"
+      ],
+      "Number of failure before sending email:" : [
+         null,
+         "Nombre d'échecs avant d'envoyer un email:"
+      ],
+      "Tuesday" : [
+         null,
+         "Mardi"
+      ],
+      "Misc" : [
+         null,
+         "Divers"
+      ],
+      "Education" : [
+         null,
+         "Educatif"
+      ],
+      "Insert Text" : [
+         null,
+         "Insérer un texte"
+      ],
+      "Sources" : [
+         null,
+         "Sources"
+      ],
+      "Number of Pictures" : [
+         null,
+         "Nombre d'images"
+      ],
+      "Debug" : [
+         null,
+         "Debug"
+      ],
+      "Legend Color" : [
+         null,
+         "Couleur légende"
+      ],
+      "Picture date" : [
+         null,
+         "Date Image"
+      ],
+      "12:20" : [
+         null,
+         "12:20"
+      ],
+      "If disabled, the system will capture 24/7" : [
+         null,
+         "Si désactivé, le système capturera 24/7"
+      ],
+      "Thursday" : [
+         null,
+         "Jeudi"
+      ],
+      "D/L" : [
+         null,
+         "T/L"
+      ],
+      "Number of failure before camera powercycle" : [
+         null,
+         "Nombre d'erreurs avant redémarrage"
+      ],
+      "Destroyed" : [
+         null,
+         "Détruit"
+      ],
+      "Send hotlink AVI video files to:" : [
+         null,
+         "Envoyer les hotlink AVI vers:"
+      ],
+      "Documentation" : [
+         null,
+         "Documentation"
+      ],
+      "Source ID" : [
+         null,
+         "ID Source"
+      ],
+      "Web (MP4)" : [
+         null,
+         "Web (MP4)"
+      ],
+      "Monday" : [
+         null,
+         "Lundi"
+      ],
+      "Statistics & Reports" : [
+         null,
+         "Statistiques et rapports"
+      ],
+      "Maximum archive size (Mbytes, 0 = no limit)" : [
+         null,
+         "Taille maximale des archives (Mo, 0 = no limit)"
+      ],
+      "Companies" : [
+         null,
+         "Entreprise"
+      ],
+      "Add an audio file" : [
+         null,
+         "Ajouter un fichier audio"
+      ],
+      "H. 264 (480p)" : [
+         null,
+         "H. 264 (480p)"
+      ],
+      "Members of the source" : [
+         null,
+         "Membres de la source"
+      ],
+      "of pictures in" : [
+         null,
+         "des images dans"
+      ],
+      "Start processing" : [
+         null,
+         "Démarrer le traitement"
+      ],
+      "Film" : [
+         null,
+         "Film"
+      ],
+      "Delete pictures after (days, 0 = no limit)" : [
+         null,
+         "Supprimer les images after (jours, 0 = pas de limite)"
+      ],
+      "News" : [
+         null,
+         "Nouvelles"
+      ],
+      "Prepare Post-Prod pictures" : [
+         null,
+         "Préparer les images post-prod"
+      ],
+      "Send videos via FTP" : [
+         null,
+         "Envoyer les vidéos via FTP"
+      ],
+      "HD Format, High quality." : [
+         null,
+         "Format HD, Bonne qualité"
+      ],
+      "Active" : [
+         null,
+         "Actif"
+      ],
+      "Graph: Number of pictures per sources per day" : [
+         null,
+         "Graphique: Nombre d'images par sources et par jour"
+      ],
+      "Drag sources to the left grid to remove them from granted list" : [
+         null,
+         "Glissez les sources vers la gauche pour les supprimer"
+      ],
+      "Cancel" : [
+         null,
+         "Annuler"
+      ],
+      "Comedy" : [
+         null,
+         "Comédi"
+      ],
+      "Webcampak Videos" : [
+         null,
+         "Vidéos Webcampak"
+      ],
+      "name" : [
+         null,
+         "Nom d'utilisateur"
+      ],
+      "EXIF Metadata (date)" : [
+         null,
+         "EXIF Metadata (date)"
+      ],
+      "Post-prod logs" : [
+         null,
+         "Logs Post-Prod"
+      ],
+      "Add a Company" : [
+         null,
+         "Ajouter une entreprise"
+      ],
+      "Group" : [
+         null,
+         "Groupe"
+      ],
+      "H. 264 (Custom)" : [
+         null,
+         "H. 264 (Personnalisé)"
+      ],
+      "West" : [
+         null,
+         "Ouest"
+      ],
+      "Resize picture before video creation" : [
+         null,
+         "Redimensionner les images avant de créer la vidéo"
+      ],
+      "Manage page access for group members" : [
+         null,
+         "Gérer les accès pour les membres du groupe"
+      ],
+      "Server Name (Description)" : [
+         null,
+         "Nom du serveur (description)"
+      ],
+      "and" : [
+         null,
+         "et"
+      ],
+      "Host" : [
+         null,
+         "Hôte"
+      ],
+      "Log of" : [
+         null,
+         "Log de"
+      ],
+      "Previous" : [
+         null,
+         "Précédent"
+      ],
+      "Shadow Coordinates" : [
+         null,
+         "Coordonnées ombre"
+      ],
+      "Emails" : [
+         null,
+         "Emails"
+      ],
+      "Limit hotlink processing to one picture per rotation" : [
+         null,
+         "Limiter le traitement des fichiers hotlink à une image par rotation"
+      ],
+      "Send hotlink pictures to:" : [
+         null,
+         "Envoyer les images hotlink vers:"
+      ],
+      "Camera Model" : [
+         null,
+         "Modèle Caméra"
+      ],
+      "Audio File" : [
+         null,
+         "Fichier audio"
+      ],
+      "Location" : [
+         null,
+         "Emplacement"
+      ],
+      "Daily video creation" : [
+         null,
+         "Création de vidéos journalières"
+      ],
+      "Picture filename (Webcampak) - (YYYYMMDDHHMMSS.jpg)" : [
+         null,
+         "Nom de fichier (Webcampak) - (YYYYMMDDHHMMSS.jpg)"
+      ],
+      "Blog" : [
+         null,
+         "Blog"
+      ],
+      "Saturation" : [
+         null,
+         "Saturation"
+      ],
+      "Lastname" : [
+         null,
+         "Prénom"
+      ],
+      "Games" : [
+         null,
+         "Jeux"
+      ],
+      "Would you like to download the chart as an image?" : [
+         null,
+         "Souhaitez-vous télécharger le graphique en tant qu'image"
+      ],
+      "Page Name" : [
+         null,
+         "Nom de la page"
+      ],
+      "Next" : [
+         null,
+         "Suivant"
+      ],
+      "Webcampak pages" : [
+         null,
+         "Pages Webcampak"
+      ],
+      "North" : [
+         null,
+         "Nord"
+      ],
+      "Weight" : [
+         null,
+         "Poids"
+      ],
+      "Friday" : [
+         null,
+         "Vendredi"
+      ],
+      "Send an email once completed" : [
+         null,
+         "Envoyer un email en fin de traitement"
+      ],
+      "Webcampak sources" : [
+         null,
+         "Sources Webcampak"
+      ],
+      "Please wait, loading content..." : [
+         null,
+         "Patientez, chargement en cours ..."
+      ],
+      "charcoal" : [
+         null,
+         "Charcoal"
+      ],
+      "Upload to youtube" : [
+         null,
+         "Envoyer la vidéo vers youtube"
+      ],
+      "Select a user in the list above" : [
+         null,
+         "Sélectionnez un utilisateur dans la liste ci-dessous"
+      ],
+      "At 4:00 am" : [
+         null,
+         "A 4h00"
+      ],
+      "Activate calendar" : [
+         null,
+         "Activer le calendrier"
+      ],
+      "Server:" : [
+         null,
+         "Serveur:"
+      ],
+      "Block capture" : [
+         null,
+         "Bloquer la capture"
+      ],
+      "Send pictures via FTP" : [
+         null,
+         "Envoyer les images via FTP"
+      ],
+      "Add a Group" : [
+         null,
+         "Ajouter un Groupe"
+      ],
+      "Drag users to the right grid to add them to members list" : [
+         null,
+         "Déplacer les utilisateurs sur la liste des membres pour l'y ajouter"
+      ],
+      "Phidget:" : [
+         null,
+         "Phidget:"
+      ],
+      "Delete FTP Server" : [
+         null,
+         "Suppression du serveur FTP"
+      ],
+      "Send email from (source email)" : [
+         null,
+         "Envoyer un email depuis (source email)"
+      ],
+      "Access allowed" : [
+         null,
+         "Accès autorisé"
+      ],
+      "Similar to DVD." : [
+         null,
+         "Similaire au DVD."
+      ],
+      "Disabled" : [
+         null,
+         "Désactivé"
+      ],
+      "Group:" : [
+         null,
+         "Groupe"
+      ],
+      "Username" : [
+         null,
+         "Nom d'utilisateur"
+      ],
+      "Configuration of \"<u>Sensor (Phidget)</u>\"" : [
+         null,
+         "Configuration de \"<u>Capteur Phidget</u>\""
+      ],
+      "Active Mode" : [
+         null,
+         "Mode actif"
+      ],
+      "Send hotlink MP4 video files to:" : [
+         null,
+         "Envoyer les hotlink MP4 vers:"
+      ],
+      "failures (0 = never)" : [
+         null,
+         "echecs (0 = jamais)"
+      ],
+      "Size of the area" : [
+         null,
+         "Taille de la zone"
+      ],
+      "Configuration of \"<u>Compact or DSLR USB Camera (Gphoto2 PTP mode)</u>\"" : [
+         null,
+         "Configuration de \"<u>Compact ou Reflex USB (Gphoto2 PTP mode)</u>\""
+      ],
+      "Date when file was save into /tmp/ directory" : [
+         null,
+         "Date d'enregistrement de fichier dans le répertoire /tmp/"
+      ],
+      "Manage pages access for" : [
+         null,
+         "Gérer l'accès aux pages pour"
+      ],
+      "Insert a legend" : [
+         null,
+         "Ajouter une légende"
+      ],
+      "12:10" : [
+         null,
+         "12:10"
+      ],
+      "Powercycle camera in case of failure" : [
+         null,
+         "Redémarrer l'appareil en cas d'erreurs"
+      ],
+      "Watermark File" : [
+         null,
+         "Fichier watermark"
+      ],
+      "Save" : [
+         null,
+         "Enregistrer"
+      ],
+      "FTP Servers" : [
+         null,
+         "Serveurs FTP"
+      ],
+      "25 January 2010 - 09h30" : [
+         null,
+         "25 Janvier 2010 - 09h30"
+      ],
+      "Company:" : [
+         null,
+         "Entreprise"
+      ],
+      "Source configuration" : [
+         null,
+         "Configuration Source"
+      ],
+      "Disk Usage Stat." : [
+         null,
+         "Stat. Utilisation disque"
+      ],
+      "Add an effect" : [
+         null,
+         "Ajouter un effet"
+      ],
+      "North East" : [
+         null,
+         "Nord Est"
+      ],
+      "Picture size (1920x1080)" : [
+         null,
+         "Taille image (1920x1080)"
+      ],
+      "Custom Video Logs" : [
+         null,
+         "Logs vidéo perso."
+      ],
+      "Cloud Config." : [
+         null,
+         "Conf. Cloud"
+      ],
+      "Move pictures to:" : [
+         null,
+         "Déplacer les images vers:"
+      ],
+      "sketch" : [
+         null,
+         "Sketch"
+      ],
+      "Script start time" : [
+         null,
+         "Déclenchement du script"
+      ],
+      "Only keep pictures between:" : [
+         null,
+         "Conserver uniquement les images entre:"
+      ],
+      "Legend Coordinates" : [
+         null,
+         "Coordonnées légende"
+      ],
+      "Generate hotlink image in case of capture error" : [
+         null,
+         "Générer un fichier hotlink en cas d'erreur de capture"
+      ],
+      "Filename" : [
+         null,
+         "Nom du fichier"
+      ],
+      "Port" : [
+         null,
+         "Port"
+      ],
+      "09h30" : [
+         null,
+         "09h30"
+      ],
+      "Activate Transition" : [
+         null,
+         "Activer transition"
+      ],
+      "Phidget board" : [
+         null,
+         "Platine phidget"
+      ],
+      "Manage group members" : [
+         null,
+         "Gérer les membres du groupe"
+      ],
+      "Autos" : [
+         null,
+         "Autos"
+      ],
+      "About" : [
+         null,
+         "A propos"
+      ],
+      "From" : [
+         null,
+         "Du"
+      ],
+      "pictures in" : [
+         null,
+         "images dans"
+      ],
+      "Thumbnail inside Destination Picture" : [
+         null,
+         "Thumbnail à intégrée dans l'image de destination"
+      ],
+      "USB Webcam" : [
+         null,
+         "Webcam USB"
+      ],
+      "Administrative details" : [
+         null,
+         "Détails administratifs"
+      ],
+      "Resize Pictures" : [
+         null,
+         "Redimensionner l'image"
+      ],
+      "Source details" : [
+         null,
+         "Détails source"
+      ],
+      "Graph: Size of pictures per sources per day" : [
+         null,
+         "Graphique: Taille des images par source et par jour"
+      ],
+      "Sunday" : [
+         null,
+         "Dimanche"
+      ],
+      "Capture calendar" : [
+         null,
+         "Calendrier de capture"
+      ],
+      "Send an email once creation completed" : [
+         null,
+         "Envoyer un email en fin de traitement"
+      ],
+      "You are deleting a record permanently, this cannot be undone. Proceed ?" : [
+         null,
+         "La suppression est permanente, les données seront perdués. Continuer ?"
+      ],
+      "480p:" : [
+         null,
+         "480p:"
+      ],
+      "Manage source members" : [
+         null,
+         "Gérer les membres de la source"
+      ],
+      "colorin" : [
+         null,
+         "Color-In"
+      ],
+      "Custom Vids." : [
+         null,
+         "Vidéos perso."
+      ],
+      "People" : [
+         null,
+         "People"
+      ],
+      "H. 264 (1080p)" : [
+         null,
+         "H. 264 (1080p)"
+      ],
+      "Available Sources" : [
+         null,
+         "Sources disponibles"
+      ],
+      "Tilt Shift" : [
+         null,
+         "Tilt Shift"
+      ],
+      "Manage sources for" : [
+         null,
+         "Gérer les sources pour"
+      ],
+      "Advanced video settings" : [
+         null,
+         "Réglages vidéo avancés"
+      ],
+      "URL File/Stream" : [
+         null,
+         "URL Fichier/Flux"
+      ],
+      "Send sensor to:" : [
+         null,
+         "Envoyer les mesure vers:"
+      ],
+      "Create a custom video" : [
+         null,
+         "Créer une vidéo perso."
+      ],
+      "NewPassword" : [
+         null,
+         "Mot de passe"
+      ],
+      "Hotlink 1 size" : [
+         null,
+         "Taille Hotlink 1"
+      ],
+      "25/01/2010" : [
+         null,
+         "25/01/2010"
+      ],
+      "Shortmov" : [
+         null,
+         "Courts-métrages"
+      ],
+      "Videos" : [
+         null,
+         "Vidéos"
+      ],
+      "H. 264 (720p)" : [
+         null,
+         "H. 264 (720p)"
+      ],
+      "Invoice #" : [
+         null,
+         "# Facture"
+      ],
+      "Send MP4 video files to:" : [
+         null,
+         "Envoyer les fichiers MP4 vers:"
+      ],
+      "12:40" : [
+         null,
+         "12:40"
+      ],
+      "Source URL" : [
+         null,
+         "URL de la source"
+      ],
+      "Add a FTP Server" : [
+         null,
+         "Ajouter un serveur FTP"
+      ],
+      "Misc Stat." : [
+         null,
+         "Stat. Divers"
+      ],
+      "group" : [
+         null,
+         "Groupe"
+      ],
+      "Send email to (CC)" : [
+         null,
+         "Envoyer un email à (CC)"
+      ],
+      "Pictures" : [
+         null,
+         "Photos"
+      ],
+      "Log Out" : [
+         null,
+         "Déconnexion"
+      ],
+      "Reload Data" : [
+         null,
+         "Recharger"
+      ],
+      "Define picture date based upon" : [
+         null,
+         "Définir la date de capture depuis"
+      ],
+      "Minutes" : [
+         null,
+         "Minutes"
+      ],
+      "Webcampak Pictures" : [
+         null,
+         "Photos"
+      ],
+      "South" : [
+         null,
+         "Sud"
+      ],
+      "Available Webcampak Cloud users" : [
+         null,
+         "Utilisateurs Webcampak Cloud disponibles"
+      ],
+      "Text size" : [
+         null,
+         "Taille texte"
+      ],
+      "Refresh" : [
+         null,
+         "Rafraichir"
+      ],
+      "East" : [
+         null,
+         "Est"
+      ],
+      "Manage Permissions & interface settings" : [
+         null,
+         "Gestion des permissions et réglages de l'interface"
+      ],
+      "Location of the watermark" : [
+         null,
+         "Emplacement du watermark"
+      ],
+      "send a reminder every:" : [
+         null,
+         "Envoyer un rappel tous les:"
+      ],
+      "Cloud Users" : [
+         null,
+         "Utilisateurs Cloud"
+      ],
+      "Custom:" : [
+         null,
+         "Personnalisé:"
+      ],
+      "Type" : [
+         null,
+         "Type"
+      ],
+      "FTP Servers Conf." : [
+         null,
+         "Conf. FTP Serveurs"
+      ],
+      "Start creation" : [
+         null,
+         "Démarrer la création"
+      ],
+      "Webcampak users" : [
+         null,
+         "Utilisateurs Webcampak"
+      ],
+      "No effect" : [
+         null,
+         "Pas d'effet"
+      ],
+      "25/01/2010 - 09h30" : [
+         null,
+         "25/01/2010 - 09h30"
+      ],
+      "Add" : [
+         null,
+         "Ajouter"
+      ],
+      "Travel" : [
+         null,
+         "Voyage"
+      ],
+      "Advanced" : [
+         null,
+         "Avancé"
+      ],
+      "Insert Watermark" : [
+         null,
+         "Insérer un Watermark"
+      ],
+      "Log of source ID: Name" : [
+         null,
+         "Nom de la source"
+      ],
+      "Select a source..." : [
+         null,
+         "Sélectionnez une source"
+      ],
+      "http://www.newsource.com/test.jpg" : [
+         null,
+         "http://www.newsource.com/test.jpg"
+      ],
+      "Video Streaming (RTSP)" : [
+         null,
+         "Streaming Vidéo (RTSP)"
+      ],
+      "Group Name" : [
+         null,
+         "Groupe"
+      ],
+      "Timezone" : [
+         null,
+         "Fuseau horaire"
+      ],
+      "Bitrate:" : [
+         null,
+         "Bitrate:"
+      ],
+      "Configuration of \"<u>USB Webcam</u>\"" : [
+         null,
+         "Configuration de \"<u>Webcam USB</u>\""
+      ],
+      "Size:" : [
+         null,
+         "Taille:"
+      ],
+      "Hotlink 2 size" : [
+         null,
+         "Taille Hotlink 2"
+      ],
+      "Permissions" : [
+         null,
+         "Permissions"
+      ],
+      "Manage members of" : [
+         null,
+         "Gérer les membres de"
+      ],
+      "Legend" : [
+         null,
+         "Légende"
+      ],
+      "Drag sources to add them to the user" : [
+         null,
+         "Glissez les sources pour les ajouter à l'utilisateur"
+      ],
+      "Resize Picture" : [
+         null,
+         "Redimentionner l'image"
+      ],
+      "12:30" : [
+         null,
+         "12:30"
+      ],
+      "Configuration of source ID: Name" : [
+         null,
+         "Configuration de la source ID: Nom"
+      ],
+      "Saturday" : [
+         null,
+         "Samedi"
+      ],
+      "Pictures Stat." : [
+         null,
+         "Stat. Photos"
+      ],
+      "Native Webcam resolution" : [
+         null,
+         "Résolution native de la webcam"
+      ]
+}
+;

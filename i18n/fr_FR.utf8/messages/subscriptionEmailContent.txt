@@ -1,0 +1,19 @@
+Bonjour #CUSTOMERFIRSTNAME#,
+
+Toute l'équipe Webcampak Cloud vous souhaite la bienvenue. 
+
+Nous venons de créer un compte utilisateur sur le système, vous pouvez vous y connecter en utilisant les informations suivantes:
+Serveur: #SERVERURL# 
+Nom d'utilisateur: #CUSTOMERUSERNAME# 
+Mot de passe: #CUSTOMERPASSWORD# 
+
+L'accès au système est possible en utilisant les navigateurs suivants: Google Chrome, Mozilla Firefox, Apple Safari
+
+Votre source a été pré-configurée mais est pour le moment désactivée, rendez-vous dans l'interface Webcampak Cloud pour l'activer.
+
+Nous sommes à votre entière disposition si vous souhaitez des précisions complémentaires.
+
+L'équipe Webcampak
+contact@webcampak.com
+
+PS: Merci de rappeler ce numéro lors de toute communication: #CUSTOMERINVOICE#

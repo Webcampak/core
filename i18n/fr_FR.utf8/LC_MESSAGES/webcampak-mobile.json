@@ -1,0 +1,219 @@
+var json_locale_data = {
+      "Draw Size" : [
+         null,
+         "Taille du trait"
+      ],
+      "" : {
+         "MIME-Version" : " 1.0",
+         "POT-Creation-Date" : " 2013-02-05 20:53+0100",
+         "Language" : " ",
+         "Last-Translator" : " Francois Gerthoffert <contact@webcampak.com>",
+         "Content-Type" : " text/plain; charset=UTF-8",
+         "PO-Revision-Date" : " 2013-02-05 20:57+0100",
+         "Language-Team" : " ",
+         "Content-Transfer-Encoding" : " 8bit",
+         "Project-Id-Version" : " WebcampakMobile",
+         "Report-Msgid-Bugs-To" : " "
+      },
+      "Insert or edit comment" : [
+         null,
+         "Ajouter ou éditer un commentaire"
+      ],
+      "Logout" : [
+         null,
+         "Déconnexion"
+      ],
+      "Source name" : [
+         null,
+         "Nom de la source"
+      ],
+      "Email" : [
+         null,
+         "Email"
+      ],
+      "This is Webcampak Mobile &#8212; an easy-to use simplified version of Webcampak aimed to be used on smartphones and tablets." : [
+         null,
+         "Vous êtes connectés à l'interface Webcampak Mobile  &#8212; une interface simplifiée permettant de consulter les images et vidéos depuis un smartphone ou une tablette."
+      ],
+      "Optimize bandwidth" : [
+         null,
+         "Optimisation bande passante"
+      ],
+      "Cancel" : [
+         null,
+         "Annuler"
+      ],
+      "No picture captured" : [
+         null,
+         "Aucune image capturée"
+      ],
+      "Email Content" : [
+         null,
+         "Contenu de l'email"
+      ],
+      "Subject" : [
+         null,
+         "Sujet"
+      ],
+      "Logout from Webcampak Mobile" : [
+         null,
+         "Déconnexion de Webcampak Mobile"
+      ],
+      "MB" : [
+         null,
+         "Mo"
+      ],
+      "Comment" : [
+         null,
+         "Commentaire"
+      ],
+      "Picture" : [
+         null,
+         "Image"
+      ],
+      "Date" : [
+         null,
+         "Date"
+      ],
+      "Send" : [
+         null,
+         "Envoyer"
+      ],
+      "Image loading..." : [
+         null,
+         "Chargement image"
+      ],
+      "Draw Settings" : [
+         null,
+         "Réglages du dessin"
+      ],
+      "Email Drawing" : [
+         null,
+         "Envoyer par email"
+      ],
+      "Last capture" : [
+         null,
+         "Dernière capture"
+      ],
+      "To" : [
+         null,
+         "Destinataire"
+      ],
+      "Save" : [
+         null,
+         "Enregistrer"
+      ],
+      "#~ \"If you have any question, you can get in touch by phone or email, our \"#~ \"contact details are listed on our website:\"" : [
+         null,
+         "#~ \"N'hésitez pas à nous contacter par téléphone ou par email. Nos \"#~ \"coordonnées sont listées sur notre site Internet:\""
+      ],
+      "Prev." : [
+         null,
+         "Prec."
+      ],
+      "Videos" : [
+         null,
+         "Vidéos"
+      ],
+      "Watch Videos" : [
+         null,
+         "Regarder les vidéos"
+      ],
+      "Welcome to Webcampak" : [
+         null,
+         "Bienvenue sur l'interface Webcampak"
+      ],
+      "Done" : [
+         null,
+         "Fait"
+      ],
+      "contact@webcampak.com" : [
+         null,
+         "contact@webcampak.com"
+      ],
+      "Hide Sources" : [
+         null,
+         "Cacher Sources"
+      ],
+      "Draw Color" : [
+         null,
+         "Couleur du trait"
+      ],
+      "Email successfully sent" : [
+         null,
+         "Email envoyé avec succès"
+      ],
+      "Webcampak is developped and maintained by Eurotechnia Ltd. " : [
+         null,
+         "Webcampak est développé et maintenu par Eurotechnia Ltd."
+      ],
+      "Show Sources" : [
+         null,
+         "Afficher Sources"
+      ],
+      "available" : [
+         null,
+         "disponible"
+      ],
+      "Pictures" : [
+         null,
+         "Images"
+      ],
+      "http://www.webcampak.com/en/contact/" : [
+         null,
+         "http://www.webcampak.com/fr/contact/"
+      ],
+      "Send Picture" : [
+         null,
+         "Envoyer une image"
+      ],
+      "Language" : [
+         null,
+         "Langue"
+      ],
+      "Settings" : [
+         null,
+         "Réglages"
+      ],
+      "View Pictures" : [
+         null,
+         "Afficher les Images"
+      ],
+      "Next" : [
+         null,
+         "Suiv."
+      ],
+      "Webcampak is also available on your desktop, with a fully featured web-based application to be used with your favorite Web browser." : [
+         null,
+         "Webcampak est aussi disponible sur votre ordinateur, par le biais d'une application web avancée, accessible depuis votre navigateur Web préféré."
+      ],
+      "Learn more at <a href=\"http://www.webcampak.com\" target=\"blank\">webcampak.com</a>" : [
+         null,
+         "Apprenez-en plus sur <a href=\"http://www.webcampak.com\" target=\"blank\">webcampak.com</a>"
+      ],
+      "Webcampak Mobile" : [
+         null,
+         "Webcampak Mobile"
+      ],
+      "No date" : [
+         null,
+         "Pas de date"
+      ],
+      "Comment successfully inserted/updated" : [
+         null,
+         "Commentaire ajouté/mis à jour avec succès"
+      ],
+      "Close" : [
+         null,
+         "Fermer"
+      ],
+      "About" : [
+         null,
+         "A propos"
+      ],
+      "Clear Drawing" : [
+         null,
+         "Effacer le dessin"
+      ]
+}
+;

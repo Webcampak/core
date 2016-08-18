@@ -1,0 +1,15 @@
+/resources/cache/
+/resources/database/
+/resources/emails/
+/resources/ftp/
+/resources/ftp-reports/
+/resources/logs/
+/resources/deleted/
+/resources/stats/
+/resources/sync-reports/
+/resources/xfer/
+/etc/config-*
+/sources/
+/nbproject/
+/bin/*.pyc
+

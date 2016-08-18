@@ -1,0 +1,12 @@
+Hello,
+
+Your Webcampak has just processed a new picture for the source, closing the incident.
+
+Source Name: #SOURCENAME#
+Source ID: #SOURCEID#
+Last successful capture: #LASTSUCCESSFULCAPTUREDATE#
+Current server time: #CURRENTSERVERTIME#
+
+Thanks,
+Your Webcampak 
+

@@ -1,0 +1,15 @@
+Bonjour,
+
+Vous recevez cet email car nous avons constaté un nombre anormal d'erreurs de capture sur la source.
+
+Nous vous invitons à vérifier que tous les équipements sont correctements connectés et alimentés.
+
+Pour plus d'informations sur l'origine de l'erreur veuillez consulter les logs disponibles en pièce jointe.
+
+Vous ne recevrez pas d'emails supplémentaires jusqu'au retour en fonctionnement de la source.
+
+Merci.
+
+Votre Webcampak 
+ 
+ 

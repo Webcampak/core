@@ -1,0 +1,1 @@
+#CURRENTHOSTNAME#: Statistiques capture de la source: #CURRENTSOURCE# (#CAPTURESUCCESS#/#CAPTUREREQUEST#)
