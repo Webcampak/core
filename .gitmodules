@@ -1,3 +1,6 @@
 [submodule "apps/cli"]
 	path = apps/cli
 	url = https://github.com/Webcampak/cli.git
+[submodule "apps/api"]
+	path = apps/api
+	url = https://github.com/Webcampak/api.git
