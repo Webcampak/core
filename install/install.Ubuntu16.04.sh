@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2010-2012 Infracom & Eurotechnia (support@webcampak.com)
+# Copyright 2010-2016 Eurotechnia (support@webcampak.com)
 # This file is part of the Webcampak project.
 # Webcampak is free software: you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -12,9 +12,6 @@
 
 # You should have received a copy of the GNU General Public License along with Webcampak.
 # If not, see http://www.gnu.org/licenses/
-
-# list of apt-get
-# git
 
 echo "$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 echo "$(date +'%d %B %Y - %k:%M') |             Welcome to Webcampak 3 Installation Script              |"
