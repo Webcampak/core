@@ -67,7 +67,7 @@ sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
 
 echo "$(date +'%d %B %Y - %k:%M') Webcampak GIT: Cloning GIT repository"
-git clone --depth=1 https://github.com/Webcampak/v3.0.git /home/${sysusername}/webcampak
+git clone --depth=1 https://github.com/Webcampak/core.git /home/${sysusername}/webcampak
 echo "$(date +'%d %B %Y - %k:%M') Webcampak GIT: Completed"
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
 
