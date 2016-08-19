@@ -17,13 +17,13 @@
 # git
 
 echo "$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-echo "$(date +'%d %B %Y - %k:%M') |            Welcome to Webcampak 3.0 Installation Script             |"
+echo "$(date +'%d %B %Y - %k:%M') |             Welcome to Webcampak 3 Installation Script              |"
 echo "$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 echo "$(date +'%d %B %Y - %k:%M') /!\             Do not start this script as root                   /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\             --------------------------------                   /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\                                                                /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\     This script has been created to run on a fresh             /!\ "
-echo "$(date +'%d %B %Y - %k:%M') /!\     Ubuntu 14.04 server installation.                          /!\ "
+echo "$(date +'%d %B %Y - %k:%M') /!\     Ubuntu 16.04 server installation.                          /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\                                                                /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\ Some manual actions will be required during execution          /!\ "
 echo "$(date +'%d %B %Y - %k:%M') /!\ Action ==> Action to be done                                   /!\ "
