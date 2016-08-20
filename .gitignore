@@ -8,6 +8,7 @@
 /resources/stats/
 /resources/sync-reports/
 /resources/xfer/
+/resources/etc/
 /etc/config-*
 /sources/
 /nbproject/
