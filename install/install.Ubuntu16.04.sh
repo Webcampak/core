@@ -68,13 +68,15 @@ echo "$(date +'%d %B %Y - %k:%M') ----------------------------------------------
 
 echo "$(date +'%d %B %Y - %k:%M') Webcampak GIT: Cloning GIT repository"
 git clone --depth=1 https://github.com/Webcampak/core.git /home/${sysusername}/webcampak
+cd /home/${sysusername}/webcampak
+git submodule update --init --recursive
 echo "$(date +'%d %B %Y - %k:%M') Webcampak GIT: Completed"
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
 
 echo "$(date +'%d %B %Y - %k:%M') GRUB: Copy configuration files"
-sudo cp /home/${sysusername}/webcampak/init/config/default_grub /etc/default/grub
-sudo cp /home/${sysusername}/webcampak/init/config/default_rcS /etc/default/rcS
-sudo cp /home/${sysusername}/webcampak/init/config/ttyS0.conf /etc/init/ttyS0.conf
+sudo cp /home/${sysusername}/webcampak/install/config/default_grub /etc/default/grub
+sudo cp /home/${sysusername}/webcampak/install/config/default_rcS /etc/default/rcS
+sudo cp /home/${sysusername}/webcampak/install/config/ttyS0.conf /etc/init/ttyS0.conf
 echo "$(date +'%d %B %Y - %k:%M') GRUB Serial: sudo start ttyS0"
 sudo start ttyS0
 echo "$(date +'%d %B %Y - %k:%M') GRUB: sudo update-grub2"
@@ -98,23 +100,24 @@ mkdir /home/${sysusername}/webcampak/resources/ftp/queued
 mkdir /home/${sysusername}/webcampak/resources/ftp/sent
 mkdir /home/${sysusername}/webcampak/resources/logs
 mkdir /home/${sysusername}/webcampak/resources/logs/symfony
+mkdir /home/${sysusername}/webcampak/resources/etc
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
 
 echo "$(date +'%d %B %Y - %k:%M') System: Setting up root crontab"
-sudo crontab /home/${sysusername}/webcampak/init/config/crontab.root
+sudo crontab /home/${sysusername}/webcampak/install/config/crontab.root
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
 
 echo "$(date +'%d %B %Y - %k:%M') Webcampak: Initialize configuration"
-php /home/${sysusername}/webcampak/www/Symfony/3.0/bin/console doctrine:schema:update --force
+php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console doctrine:schema:update --force
 echo "$(date +'%d %B %Y - %k:%M') System: Do you want to pre-create 3 sources ?"
 echo "$(date +'%d %B %Y - %k:%M') System: [x]-Exit [y]-Yes [n]-No"
 read action
 if [ "$action" = "x" ] ; then
     exit;
 elif [ "$action" = "y" ] ; then
-    php /home/${sysusername}/webcampak/www/Symfony/3.0/bin/console wpak:dbinit --preconfigure
+    php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit --preconfigure
 elif [ "$action" = "n" ] ; then
-    php /home/${sysusername}/webcampak/www/Symfony/3.0/bin/console wpak:dbinit
+    php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
 fi
 
 echo "$(date +'%d %B %Y - %k:%M') System: Permissions and system modifications"

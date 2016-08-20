@@ -1,0 +1,25 @@
+{
+    "name": "config-general"
+    , "permission": "SYSTEM_CONFIGURATION_SIMPLE"
+    , "sections": [
+        {
+            "name": "general"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgnetif",                    "default": "eth0",         "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Main network interface used by the system (for stats gathering)"}
+                , {"name": "cfgservertimezone",         "default": "Europe/Paris", "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE",    "description": "Timezone used on the system"}
+                , {"name": "cfgphidgetactivate",        "default": null,           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Activate Phidgets globally"}
+                , {"name": "cfggphotoports",            "default": null,           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Scan ports to find gphoto camera"}
+                , {"name": "cfggphotoportscameras",     "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Gphoto is using different camera models"}
+                , {"name": "cfgftpresourcesusername",   "default": "no",           "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Global FTP username"}
+                , {"name": "cfgftpresourcespassword",   "default": "seconds",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Global FTP password"}
+                , {"name": "cfgstatsactivate",          "default": "0",            "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Activate statistics collection"}
+                , {"name": "cfgxferthreads",            "default": "5",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Maximum number of parrallel threads to be used to transfer files"}
+                ]
+        }
+    ]
+}
+
+
+
+

@@ -12,4 +12,7 @@
 /sources/
 /nbproject/
 /bin/*.pyc
+/.idea/
+/core.iml
+
 

@@ -1,0 +1,122 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/book/service_container.html
+#parameters:
+#    parameter_name: value
+
+#services:
+#    service_name:
+#        class: AppBundle\Directory\ClassName
+#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+parameters:
+
+services:
+    login_listener:
+        class: 'AppBundle\EventListener\LoginListener'
+        arguments: ['@security.token_storage', '@security.authorization_checker', '@doctrine', '@logger', '@request_stack']
+        tags:
+          - { name: 'kernel.event_listener', event: 'security.interactive_login' }
+
+#    kernel.listener.exception_listener:
+#        class: 'AppBundle\EventListener\ExceptionListener'
+#        arguments: ['@monolog.logger', '@session']
+#        tags:
+#            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
+
+    get_set_method_normalizer:
+        class: Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer
+        tags:
+            - { name: serializer.normalizer }
+
+    app.svc.sources:
+        class: AppBundle\Services\SourcesService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_sources%, %dir_watermark%, %dir_etc%]
+
+    app.svc.groups:
+        class: AppBundle\Services\GroupsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']
+
+    app.svc.router:
+        class: AppBundle\Services\RouterService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', %extMethodsConfig%, %kernel.root_dir%]
+
+    app.svc.log:
+        class: AppBundle\Services\LogService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_logs%]
+
+    app.svc.status:
+        class: AppBundle\Services\StatusService
+        arguments: ['@security.token_storage', '@security.authorization_checker', '@doctrine', '@logger', '@app.svc.files','@app.svc.sources','@app.svc.devices','@app.svc.user','@app.svc.schedule','@app.svc.configuration', '@app.svc.stats', %kernel.root_dir%, %dir_etc%]
+
+    app.svc.response:
+        class: AppBundle\Services\ResponseService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']
+
+    app.svc.files:
+        class: AppBundle\Services\FilesService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']
+
+    app.svc.download:
+        class: AppBundle\Services\DownloadService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@templating', '@app.svc.files']
+
+    app.svc.configuration:
+        class: AppBundle\Services\ConfigurationService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.sources', '@app.svc.user', '@app.svc.log', '@jms_serializer', %dir_logs%]
+
+    app.svc.user:
+        class: AppBundle\Services\UserService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %kernel.root_dir%]
+
+    app.svc.ftp:
+        class: AppBundle\Services\FtpService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.configuration']
+
+    app.svc.phidgets:
+        class: AppBundle\Services\PhidgetsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']
+
+    app.svc.pictures:
+        class: AppBundle\Services\PicturesService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.pictures.directory', '@app.svc.configuration', %dir_sources%, %dir_etc%]
+
+    app.svc.pictures.directory:
+        class: AppBundle\Services\PicturesDirectoryService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_sources%]
+
+    app.svc.emails:
+        class: AppBundle\Services\EmailsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.sources', %mailer_from%, %dir_sources%, %dir_emails%]
+
+    app.svc.videos:
+        class: AppBundle\Services\VideosService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.pictures.directory', %dir_sources%]
+
+    app.svc.systemlogs:
+        class: AppBundle\Services\SystemLogsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_logs%]
+
+    app.svc.syncreports:
+        class: AppBundle\Services\SyncReportsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', %dir_sync-reports%, %dir_sources%, %dir_etc%]
+
+    app.svc.xferreports:
+        class: AppBundle\Services\XferReportsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', %dir_xfer%, %dir_sources%, %dir_etc%]
+
+    app.svc.devices:
+        class: AppBundle\Services\DevicesService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.configuration', %dir_etc%]
+
+    app.svc.stats:
+        class: AppBundle\Services\StatsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.configuration', '@app.svc.pictures.directory', %dir_etc%, %dir_stats%, %dir_sources%]
+
+    app.svc.schedule:
+        class: AppBundle\Services\ScheduleService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']
+        
+    app.svc.alerts:
+        class: AppBundle\Services\AlertsService
+        arguments: ['@security.token_storage', '@doctrine', '@logger']        
+        

@@ -1,0 +1,30 @@
+{
+    "name": "config-source-ftpservers"
+    , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+    , "sections": [
+        {
+            "name": "servers"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgftpserverslistnb" , "default": "1",  "type": "int",    "description": "Number of FTP servers available by default"}
+                , {"name": "cfgftpserverslist1", "default": null, "type": "list",   "description": "Configure FTP Server 1"
+                    , "values": [
+                        {"name": "ftpName"          , "default": "FTP Name",     "type": "alphanum", "description": "Name used to reference this FTP server in the interface"}
+                        , {"name": "ftpHost"        , "default": "DNS or IP",    "type": "complex",  "description": "IP or URL"}
+                        , {"name": "ftpUsername"    , "default": "Username",     "type": "alphanum", "description": "Username"}
+                        , {"name": "ftpPassword"    , "default": "Password",     "type": "complex",  "description": "Password"}
+                        , {"name": "ftpDirectory"   , "default": "Directory",    "type": "complex",  "description": "Directory"}
+                        , {"name": "ftpActive"      , "default": "no",           "type": "yesno",    "description": "Active or Passive"}
+                        , {"name": "ftpXferenable"  , "default": "no",           "type": "yesno",    "description": "Enable XFER transfer mode for the server"}                        
+                        , {"name": "ftpXferthreads" , "default": "1",            "type": "int",      "description": "Maximum number of parrallel threads to be used to transfer files"}
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
+
+
+
+

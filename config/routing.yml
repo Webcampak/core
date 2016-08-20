@@ -1,0 +1,83 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+_welcome:
+    path:  /
+    defaults: { _controller: AppBundle:Security:login }
+
+login:
+  path: /login
+  defaults: { _controller: AppBundle:Security:login }
+
+login_check:
+  path: /login_check
+
+logout:
+  path: /logout
+
+
+#
+# Routes
+#    A route is what makes the link between a URL, a controller and a function
+#
+# API Methods (returns a javascript file containing all Ext.Direct methods available)
+wpak_apimethods_desktop:
+    path:  /api/methods/desktop
+    defaults: { _controller: AppBundle:ApiMethods\Desktop:index }
+
+# Routers (routers are entry points for Ext.Direct calls
+wpak_router_desktop:
+    path:  /router/desktop
+    #defaults: { _controller: AppBundle:Routers\DesktopRouter:index }
+    defaults: { _controller: AppBundle:ExtDirectRouter:index }
+
+
+# Root pages (root pages are main pages loaded once logged in)
+wpak_root_desktop:
+    path:  /desktop
+    defaults: { _controller: AppBundle:Root\Desktop:index }
+
+# Root pages (root pages are main pages loaded once logged in)
+wpak_root_dashboard:
+    path:  /dashboard
+    defaults: { _controller: AppBundle:Root\Dashboard:index }
+
+# Misc controllers
+wpak_misc_phpinfo:
+    path:  /about/phpinfo
+    defaults: { _controller: AppBundle:Misc\Phpinfo:index }
+
+wpak_misc_onlinestatus:
+    path:  /onlinestatus
+    defaults: { _controller: AppBundle:Misc\OnlineStatus:index }
+
+wpak_misc_status:
+    path:  /status
+    defaults: { _controller: AppBundle:Misc\Status:index }
+
+wpak_misc_dl:
+    path:  /dl
+    defaults: { _controller: AppBundle:Misc\Download:index }
+
+wpak_misc_reboot:
+    path:  /system/reboot
+    defaults: { _controller: AppBundle:Misc\System:systemReboot }
+
+# Authentication controllers
+wpak_authentication_login:
+    path:  /authentication/login
+    defaults: { _controller: AppBundle:Authentication\Login:index }
+
+# wpak_authentication_reauthenticate:
+#    path:  /authentication/reauthenticate
+#    defaults: { _controller: AppBundle:Authentication\ReAuthenticate:index }
+
+wpak_authentication_resetpassword:
+    path:  /resetpassword
+    defaults: { _controller: AppBundle:Authentication\Resetpassword:index }
+
+wpak_authentication_changepassword:
+    path:  /changepassword
+    defaults: { _controller: AppBundle:Authentication\Changepassword:index }
+
