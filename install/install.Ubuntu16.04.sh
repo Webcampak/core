@@ -50,6 +50,7 @@ sudo apt-get update --assume-yes
 echo "$(date +'%d %B %Y - %k:%M') #> sudo apt-get dist-upgrade"
 sudo apt-get dist-upgrade --assume-yes
 
+#Missing packages on ubunut 16.04: h264enc
 echo "$(date +'%d %B %Y - %k:%M') System: Software and dependencies installation"
 sudo apt-get update
 echo "$(date +'%d %B %Y - %k:%M') System: Installation of git and source control dependencies"
@@ -59,9 +60,9 @@ sudo apt-get install --assume-yes python-imaging python-opencv python-rrdtool py
 echo "$(date +'%d %B %Y - %k:%M') System: Installation of picture processing related tools"
 sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib1g-dev libpuzzle-bin
 echo "$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video"
-sudo apt-get install --assume-yes imagemagick mpgtx mencoder x264 h264enc libav-tools atomicparsley
+sudo apt-get install --assume-yes imagemagick mpgtx mencoder x264 libav-tools atomicparsley
 echo "$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation"
-sudo apt-get install --assume-yes apache2 php5 openssl php5-cli libapache2-mod-php5 php5-gd php-gettext php5-sqlite vsftpd
+sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd
 echo "$(date +'%d %B %Y - %k:%M') System: Misc and utilities"
 sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util
 echo "$(date +'%d %B %Y - %k:%M') -------------------------------------------------------"
