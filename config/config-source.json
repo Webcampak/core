@@ -6,7 +6,7 @@
             "name": "source"
             , "permission": "SOURCES_CONFIGURATION_SIMPLE"
             , "parameters": [
-                {"name": "cfgsourceactive",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE",    "description": "Activation of the source (yes or no)"}
+                {"name": "cfgsourceactive",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE",    "description": "Activation of the source, possible values: yes or no)"}
                 , {"name": "cfgsourcetype",             "default": "testpicture",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Type of the (source, gphoto, webcam, ipcam, rtsp, webfile, wpak)"}
                 , {"name": "cfgsourcedebug",            "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Turn on detailed debugging (yes or no)"}
                 , {"name": "cfgprocessraw",             "default": "yes",          "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Turn on RAW processing, otherwise discarded"}
