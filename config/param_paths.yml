@@ -1,11 +1,11 @@
 parameters:
     # System configuration
-    sys_config: '/home/webcampak/webcampak/etc/symfony/'
+    sys_config: '/home/webcampak/webcampak/config/'
     sys_username: 'francois'
 
     # Webcampak directories
     dir_sources:        '/home/webcampak/webcampak/sources/'
-    dir_etc:            '/home/webcampak/webcampak/etc/'
+    dir_etc:            '/home/webcampak/webcampak/resources/etc/'
     dir_watermark:      '/home/webcampak/webcampak/resources/watermark/'
     dir_init:           '/home/webcampak/webcampak/init/'
     dir_bin:            '/home/webcampak/webcampak/bin/'
@@ -17,7 +17,7 @@ parameters:
     dir_xfer:           '/home/webcampak/webcampak/resources/xfer/'
     dir_stats:          '/home/webcampak/webcampak/resources/stats/'
     
-    dir_locale:         '/home/webcampak/webcampak/locale/'
+    dir_locale:         '/home/webcampak/webcampak/i18n/'
     dir_locale_message: 'messages/'
     
     dir_source_tmp:                 'tmp/'

@@ -40,10 +40,6 @@ else
 	cd /home/${sysusername}/
 fi
 
-echo "$(date +'%d %B %Y - %k:%M') System: Action ==> Open /etc/apt/sources.list file (as root, or with sudo)"
-echo "$(date +'%d %B %Y - %k:%M') System: Action ==> Uncomment backports and partners repositories"
-read
-
 echo "$(date +'%d %B %Y - %k:%M') System: Distribution upgrade"
 echo "$(date +'%d %B %Y - %k:%M') #> sudo apt-get update"
 sudo apt-get update --assume-yes
@@ -77,9 +73,9 @@ echo "$(date +'%d %B %Y - %k:%M') ----------------------------------------------
 echo "$(date +'%d %B %Y - %k:%M') GRUB: Copy configuration files"
 sudo cp /home/${sysusername}/webcampak/install/config/default_grub /etc/default/grub
 sudo cp /home/${sysusername}/webcampak/install/config/default_rcS /etc/default/rcS
-sudo cp /home/${sysusername}/webcampak/install/config/ttyS0.conf /etc/init/ttyS0.conf
-echo "$(date +'%d %B %Y - %k:%M') GRUB Serial: sudo start ttyS0"
-sudo start ttyS0
+#sudo cp /home/${sysusername}/webcampak/install/config/ttyS0.conf /etc/init/ttyS0.conf
+#echo "$(date +'%d %B %Y - %k:%M') GRUB Serial: sudo start ttyS0"
+#sudo start ttyS0
 echo "$(date +'%d %B %Y - %k:%M') GRUB: sudo update-grub2"
 sudo update-grub2
 echo "$(date +'%d %B %Y - %k:%M') GRUB: Configuration completed"

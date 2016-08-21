@@ -24,4 +24,4 @@ UTC=yes
 #VERBOSE=no
 
 # automatically repair filesystems with inconsistencies during boot
-#FSCKFIX=yes
+FSCKFIX=yes
