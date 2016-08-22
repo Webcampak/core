@@ -1,4 +1,4 @@
-var json_locale_data = {
+var jsonLocaleData = {
       "" : {
          "MIME-Version" : " 1.0",
          "POT-Creation-Date" : " 2012-08-25 11:49+0200",
