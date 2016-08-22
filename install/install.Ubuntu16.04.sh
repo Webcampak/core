@@ -24,7 +24,6 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\     Ubuntu 16.04 server installat
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\                                                                /!\ \e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') "
-scriptdirectory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [ "$(whoami)" = "root" ] ; then
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: Do not run installation script as root, exiting ....\e[0m"
 	exit 0
