@@ -108,6 +108,12 @@ elif [ "$action" = "n" ] ; then
     php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
 fi
 
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: Installation of the CLI \e[0m"
+cd /home/${sysusername}/webcampak/apps/cli/
+sudo pip install -r requirements.txt
+sudo python setup.py install
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
+
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Permissions and system modifications\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Adding user ${sysusername} to group www-data\e[0m"
 sudo useradd -G www-data ${sysusername}
