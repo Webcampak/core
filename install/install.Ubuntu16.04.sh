@@ -98,15 +98,10 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: Initialize configuration\e[0m"
 php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console doctrine:schema:update --force
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Do you want to pre-create 3 sources ?\e[0m"
-echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: [x]-Exit [y]-Yes [n]-No\e[0m"
-read action
-if [ "$action" = "x" ] ; then
-    exit;
-elif [ "$action" = "y" ] ; then
-    php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit --preconfigure
-elif [ "$action" = "n" ] ; then
-    php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
-fi
+php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit --preconfigure
+# Without sources creation
+#php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
+
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: Installation of the CLI \e[0m"
 cd /home/${sysusername}/webcampak/apps/cli/
@@ -146,8 +141,6 @@ sudo service apache2 start
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Apache: Configuration completed\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
-
-
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Vsftpd: Configuration of vsftpd\e[0m"
 sudo mkdir /etc/vsftpd
 sudo mkdir /etc/vsftpd/vsftpd_user_conf
@@ -157,41 +150,34 @@ sudo cp /home/${sysusername}/webcampak/install/config/vsftpd-wpresources /etc/vs
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') #> sudo /etc/init.d/vsftpd restart\e[0m"
 sudo service vsftpd restart
 if [ -f /lib/x86_64-linux-gnu/security/pam_userdb.so ]; then
-        sudo mkdir /lib/security
-        sudo ln /lib/x86_64-linux-gnu/security/pam_userdb.so /lib/security/pam_userdb.so
+    sudo mkdir /lib/security
+    sudo ln /lib/x86_64-linux-gnu/security/pam_userdb.so /lib/security/pam_userdb.so
 fi
 if [ -f /lib/i386-linux-gnu/security/pam_userdb.so ]; then
-        sudo mkdir /lib/security
-        sudo ln /lib/i386-linux-gnu/security/pam_userdb.so /lib/security/pam_userdb.so
+    sudo mkdir /lib/security
+    sudo ln /lib/i386-linux-gnu/security/pam_userdb.so /lib/security/pam_userdb.so
 fi
-
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Phidget: Drivers Installation (only if phidget board is installed)\e[0m"
-echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Phidget: [x]-Exit [s]-Skip [o]-OK\e[0m"
-read action
-if [ "$action" = "x" ] ; then
-	exit;
-elif [ "$action" = "o" ] ; then
-	mkdir /home/${sysusername}/softs/
-	cd /home/${sysusername}/softs/
-	sudo apt-get install build-essential make libusb-dev
-	#wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20110615.tar.gz
-	wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20151217.tar.gz
-	tar xfvz libphidget_2.1.8.20151217.tar.gz
-	cd libphidget-2.1.8.20151217
-	./configure; make;
-	sudo make install
-	cd /home/${sysusername}/softs/
-	#wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20110804.zip
-	wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20151217.zip
-	unzip PhidgetsPython_2.1.8.20151217.zip
-	cd PhidgetsPython
-	python setup.py build
-	sudo python setup.py install
-	cd /home/${sysusername}/
-	sudo rm /home/${sysusername}/softs/ -r
-fi
+mkdir /home/${sysusername}/softs/
+cd /home/${sysusername}/softs/
+sudo apt-get install build-essential make libusb-dev
+#wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20110615.tar.gz
+wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20151217.tar.gz
+tar xfvz libphidget_2.1.8.20151217.tar.gz
+cd libphidget-2.1.8.20151217
+./configure; make;
+sudo make install
+cd /home/${sysusername}/softs/
+#wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20110804.zip
+wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20151217.zip
+unzip PhidgetsPython_2.1.8.20151217.zip
+cd PhidgetsPython
+python setup.py build
+sudo python setup.py install
+cd /home/${sysusername}/
+sudo rm /home/${sysusername}/softs/ -r
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Installation completed, Default User/Password are: root/webcampak you will be asked to change those at first connection\e[0m"
