@@ -98,7 +98,7 @@ services:
 
     app.svc.syncreports:
         class: AppBundle\Services\SyncReportsService
-        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', %dir_sync-reports%, %dir_sources%, %dir_etc%]
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', %dir_sync-reports%, %dir_sources%, %dir_config%]
 
     app.svc.xferreports:
         class: AppBundle\Services\XferReportsService
@@ -106,7 +106,7 @@ services:
 
     app.svc.devices:
         class: AppBundle\Services\DevicesService
-        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.configuration', %dir_etc%]
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.configuration', %dir_config%]
 
     app.svc.stats:
         class: AppBundle\Services\StatsService
