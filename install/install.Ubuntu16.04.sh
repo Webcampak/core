@@ -163,7 +163,7 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Phidget: Drivers Installation (only if phidget board is installed)\e[0m"
 mkdir /home/${sysusername}/softs/
 cd /home/${sysusername}/softs/
-sudo apt-get install build-essential make libusb-dev
+sudo apt-get install --assume-yes build-essential make libusb-dev
 #wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20110615.tar.gz
 wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20151217.tar.gz
 tar xfvz libphidget_2.1.8.20151217.tar.gz
