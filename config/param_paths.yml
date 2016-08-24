@@ -4,6 +4,7 @@ parameters:
     sys_username: 'francois'
 
     # Webcampak directories
+    dir_config:        '/home/webcampak/webcampak/config/'
     dir_sources:        '/home/webcampak/webcampak/sources/'
     dir_etc:            '/home/webcampak/webcampak/resources/etc/'
     dir_watermark:      '/home/webcampak/webcampak/resources/watermark/'

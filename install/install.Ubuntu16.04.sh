@@ -88,6 +88,7 @@ mkdir /home/${sysusername}/webcampak/resources/ftp/queued
 mkdir /home/${sysusername}/webcampak/resources/ftp/sent
 mkdir /home/${sysusername}/webcampak/resources/logs
 mkdir /home/${sysusername}/webcampak/resources/logs/symfony
+mkdir /home/${sysusername}/webcampak/resources/logs/system
 mkdir /home/${sysusername}/webcampak/resources/etc
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
