@@ -1,5 +1,5 @@
 # m h  dom mon dow   command
-*/5 * * * * python /home/webcampak/webcampak/bin/wpak-gatherstats.py -g /home/webcampak/webcampak/etc/config-general.cfg
+*/5 * * * * /usr/local/bin/webcampak stats collect
 * * * * * php /home/webcampak/webcampak/www/Symfony/2.6/app/console wpak:alerts
 * 6 * * * php /home/webcampak/webcampak/www/Symfony/2.6/app/console wpak:dailyreport
 * * * * * php /home/webcampak/webcampak/www/Symfony/2.6/app/console wpak:sendemails 20
