@@ -90,6 +90,8 @@ mkdir /home/${sysusername}/webcampak/resources/logs
 mkdir /home/${sysusername}/webcampak/resources/logs/symfony
 mkdir /home/${sysusername}/webcampak/resources/logs/system
 mkdir /home/${sysusername}/webcampak/resources/etc
+mkdir /home/${sysusername}/webcampak/resources/stats/
+mkdir /home/${sysusername}/webcampak/resources/stats/consolidated/
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Setting up root crontab\e[0m"
