@@ -117,7 +117,7 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Adding user ${sysusername} to
 sudo useradd -G www-data ${sysusername}
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Creating webcampak sudoers file\e[0m"
 echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/local/bin/webcampak system*" | sudo tee /etc/sudoers.d/webcampak
-echo "${sysusername} ALL=(ALL) NOPASSWD: /sbin/reboot" | sudo tee /etc/sudoers.d/webcampak
+echo "${sysusername} ALL=(ALL) NOPASSWD: /sbin/reboot" | sudo tee -a /etc/sudoers.d/webcampak
 #sudo echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/local/bin/webcampak system*" > /etc/sudoers.d/webcampak
 sudo chmod 0440 /etc/sudoers.d/webcampak
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Adding usb to group plugdev\e[0m"
