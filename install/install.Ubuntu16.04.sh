@@ -89,6 +89,7 @@ mkdir /home/${sysusername}/webcampak/resources/ftp/sent
 mkdir /home/${sysusername}/webcampak/resources/logs
 mkdir /home/${sysusername}/webcampak/resources/logs/symfony
 mkdir /home/${sysusername}/webcampak/resources/logs/system
+mkdir /home/${sysusername}/webcampak/resources/logs/stats
 mkdir /home/${sysusername}/webcampak/resources/etc
 mkdir /home/${sysusername}/webcampak/resources/stats/
 mkdir /home/${sysusername}/webcampak/resources/stats/consolidated/
@@ -118,6 +119,7 @@ sudo useradd -G www-data ${sysusername}
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Creating webcampak sudoers file\e[0m"
 echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/local/bin/webcampak system*" | sudo tee /etc/sudoers.d/webcampak
 echo "${sysusername} ALL=(ALL) NOPASSWD: /sbin/reboot" | sudo tee -a /etc/sudoers.d/webcampak
+echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/bin/ifstat" | sudo tee -a /etc/sudoers.d/webcampak
 #sudo echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/local/bin/webcampak system*" > /etc/sudoers.d/webcampak
 sudo chmod 0440 /etc/sudoers.d/webcampak
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Adding usb to group plugdev\e[0m"
