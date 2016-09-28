@@ -8,7 +8,7 @@ Webcampak is a set of tools to reliably capture high definition pictures, at pre
 
 Webcampak software is broken down in multiple repository corresponding to its main components:
 
- - [Core](https://github.com/Webcampak/core): Entry-point repository, contains all commons elements and installation scripts.
+ - [Core](https://github.com/Webcampak/core): Entry-point repository (the one you are currently on), contains all commons elements and installation scripts.
  - [API](https://github.com/Webcampak/api): Contains the Symfony API used by the User Interface to communicate with the Webcampak.
  - [UI](https://github.com/Webcampak/ui): Contains Sencha Extjs User Interfaces.
  - [CLI](https://github.com/Webcampak/cli): Contains the Python Cement command line interface used to drive Webcampak inner activities. 
