@@ -2,7 +2,7 @@ Webcampak 3
 =============
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/c9bafa1f-910d-40fa-8b99-030cf1b531c0/mini.png)](https://insight.sensiolabs.com/projects/c9bafa1f-910d-40fa-8b99-030cf1b531c0) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-Webcampak is a set of tools to reliably capture high definition pictures, at pre-defined interval, over a very long period of time and automatically generate timelapse videos. Built to scale and adapt to a variety of use cases, Webcampak will drive a DSLR camera from projects ranging from 6 months to years. Failsafe mechanisms are available to ensure no pictures get lost during that time.
+Webcampak is a set of tools to reliably capture high definition pictures, at pre-defined interval, over a very long period of time and automatically generate timelapse videos. Built to scale and adapt to a variety of use cases, Webcampak will drive a DSLR camera for projects typically ranging from 6 months to years. Failsafe mechanisms are available to ensure no pictures get lost during that time.
 
 ## Repository
 
