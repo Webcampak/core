@@ -176,6 +176,7 @@
             , "parameters": [
                 {"name": "cfgphidgetcameraport"     ,"default": "5"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Port used for power switch"}
                 , {"name": "cfgphidgetsensornb"     ,"default": "4"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Number of Phidget sensors that could be supported by the source"}
+                , {"name": "cfgphidgetactivate"     ,"default": "no"    ,"type": "yesno",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Enable sensor collection or not"}
                 , {"name": "cfgphidgetsensor1"      ,"default": null    ,"type": "list",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 1"
                     , "values": [
                         {"name": "phidgetSensor",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor template"}
