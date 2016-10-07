@@ -151,8 +151,10 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Vsftpd: Configuration of vsftpd\e[0m"
 sudo mkdir /etc/vsftpd
 sudo mkdir /etc/vsftpd/vsftpd_user_conf
 sudo cp /home/${sysusername}/webcampak/install/config/vsftpd.conf /etc/vsftpd.conf
+sed -i "s/tmpusername/${sysusername}/" /etc/vsftpd.conf
 sudo cp /home/${sysusername}/webcampak/install/config/vsftpd.pamd /etc/pam.d/vsftpd
 sudo cp /home/${sysusername}/webcampak/install/config/vsftpd-wpresources /etc/vsftpd/vsftpd_user_conf/wpresources
+sed -i "s/tmpusername/${sysusername}/" /etc/vsftpd/vsftpd_user_conf/wpresources
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') #> sudo /etc/init.d/vsftpd restart\e[0m"
 sudo service vsftpd restart
 if [ -f /lib/x86_64-linux-gnu/security/pam_userdb.so ]; then
