@@ -15,6 +15,7 @@
                 , {"name": "cfgftpresourcespassword",   "default": "seconds",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Global FTP password"}
                 , {"name": "cfgstatsactivate",          "default": "0",            "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Activate statistics collection"}
                 , {"name": "cfgxferthreads",            "default": "5",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Maximum number of parrallel threads to be used to transfer files"}
+                , {"name": "cfgxfermaxfilesperthread",  "default": "50",           "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Maximum number of files to be queued for each thread"}
                 ]
         }
     ]
