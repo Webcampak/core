@@ -1,10 +1,12 @@
 # m h  dom mon dow   command
-*/5 * * * * /usr/local/bin/webcampak stats collect
-*/5 * * * * /usr/local/bin/webcampak xfer start
-*/10 * * * * /usr/local/bin/webcampak xfer dispatch
-* * * * * php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:alerts
-* 6 * * * php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:dailyreport
-* 6 * * * php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:runsyncreports
-* * * * * php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:sendemails 20
+# All system processes sleep for 10s before starting to avoid disturbing capture
+* * * * * sleep 10 && /usr/local/bin/webcampak stats collect
+* * * * * sleep 10 && /usr/local/bin/webcampak xfer start
+*/5 * * * * sleep 10 && /usr/local/bin/webcampak stats consolidate
+*/10 * * * * sleep 10 && /usr/local/bin/webcampak xfer dispatch
+* * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:alerts
+* 6 * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:dailyreport
+* * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:runsyncreports
+* * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:sendemails
 
 
