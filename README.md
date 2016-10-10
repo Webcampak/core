@@ -1,11 +1,9 @@
-Webcampak 3
-=============
- 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+Webcampak 3 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+=============================================================================================================================
 
 Webcampak is a set of tools to reliably capture high definition pictures, at pre-defined interval, over a very long period of time and automatically generate timelapse videos. Built to scale and adapt to a variety of use cases, Webcampak will drive a DSLR camera for projects typically ranging from 6 months to years. Failsafe mechanisms are available to ensure no pictures get lost during that time.
 
-## Repository
+## Repositories
 
 Webcampak software is broken down in multiple repository corresponding to its main components:
 
