@@ -5,7 +5,7 @@ Webcampak is a set of tools to reliably capture high definition pictures, at pre
 
 ## Repositories
 
-Webcampak software is broken down in multiple repository corresponding to its main components:
+Webcampak software is broken down in multiple repositories, one for each of its main components:
 
 | Repo        | Badges           | Description  |
 | ------------- |-------------| -----|
@@ -75,7 +75,7 @@ The next move from a software perpespective will be to conver the API to REST (c
 You can learn more on our website/blog: http://www.webcampak.com
 
 ## Documentation
-User guides and other end-user documentation is available here: http://docs.webcampak.com
+User guides and other end-user documentation is available here: http://doc.webcampak.com
 
 Note that the document has not been yet updated for Webcampak 3
 
