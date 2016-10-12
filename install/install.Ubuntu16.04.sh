@@ -43,7 +43,7 @@ sudo apt-get update
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of git and source control dependencies\e[0m"
 sudo apt-get install --assume-yes git vim
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of python and dependencies\e[0m"
-sudo apt-get install --assume-yes python-imaging python-opencv python-rrdtool python-configobj python-setuptools python-gdata python-psutil python-dateutil python-numpy python-pip librrd-dev
+sudo apt-get install --assume-yes python-imaging python-opencv python-rrdtool python-configobj python-setuptools python-gdata python-psutil python-dateutil python-numpy python-pip librrd-dev virtualenv
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of picture processing related tools\e[0m"
 sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib1g-dev libpuzzle-bin
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video\e[0m"
