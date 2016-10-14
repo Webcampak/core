@@ -39,7 +39,7 @@
             "name": "email"
             , "permission": "SOURCES_CONFIGURATION_SIMPLE"
             , "parameters": [
-                {"name": "cfgvideoemailactivate"     , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send email once video creation is completed"}
+                {"name": "cfgemailmovieactivate"     , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send email once video creation is completed"}
             ]
         }, {
             "name": "resize"
