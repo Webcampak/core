@@ -47,7 +47,7 @@ sudo apt-get install --assume-yes python-imaging python-opencv python-rrdtool py
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of picture processing related tools\e[0m"
 sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib1g-dev libpuzzle-bin
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video\e[0m"
-sudo apt-get install --assume-yes imagemagick mpgtx mencoder x264 libav-tools atomicparsley
+sudo apt-get install --assume-yes mpgtx mencoder x264 libav-tools atomicparsley gpac
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
 sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Misc and utilities\e[0m"
