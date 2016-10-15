@@ -256,9 +256,6 @@
             "name": "email"
             , "permission": "SOURCES_CONFIGURATION_SIMPLE"
             , "parameters": [
-                {"name": "cfgemailsendto"      ,"default": "support+unconfigured@webcampak.com",    "type": "email",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to"}
-                , {"name": "cfgemailsendcc"    ,"default": "",                                      "type": "email",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send a copy of this email to"}
-                , {"name": "cfgemailreplyto"   ,"default": "",                                      "type": "email",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Email of the sender, possible values: the webcampak"}
             ]
         }, {
             "name": "ftp-copy"
