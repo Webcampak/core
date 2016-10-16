@@ -102,7 +102,13 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: Initialize configuration\e[0m"
 php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console doctrine:schema:update --force
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Do you want to pre-create 3 sources ?\e[0m"
-php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit --preconfigure
+if [ "$1" != "preconfigure" ]; then
+	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') No parameter passed, the system will not be preconfigured with sources \e[0m"
+	php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
+else
+	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Received request to preconfigure webcampak\e[0m"
+	php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit --preconfigure
+fi
 # Without sources creation
 #php /home/${sysusername}/webcampak/apps/api/Symfony/3.0/bin/console wpak:dbinit
 

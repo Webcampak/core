@@ -166,7 +166,9 @@
                 , {"name": "cfgemailalertfailure"           ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "The email will be sent after X failures"}
                 , {"name": "cfgemailalertreminder"          ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Send a reminder every X failures after first alert failure"}
                 , {"name": "cfgemailalwaysnotify"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Always notify user when source is back online"}
-                , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}                
+                , {"name": "cfgemaildirectalert"            ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident as the system tries to capture"}
+                , {"name": "cfgemailschedulealert"          ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident based on configured alert schedule"}
+                , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}
                 , {"name": "cfgphidgeterroractivate"        ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Restart the camera in case of error"}
                 , {"name": "cfgphidgetfailure"              ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "The camera will be restarted after X failures"}
             ]
