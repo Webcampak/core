@@ -20,7 +20,8 @@ parameters:
     
     dir_locale:         '/home/webcampak/webcampak/i18n/'
     dir_locale_message: 'messages/'
-    
+    dir_locale_emails:  'emails/'
+
     dir_source_tmp:                 'tmp/'
     dir_source_pictures:            'pictures/'
     dir_source_videos:              'videos/'
@@ -28,7 +29,8 @@ parameters:
     dir_source_watermark:           'resources/watermark/'
     dir_source_capture:             'resources/capture/'
     dir_source_resources_videos:    'resources/videos/'
-    
+    dir_source_resources_reports:   'resources/reports/'
+
     dir_xfer_queue:         'queued/'
     dir_xfer_threads:       'threads/'
     dir_xfer_failed:        'failed/'

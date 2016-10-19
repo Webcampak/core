@@ -1,1 +1,1 @@
-[#REPORTSCORE#] - #CURRENTHOSTNAME#: #REPORTDAY# daily capture report 
+#CURRENTHOSTNAME#: Webcampak Capture report, generated on #REPORTDATE#

@@ -1,10 +1,11 @@
 Hello,
 
-This is your capture report email.
-
-This report list all sources for which reporting is enables and is generated daily.
+This the capture report email for all your sources.
 
 #REPORTBODY#
+
+You currently have access to the following sources:
+#REPORTSOURCES#
 
 Your Webcampak.
 
