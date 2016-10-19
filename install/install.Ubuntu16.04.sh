@@ -51,7 +51,7 @@ sudo apt-get install --assume-yes mpgtx mencoder x264 libav-tools atomicparsley 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
 sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Misc and utilities\e[0m"
-sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util
+sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util pwgen
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak GIT: Cloning GIT repository\e[0m"
@@ -193,6 +193,9 @@ sudo python setup.py install
 cd /home/${sysusername}/
 sudo rm /home/${sysusername}/softs/ -r
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
+
+sed -i "s/tmppassword/$(pwgen -1)/" /home/${sysusername}/webcampak/config/config-general.cfg
+sed -i "s/ThisTokenIsNotSoSecretChangeIt/$(pwgen -1)/" /home/${sysusername}/webcampak/config/param_general.yml
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Installation completed, Default User/Password are: root/webcampak you will be asked to change those at first connection\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Open your web browser and connect to https://WECAMPAK-IP/\e[0m"
