@@ -5,6 +5,6 @@
 */5 * * * * sleep 10 && /usr/local/bin/webcampak stats consolidate
 */10 * * * * sleep 10 && /usr/local/bin/webcampak xfer dispatch
 * * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:alerts
-* 6 * * * sleep 10 && /usr/local/bin/webcampak reports daily
+0 6 * * * sleep 10 && /usr/local/bin/webcampak reports daily
 * * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:runsyncreports
 * * * * * sleep 10 && php /home/webcampak/webcampak/apps/api/Symfony/3.0/bin/console wpak:sendemails
