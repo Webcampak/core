@@ -60,6 +60,10 @@ wpak_misc_dl:
     path:  /dl
     defaults: { _controller: AppBundle:Misc\Download:index }
 
+wpak_misc_log:
+    path:  /log
+    defaults: { _controller: AppBundle:Misc\LogDownload:index }
+
 wpak_misc_reboot:
     path:  /system/reboot
     defaults: { _controller: AppBundle:Misc\System:systemReboot }

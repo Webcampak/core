@@ -1,6 +1,6 @@
 # m h  dom mon dow   command
 # All system processes sleep for 10s before starting to avoid disturbing capture
-* * * * * sleep 10 && /usr/local/bin/webcampak stats collect
+*/5 * * * * sleep 10 && /usr/local/bin/webcampak stats collect
 * * * * * sleep 10 && /usr/local/bin/webcampak xfer start
 */5 * * * * sleep 10 && /usr/local/bin/webcampak stats consolidate
 */10 * * * * sleep 10 && /usr/local/bin/webcampak xfer dispatch

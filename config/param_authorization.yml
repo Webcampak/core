@@ -37,6 +37,9 @@ parameters:
      - WEB_CFG_ALERTS:
         name: Alerts
         description: Configure email alerts related to source capture
+     - WEB_RAW_LOGS:
+        name: Logs
+        description: Allow user to access all system logs directly from the browser
 
     # Permissions available within Webcampak
     permissions:
@@ -56,6 +59,6 @@ parameters:
         permissions: [SOURCES_CONFIGURATION_ADVANCED, SOURCES_CONFIGURATION_SIMPLE]
      - Admin:
         description: Access everything
-        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_SYNCREPORTS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SYSTEM, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES, WEB_CFG_SYSTEM, WEB_CFG_ACCESSCONTROL, WEB_CFG_ALERTS]
+        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_SYNCREPORTS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SYSTEM, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES, WEB_CFG_SYSTEM, WEB_CFG_ACCESSCONTROL, WEB_CFG_ALERTS, WEB_RAW_LOG]
         permissions: [SOURCES_CONFIGURATION_EXPERT, SOURCES_CONFIGURATION_ADVANCED, SOURCES_CONFIGURATION_SIMPLE]
 
