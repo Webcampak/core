@@ -1,7 +1,7 @@
 Webcampak 3 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 =============================================================================================================================
 
-Webcampak is a set of tools to reliably capture high definition pictures, at pre-defined interval, over a very long period of time and automatically generate timelapse videos. Built to scale and adapt to a variety of use cases, Webcampak will drive a DSLR camera for projects typically ranging from 6 months to years. Failsafe mechanisms are available to ensure no pictures get lost during that time.
+Webcampak is a set of tools to reliably capture high definition pictures, at pre-defined interval, over a very long period of time and automatically generate timelapse videos. Built to scale and adapt to a variety of use cases, Webcampak will drive a DSLR camera for projects typically ranging from months to years. Failsafe mechanisms are available to ensure no pictures get lost during that time.
 
 ## Repositories
 
@@ -47,11 +47,14 @@ Run the following command from a fresh ubuntu server install and follow instruct
 ```
 bash <(curl -s https://raw.githubusercontent.com/Webcampak/core/master/init/install/install.Ubuntu16.04.sh)
 ```
-After installation connect to your Webcampak's IP via https
+After installation connect to your Webcampak's IP via https.
+
+*Note*: Webcampak has been pre-configured and tested using system user "webcampak", you will need to replace paths if you want to use a different username.
 
 ## Directory Structure
 
 - apps/: API, UI and CLI.
+- config/: Webcampak configuration files.
 - i18n/: Language files used for internationalization. Using gettext for the most part.
 - install/: Install script(s) and system configuration files
 - resources/: Common assets available to all components
@@ -59,6 +62,7 @@ After installation connect to your Webcampak's IP via https
 During installation, the webcampak will create many more directories, those will not be synced with github as they are specific to each install.
 
 ## History
+
 Webcampak project was initiated in 2009, initially as a set of bash scripts to control Canon compact cameras and automatically generate timelapse videos. 
 Number of features have been progressively growing with the following major technical differences between versions:
 
