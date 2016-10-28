@@ -46,7 +46,7 @@ services:
 
     app.svc.status:
         class: AppBundle\Services\StatusService
-        arguments: ['@security.token_storage', '@security.authorization_checker', '@doctrine', '@logger', '@app.svc.files','@app.svc.sources','@app.svc.devices','@app.svc.user','@app.svc.schedule','@app.svc.configuration', '@app.svc.stats', %kernel.root_dir%, %dir_etc%]
+        arguments: ['@security.token_storage', '@security.authorization_checker', '@doctrine', '@logger', '@app.svc.files','@app.svc.sources','@app.svc.devices','@app.svc.user','@app.svc.schedule','@app.svc.configuration', '@app.svc.stats', '@app.svc.pictures.directory', %kernel.root_dir%, %dir_etc%]
 
     app.svc.response:
         class: AppBundle\Services\ResponseService

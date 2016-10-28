@@ -55,7 +55,7 @@ parameters:
         permissions: []
      - Configure:
         description: Access source-specific details to view content and configure sources
-        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_SYNCREPORTS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES]
+        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES]
         permissions: [SOURCES_CONFIGURATION_ADVANCED, SOURCES_CONFIGURATION_SIMPLE]
      - Admin:
         description: Access everything
