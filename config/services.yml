@@ -98,7 +98,7 @@ services:
 
     app.svc.syncreports:
         class: AppBundle\Services\SyncReportsService
-        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', %dir_sync-reports%, %dir_sources%, %dir_config%]
+        arguments: ['@security.token_storage', '@doctrine', '@logger', '@app.svc.user', '@app.svc.configuration', '@app.svc.ftp', %dir_sync-reports%, %dir_sources%, %dir_config%, %dir_etc%]
 
     app.svc.xferreports:
         class: AppBundle\Services\XferReportsService
