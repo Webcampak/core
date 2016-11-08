@@ -8,12 +8,12 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-07 20:30-0500\n"
-"PO-Revision-Date: 2016-11-07 22:49-0500\n"
+"PO-Revision-Date: 2016-11-08 08:49-0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.11\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
@@ -68,7 +68,7 @@ msgstr "Permission requise"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/store/alerts/SourcesSchedule.js:32
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/store/shared/Sources.js:31
 msgid "Your currently don\"t have access to any sources."
-msgstr "Vous n\"avez actuellement accès à aucune source."
+msgstr "Vous n'avez actuellement accès à aucune source."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/store/alerts/SourcesSchedule.js:32
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/store/shared/CurrentApplications.js:29
@@ -261,34 +261,36 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:221
 msgid "Delete Report?"
-msgstr ""
+msgstr "Supprimer le rapport ?\t"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:222
 msgid "You are deleting a report permanently, this cannot be undone. Proceed ?"
 msgstr ""
+"Vous allez supprimer un rapport de manière définitive. Souhaitez-vous "
+"continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:237
 msgid "Please select a report first"
-msgstr ""
+msgstr "Veuillez sélectionner un rapport"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:305
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:47
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/Main.js:29
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/Main.js:33
 msgid "Destination"
-msgstr ""
+msgstr "Destination"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:313
 msgid "Intersection (files available in Source and Destination)"
-msgstr ""
+msgstr "Intersection (fichiers présents sur le source et sur la destination)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:321
 msgid "Missing in Source"
-msgstr ""
+msgstr "Absent de la source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:329
 msgid "Missing in Destination"
-msgstr ""
+msgstr "Absent de la destination"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:391
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:422
@@ -305,7 +307,7 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:210
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:233
 msgid "Total number of records: "
-msgstr ""
+msgstr "Nombre total d'enregistrements:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:424
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/xferreports/XferReports.js:103
@@ -314,7 +316,7 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:392
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:235
 msgid "Number of filtered records: "
-msgstr ""
+msgstr "Nombre d'enregistrements affichés:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:424
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/xferreports/XferReports.js:103
@@ -325,125 +327,130 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:17
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:24
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:450
 msgid "Warning"
-msgstr ""
+msgstr "Attention"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:468
 msgid "Source and type fields are mandatory"
-msgstr ""
+msgstr "Les champs source et type sont obligatoires"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:470
 msgid "Please select a FTP server for the source"
-msgstr ""
+msgstr "Veuillez sélectionner un serveur FTP pour la source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:472
 msgid "Please select a FTP server for the destination"
-msgstr ""
+msgstr "Veuillez sélectionner un serveur FTP pour la destination"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:474
 msgid "A source cannot be synced with itself"
-msgstr ""
+msgstr "Une source ne peut être synchronisée avec elle-même"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:497
 msgid "Report added to queue, it will be processed shortly"
-msgstr ""
+msgstr "Rapport ajouté à la file d'attente. "
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/ServerAvailability.js:154
 msgid "Unable to communicate with server"
-msgstr ""
+msgstr "Impossible de communiquer avec le serveur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/ServerAvailability.js:155
 msgid ""
 "Webcampak app appears to be offline, please try again later<br />You can "
 "check online/offline status in the bottom right corner of your window"
 msgstr ""
+"L'application Webcampak semble hors-ligne. Veuillez ré-essayer plus tard. "
+"<br />Vous pouvez vérifier l'état dans le coin en bas à droite de votre "
+"fenêtre."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/sendemail/SendEmail.js:183
 msgid "Email successfully added to queue, will be sent shortly"
-msgstr ""
+msgstr "Email ajouté à la file d'attente"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/sendemail/SendEmail.js:197
 msgid ""
 "Please ensure required fields have been properly populated. <br /> Required: "
 "TO, Subject, Body"
-msgstr ""
+msgstr "Veuillez vous assurer que les champs A, Sujet, Corps ont été remplis"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/loading/Mask.js:133
 msgid "Exception happened on:"
-msgstr ""
+msgstr "Exception sur:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/loading/Mask.js:135
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:176
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/loading/Mask.js:136
 msgid ""
 "Webcampak encountered an error, please contact support for instructions."
-msgstr ""
+msgstr "Webcampak a rencontré une erreur, veuillez contacter le support."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:111
 msgid "Authentication Error"
-msgstr ""
+msgstr "Erreur d'authentification"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:112
 msgid "You have been logged off from the server. <br />Please log-in again"
 msgstr ""
+"Vous avez été déconnecté du serveur.<br />Veuillez vous authentifier de "
+"nouveau."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:150
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:226
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:109
 msgid "Credentials missing"
-msgstr ""
+msgstr "Identifiants absents"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:151
 msgid "Please enter a username and password"
-msgstr ""
+msgstr "Veuillez entrer un nom d'utilisateur et un mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:187
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:200
 msgid "Authentication Failed"
-msgstr ""
+msgstr "Echec d'authentification"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:201
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:157
 msgid "Unable to authenticate to remote server"
-msgstr ""
+msgstr "Echec d'authentification au serveur distant"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:211
 msgid "Unsecured connection"
-msgstr ""
+msgstr "Connexion non sécurisée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:212
 msgid "Your connection is not encrypted, please use HTTPS"
-msgstr ""
+msgstr "Votre connexion n'est pas chiffrée, veuillez utiliser HTTPS"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:227
 msgid "Please enter a username and email"
-msgstr ""
+msgstr "Veuillez entrer un nom d'utilisateur et un email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:252
 msgid "Password sent"
-msgstr ""
+msgstr "Mot de passe envoyé"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:253
 msgid "A temporary password has been sent to your email address"
-msgstr ""
+msgstr "Un mot de passe temporaire vient de vous être envoyé par email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:260
 msgid "Unable to validate account"
-msgstr ""
+msgstr "Impossible de vérifier le compte"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:273
 msgid "Password reset failed"
-msgstr ""
+msgstr "Echec de ré-initialisation du mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:274
 msgid "Unable to communicate with to remote server"
-msgstr ""
+msgstr "Impossible de communiquer avec le serveur distant"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/UserSettings.js:65
 msgid "Build: "
