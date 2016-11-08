@@ -1,0 +1,2106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-07 22:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakFileUtils.py:130
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakFileUtils.py:163
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:172
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:242
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:312
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:333
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:396
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:417
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:437
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:459
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:468
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:106
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:195
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:235
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:242
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:313
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:436
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:510
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:630
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:746
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:892
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1006
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoEmails.py:65
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:120
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:130
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:139
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:150
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:161
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:90
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:139
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:205
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:318
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:343
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:366
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:446
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:479
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:511
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:532
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:567
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:595
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:641
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:671
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:703
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:724
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:758
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:799
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:820
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:66
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:157
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:50
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:60
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:89
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:182
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:273
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:96
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:109
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:120
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:129
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:141
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:153
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:93
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:100
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:112
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:80
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:99
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:114
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:129
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:144
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:165
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:181
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:196
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:212
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:232
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:249
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:267
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:281
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:296
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:311
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:325
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:340
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:352
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakDbUtils.py:45
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakDbUtils.py:64
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakDbUtils.py:97
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakDbUtils.py:116
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakDbUtils.py:131
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgetsUtils.py:35
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:67
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:94
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:118
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:165
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:199
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:219
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:52
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:148
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:252
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:261
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:273
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:255
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:282
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:303
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSourcesUtils.py:33
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSourcesUtils.py:42
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:52
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:66
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:90
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:124
+msgid "Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakFileUtils.py:137
+#, python-format
+msgid "Last Picture: %(lastScannedPicture)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakFileUtils.py:148
+#, python-format
+msgid "File Date: %(fileDate)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakFileUtils.py:171
+#, python-format
+msgid "Time difference in seconds %(timedifference)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:110
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferClear.py:74
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:82
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferDispatch.py:92
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferStart.py:77
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:124
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:149
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferStop.py:72
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:188
+#, python-format
+msgid ""
+"Initialized gettext with Domain: %(cfggettextdomain)s - Language: "
+"%(cfgsystemlang)s - Path: %(dirLocale)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:118
+msgid "Initiate reports creation"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:121
+#, python-format
+msgid "Processing source %(currentSource)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:127
+#, python-format
+msgid "Source disk quota is: %(sourceQuota)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:128
+#, python-format
+msgid "Source disk usage is: %(sourceDiskUsage)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:143
+#, python-format
+msgid "Skipping report for current day: %(currentReportDay)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:153
+#, python-format
+msgid "Preparing to save report in %(jsonReportFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:164
+#, python-format
+msgid "Error saving report file to disk %(jsonReportFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:167
+msgid "Getting ready to send reports"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:174
+#, python-format
+msgid "Preparing to send email to user %(name)s - email: %(email)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:180
+#, python-format
+msgid "Looking for report for source %(sourceid)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:188
+#, python-format
+msgid "No report found for source %(sourceid)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:208
+#, python-format
+msgid "Using message subject file: %(emailReportSubjectFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:211
+#, python-format
+msgid "Using message content file: %(emailReportContentFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:220
+#, python-format
+msgid "Email subject: %(emailReportSubject)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:229
+#, python-format
+msgid "Email Report content: %(emailReportContent)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:244
+#, python-format
+msgid ""
+"Preparing report content for Source: %(currentSource)s and Day: "
+"%(currentReportDay)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:314
+#, python-format
+msgid ""
+"Generating report for Source: %(currentSource)s and Day: %(currentReportDay)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:334
+msgid "Comparing Scedhule with Disk"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:354
+#, python-format
+msgid "Testing timeslot: %(fullHour)s:%(fullMinute)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:397
+#, python-format
+msgid "Scanning directory: %(picturesDirectory)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:426
+#, python-format
+msgid "Report exists for day: %(picturesDay)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:430
+#, python-format
+msgid "Report does not exist for day: %(picturesDay)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakReportsDaily.py:439
+#, python-format
+msgid "Looking for Schedule file: %(scheduleFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:118
+msgid "Video: Error: No video format selected ... Cancelling ..."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:131
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:139
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:147
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:155
+#, python-format
+msgid "Video: Error: File exists: %(File)s - Creating a random filename "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:163
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:174
+msgid "Video: Creation manually disabled ... Cancelling ..."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:177
+msgid "Video: Source disabled ... Cancelling ..."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:220
+#, python-format
+msgid "Creation from: %(customstart)s to: %(customend)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:224
+#, python-format
+msgid "Keeping only pictures between: %(keepstart)s and %(keepend)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:275
+#, python-format
+msgid "Unable to find watermark file:  %(watermarkFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:282
+#, python-format
+msgid "Executing command:  %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:291
+#, python-format
+msgid ""
+"Difference with previous file: %(PuzzleDiff)s - Config: %(MaxDiff)s -- "
+"Skipping file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:298
+#, python-format
+msgid ""
+"Video: Filter: Difference with previous file: %(PuzzleDiff)s - Config: "
+"%(MaxDiff)s -- Copying file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:328
+msgid "Copying files into temporary directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:338
+#, python-format
+msgid ""
+"Date: %(currentDay)s: Error, you are trying to create a daily video of the "
+"current day, try creating a custom video instead"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:343
+#, python-format
+msgid "Error, video file exists for the date: %(cfgdispday)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:346
+#, python-format
+msgid ""
+"Error, not enough jpg files for date: %(cfgdispday)s (only %(nbjpgfiles)s "
+"files)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:355
+#, python-format
+msgid "Creation requested from: %(customstart)s to: %(customend)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:359
+#, python-format
+msgid "Keeping pictures between: %(keepstart)s and: %(keepend)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:409
+#, python-format
+msgid ""
+"Video: %(VideoType)s: Discarding picture, minimum interval:  "
+"%(ReferenceInterval)s s - Current Difference: %(SecondsBetweenPictures)s, "
+"Current file: %(scanPictureFile)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:420
+#, python-format
+msgid "Copy picture to temporary directory: %(scanPictureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:439
+#, python-format
+msgid "Processing file: %(filePath)s - Date: %(pictureTime)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:447
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:563
+#, python-format
+msgid "Adding sketch effect to: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:450
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:567
+#, python-format
+msgid "Adding tiltshift effect to: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:454
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:571
+#, python-format
+msgid "Adding charcoal effect to: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:459
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:575
+#, python-format
+msgid "Adding colorin effect to: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:463
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:593
+#, python-format
+msgid "Adding Watermark to: %(File)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:479
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:610
+#, python-format
+msgid "Adding Legend to: %(File)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:491
+#, python-format
+msgid "Video: ImageMagick: Resizing: %(File)s to %(Size)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:511
+#, python-format
+msgid "Processing file: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:513
+#, python-format
+msgid "Picture date: %(pictureTime)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:521
+#, python-format
+msgid "Rotating file: %(filePath)s by %(degrees)s degrees"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:527
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:684
+#, python-format
+msgid "Creating thumbnail of file: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:540
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:697
+#, python-format
+msgid "Thumbnail stored in: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:549
+#, python-format
+msgid "Cropping file: %(filePath)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:556
+#, python-format
+msgid "Resizing file: %(filePath)s to: %(Size)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:580
+#, python-format
+msgid "Inserting thumbnail into: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:587
+#, python-format
+msgid "Insertion completed, deleting thumbnail stored at: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:653
+#, python-format
+msgid ""
+"Processing %(TransitionNbFiles)s pictures: W diff:%(TrDiffStepWidth)s H diff:"
+"%(TrDiffStepHeight)s X diff:%(TrDiffStepX)s Y diff:%(TrDiffStepY)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:704
+#, python-format
+msgid ""
+"Processing picture: %(File)s W:%(UpdatedCropWidth)s H:%(UpdatedCropHeight)s "
+"X:%(UpdatedCropX)s Y:%(UpdatedCropY)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:723
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:253
+#, python-format
+msgid "Error: File already exists %(DestinationFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:726
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:256
+#, python-format
+msgid "Copy file to: %(DestinationFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:747
+#, python-format
+msgid "Mencoder: Video compression, pass: %(Pass)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:749
+#, python-format
+msgid "Mencoder: Source: %(VideoSourceFiles)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:751
+#, python-format
+msgid "Mencoder: Destination: %(VideoDestinationFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:754
+#, python-format
+msgid "Running Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:773
+msgid "Video: Audio: Analyzing the playlist"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:779
+msgid "Video: Audio: Creation of the audio file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:782
+#, python-format
+msgid "Building mp3 file from playlist using command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:790
+msgid "Video: Audio: Audiofile successfully created"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:793
+msgid "Video: Audio: Failed to create the audio file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:794
+msgid "Video: Audio: Inserting the audio track onto the video"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:797
+#, python-format
+msgid "Adding audio file using Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:817
+#, python-format
+msgid "Video: Flash: Creation of the MP4 video file: %(FlashFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:829
+#, python-format
+msgid "Creating MP4 file using Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:841
+#, python-format
+msgid "Video: Flash: Inserting markers on MP4 video file: %(FlashFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:845
+#, python-format
+msgid "Creating MP4 markers using Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:853
+#, python-format
+msgid "Proper file size: %(FlashFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:857
+#, python-format
+msgid "Video: Flash: Invalid file size: %(FlashFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:863
+msgid ""
+"Video: Flash: Creation of a preview pictures, located 2 seconds from the "
+"beginning of the video"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:866
+#, python-format
+msgid "Creating preview pictures using Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:874
+msgid "Video: Flash: Preview successfully created"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:877
+msgid ""
+"Video: Flash: Preview failed to be created, trying to create a new one "
+"located 2 seconds from the beginning of the video"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:883
+#, python-format
+msgid ""
+"Re-trying to create preview pictures, 2 seconds into the video using "
+"Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:897
+#, python-format
+msgid "Processing format: %(videoformats)s - preparing parameters "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:933
+#, python-format
+msgid ""
+"Video: %(VideoType)s: Format: %(videoformats)s - Compression of the first "
+"pass with mencoder"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:942
+#, python-format
+msgid ""
+"Video: %(VideoType)s: Format: %(videoformats)s - Compression of the second "
+"pass with mencoder"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:952
+#, python-format
+msgid "Mencoder: Video creation completed: %(VideoFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:967
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the video file into archives"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:972
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the video file into live directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:978
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the MP4 video file into archives"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:982
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the MP4 video file into live directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:989
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the JPG preview file into archives"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:993
+#, python-format
+msgid "Video: %(VideoType)s: Copy of the JPG preview file into live directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1001
+#, python-format
+msgid "Video: %(VideoType)s: Error while creating video: %(VideoFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1009
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1016
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1023
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1032
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1040
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoUtils.py:1048
+#, python-format
+msgid "Video: %(VideoType)s: Sending file via FTP: %(FTPFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoEmails.py:72
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:73
+#, python-format
+msgid "Using message subject file: %(emailSuccessSubject)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoEmails.py:74
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:75
+#, python-format
+msgid "Using message content file: %(emailSuccessContent)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoEmails.py:98
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:105
+msgid "Unable to find default translation files to be used"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:112
+#, python-format
+msgid "Video file set to: %(videoFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:141
+#, python-format
+msgid "Successfully saved last video file to: %(videoFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:145
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:156
+msgid "Error saving last video file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:152
+#, python-format
+msgid "Successfully archived video file to: %(videoFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:164
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:156
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:115
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:276
+#, python-format
+msgid "Load JSON file into memory: %(jsonFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:172
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/video/wpakVideoObj.py:181
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:164
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:173
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:123
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:132
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:284
+#, python-format
+msgid "Writing to: %(jsonFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferClear.py:98
+msgid "Job Running XFer Clear"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferClear.py:100
+#, python-format
+msgid "Removing queued jobs: %(dirXferQueue)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferClear.py:102
+#, python-format
+msgid "Removing threads and jobs: %(dirXferThreads)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferClear.py:106
+#, python-format
+msgid "Removing failed jobs: %(dirXferFailed)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:96
+#, python-format
+msgid "Current Day: %(CurrentDay)s - Current Time: %(CurrentTime)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:106
+#, python-format
+msgid "Capture allowed between: %(StartAllowed)s and: %(EndAllowed)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:123
+msgid "Capture not allowed this day"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:127
+msgid "Outside pre-configured capture slot"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:143
+#, python-format
+msgid "Last capture %(TimeSinceLastCapture)s ms ago"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:149
+#, python-format
+msgid "Minimum capture interval: %(minimumCaptureValue)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:152
+msgid "Capture slot available"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:156
+msgid "Capture slot refused, not enough time since last capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:159
+msgid "Capture slot available, no previous capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:207
+msgid "Hotlink creation disabled for this picture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:212
+msgid "Rotating disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:220
+msgid "Cropping disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:235
+#, python-format
+msgid "Error: Unable to find watermark file:  %(watermarkFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:238
+msgid "Watermark disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:252
+msgid "Legend disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:260
+#, python-format
+msgid "Processing Sensor %(SensorNb)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:274
+#, python-format
+msgid ""
+"Sensor: Date %(cfgdispdate)s not found in sensor file, closest date is "
+"%(SensorNearestValue)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:281
+#, python-format
+msgid "Sensor: Insert %(SensorType)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:301
+#, python-format
+msgid "Sensor %(SensorNb)s disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:307
+msgid "Resizing disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:323
+#, python-format
+msgid "Saving JPG picture to: %(captureJpgFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:329
+#, python-format
+msgid "Saving RAW picture to: %(captureRawFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:369
+#, python-format
+msgid "Copying full size JPG picture: %(jpgPicture)s to: %(jpgPictureLive)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:377
+#, python-format
+msgid "Copying full size RAW picture: %(rawPicture)s to: %(rawPictureLive)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:451
+#, python-format
+msgid "Hotlink File: %(hotlinkDestinationFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:466
+#, python-format
+msgid "Hotlink: %(Hotlinkfile)s disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:486
+#, python-format
+msgid "Preparing to send JPG file located in  %(jpgFileName)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:495
+#, python-format
+msgid "Preparing to send RAW file located in  %(rawFileName)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:517
+#, python-format
+msgid "Preparing to send sensor JSONL file located in  %(sensorFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:545
+#, python-format
+msgid "SourceCopy: JPG Picture copied to %(sourceTmpDirectory)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:552
+#, python-format
+msgid "SourceCopy: RAW Picture copied to %(destinationRawFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:556
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:582
+#, python-format
+msgid ""
+"SourceCopy: Directory %(sourceTmpDirectory)s does not exist, ensure source "
+"exists"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:578
+#, python-format
+msgid "SourceCopy: Sensor file copied to %(destinationSensorFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:601
+#, python-format
+msgid "Removing file: %(tmpJpgFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:607
+#, python-format
+msgid "Removing file: %(tmpRawFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:612
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:618
+#, python-format
+msgid "Removing file: %(currentDeleteFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:623
+msgid "Deleting pictures from archive"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:626
+#, python-format
+msgid "Removing file: %(archiveJpgFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:632
+msgid "DiskManagement: Delete picture from archive: RAW deleted"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:633
+#, python-format
+msgid "Removing file: %(archiveRawFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:643
+#, python-format
+msgid ""
+"System configured to delete picture from:  %(picturesDirectory)s after "
+"%(days)s days"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:654
+#, python-format
+msgid "Directory %(currentScanFile)s is %(timeDifferenceInDays)s days old"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:657
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:663
+#, python-format
+msgid "Deleting Directory %(currentScanFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:674
+#, python-format
+msgid ""
+"Current pictures directory disk size %(picturesDirSize)s MB, max allowed "
+"size is %(maxSize)s MB"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:684
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:690
+#, python-format
+msgid "Deleting Directory %(deleteDirectory)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:706
+#, python-format
+msgid "File: %(filePath)s size is %(fileSize)s bytes"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:709
+#, python-format
+msgid "File does not exist: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:713
+msgid "captureUtils.verifyCapturedFile(): Check File: Successful"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:717
+#, python-format
+msgid ""
+"captureUtils.verifyCapturedFile(): Check File: capture failed, incorrecte "
+"size: %(IncorrectSize)s/%(TargetSize)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:748
+msgid "Stats Program: Communication with central server successful"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:751
+msgid "Stats Program: Unable to communicate with central server"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:763
+#, python-format
+msgid "Using failed capture file: %(failedCaptureSourceFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:768
+#, python-format
+msgid ""
+"Failed capture not found, fallback on English version: "
+"%(failedCaptureSourceFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:774
+#, python-format
+msgid "Copying capture file to: %(failedCaptureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:779
+msgid "Capture Error - "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:784
+msgid "Generating hotlinks"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:788
+#, python-format
+msgid "Removing temporary file: %(failedCaptureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:791
+msgid "Failed hotlink creation disabled"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:800
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureUtils.py:821
+#, python-format
+msgid "Opening file: %(customCounter)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:119
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:170
+msgid "Preparation of an email alert about the error"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:124
+#, python-format
+msgid "Using to find message file: %(emailErrorContent)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:128
+#, python-format
+msgid "Using message subject file: %(emailErrorSubject)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:130
+#, python-format
+msgid "Using message content file: %(emailErrorContent)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:166
+msgid "Email Capture Stats: Email already sent, taking no action"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:175
+#, python-format
+msgid "Using to find message file: %(emailContentFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:180
+#, python-format
+msgid "Using message subject file: %(emailSubjectFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureEmails.py:183
+#, python-format
+msgid "Using message content file: %(emailContentFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:51
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:58
+msgid "Starting the capture process"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:58
+#, python-format
+msgid "Starting capture process, URL: %(URL)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:64
+#, python-format
+msgid "Capture Command: %(captureCommand)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:72
+#, python-format
+msgid "Retrying capture process, URL: %(URL)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureRtsp.py:83
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:105
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:108
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureTestPicture.py:78
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:262
+msgid "Failed to capture from Camera"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCapturePhidget.py:56
+msgid "Start capturing sensor values"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCapturePhidget.py:77
+#, python-format
+msgid "Capturing sensor: %(sensorTypeName)s from port: %(sensorPort)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCapturePhidget.py:82
+#, python-format
+msgid ""
+"Captured value, RAW: %(SensorValue)s Interpreted: %(sensorCalculatedValue)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:63
+msgid "A source cannot capture from itself"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:67
+#, python-format
+msgid "Looking for JPG file into source %(getFromSourceID)s live directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:85
+#, python-format
+msgid ""
+"Copying file last-capture.jpg  from %(sourceLiveDirectory)s to %(Cfgtmpdir)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:92
+#, python-format
+msgid ""
+"Copying file last-capture.raw  from %(sourceLiveDirectory)s to %(Cfgtmpdir)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:99
+#, python-format
+msgid ""
+"Raw processing is either disabled or last-capture.raw to not exist in "
+"%(sourceLiveDirectory)s live directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:113
+#, python-format
+msgid "File already captured: %(captureFilename)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:118
+#, python-format
+msgid ""
+"Error: last-capture.jpg file is missing in %(sourceLiveDirectory)s directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWpak.py:122
+#, python-format
+msgid "Source %(getFromSourceID)s is not a valid source"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:68
+#, python-format
+msgid "Starting the capture process, URL: %(remoteURL)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:78
+#, python-format
+msgid "Url contains username and password, Username is: %(urlusername)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:81
+msgid "Url does not contain username and password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:94
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:102
+msgid "Error opening the URL"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureWebfile.py:95
+msgid "Check your username and password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureTestPicture.py:56
+msgid "Start picture acquisition"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureTestPicture.py:63
+msgid "Copy test file to temporary directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureTestPicture.py:66
+#, python-format
+msgid "Temporary capture file: %(tempCaptureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureTestPicture.py:70
+msgid ""
+"Applying random blur effect (just to be able to see the difference from one "
+"picture to another)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:50
+msgid "captureGphoto.scanPorts(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:57
+msgid "captureGphoto.scanPorts(): Gphoto busy"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:65
+msgid "captureGphoto.getCameraOwner(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:92
+msgid "Capture previously failed, checking USB port of the camera"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:102
+#, python-format
+msgid "USB Port: %(USBPort)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:105
+#, python-format
+msgid "Camera: %(USBCamera)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:108
+#, python-format
+msgid "Camera in config file: %(USBCameraConfig)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:111
+#, python-format
+msgid "USB Port configured: %(USBPortConfigured)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:115
+#, python-format
+msgid "USB Port detected: %(USBPordDetected)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:119
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:146
+msgid "Modification of the configuration file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:122
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:149
+#, python-format
+msgid "New USB Port configured: %(USBPortConfigured)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:127
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:154
+msgid "Unable to modify the configuration file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:129
+msgid "Unknown camera"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:133
+#, python-format
+msgid ""
+"Configured camera: Port: %(USBPortConfigured)s, Owner: %(OwnerConfigured)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:138
+#, python-format
+msgid ""
+"Detected Camera: Port: %(USBPortConfigured)s, Owner: %(OwnerConfigured)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:143
+msgid "Camera owner identified"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:156
+msgid "Call to Gphoto failed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:159
+msgid "captureGphoto.appendCameraPort(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:164
+#, python-format
+msgid "captureGphoto.capture(): Gphoto: Precision camera port: %(CameraPort)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:172
+msgid "captureGphoto.appendDebugMode(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:176
+msgid "captureGphoto.capture(): Gphoto: Debug mode activation"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:199
+msgid "captureGphoto.triggerCapture(): Gphoto: Start Capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:211
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Renaming raw picture from .JPG to ."
+"jpg"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:217
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Renaming raw picture from .CR2 to ."
+"raw"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:222
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Renaming raw picture from .cr2 to ."
+"raw"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:227
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Renaming raw picture from .nef to ."
+"raw"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:232
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Renaming raw picture from .nrw to ."
+"raw"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:239
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: Raw file not allowed, deleting file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:246
+msgid ""
+"captureGphoto.triggerCapture(): Gphoto: No jpg file captured, converting raw "
+"file to jpg"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:255
+msgid "captureGphoto.triggerCapture(): Gphoto: Conversion to jpg completed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:274
+msgid "Initiating capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:277
+msgid "Capture successful"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:279
+msgid "Capture failed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureGphoto.py:285
+msgid "Proceeding with a Phidget restart of the camera (powercycle)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:63
+msgid "captureIPCam.GetExifDate(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:83
+msgid "Start Capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:85
+#, python-format
+msgid "Processing: %(filePath)s, size %(fileSize)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:91
+msgid "File is a picture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:97
+msgid ""
+"Determining picture date based on webcampak name template (YYYYMMDDHHMMSS."
+"jpg)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:100
+msgid "Determining picture date based on harbortonics naming convention"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:103
+msgid "Determining picture date based on EXIF details"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:106
+msgid "Determining picture date based on filesystem date"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:111
+msgid ""
+"Unable to get date based on configured method , looking into EXIF details"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:115
+msgid ""
+"Unable to get date based on configured method , looking into filesystem date"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:118
+msgid "Unable to get date, cancelling processing"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:126
+msgid "Moving file to root of /tmp directory for consistent processing"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:134
+#, python-format
+msgid "captureIPCam.processFile(): Processing a sensor file: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:140
+#, python-format
+msgid "Sensor file copied to %(destinationSensorFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:142
+#, python-format
+msgid ""
+"captureIPCam.processFile(): %(filePath)s is not a picture or is too small"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:150
+msgid "captureIPCam.capture(): Start Capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:151
+#, python-format
+msgid "Entering the process, template: %(Template)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:157
+#, python-format
+msgid "Processing: %(firstLevelScanFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:160
+#, python-format
+msgid "%(firstLevelScanFile)s is a directory, scanning"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:164
+#, python-format
+msgid "Processing %(secondLevelScanFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/drivers/wpakCaptureIPCam.py:171
+#, python-format
+msgid "%(firstLevelScanFile)s is a file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:88
+#, python-format
+msgid "Capture file set to: %(captureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:112
+#, python-format
+msgid "Last capture time: %(lastCaptureTime)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:132
+#, python-format
+msgid "Successfully saved last capture file to: %(captureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:136
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:148
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:107
+msgid "Error saving last capture file"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakCaptureObj.py:144
+#, python-format
+msgid "Successfully archived capture file to: %(captureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/capture/wpakSensorsObj.py:103
+#, python-format
+msgid "Successfully archived sensor file to: %(captureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:88
+#, python-format
+msgid "File appears corrupted: %(jsonFile)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:130
+#, python-format
+msgid "Log Message: %(msg)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:152
+#, python-format
+msgid ""
+"Thread file: %(currentFilename)s does not have a thread directory, deleting "
+"JSON file ..."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:218
+#, python-format
+msgid "Process is running: %(pid)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:221
+#, python-format
+msgid "Process does not exist: %(pid)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:235
+#, python-format
+msgid "Process has been killed: %(pid)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferUtils.py:238
+#, python-format
+msgid "Process did not exist: %(pid)s "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:86
+msgid "No translation file available"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:94
+msgid "Creating Local FTP Accounts"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:95
+msgid "Deleting previous temporary users file (if any)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:110
+#, python-format
+msgid "Identified configuration file: %(scanfile)s Source ID: %(sourceid)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:114
+#, python-format
+msgid ""
+"There was no VSFTPD configuration file for source: %(sourceid)s, creating .."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:129
+#, python-format
+msgid ""
+"Opening configuration file %(scanfile)s for source: %(sourceid)s, creating .."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:135
+#, python-format
+msgid "Making directory not writable %(directory)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:138
+#, python-format
+msgid "Modifying file permission: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:159
+msgid "Creation of the users database"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSystemFtpAccounts.py:164
+#, python-format
+msgid "Creation of the database: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgetsUtils.py:40
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgetsUtils.py:46
+#, python-format
+msgid "Phidget port set to:  %(outputValue)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgetsUtils.py:43
+msgid "Error Unable to set port to 0"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgetsUtils.py:49
+msgid "Error Unable to set port to 1"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:38
+msgid "Create an InterfaceKit object"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:42
+#, python-format
+msgid "Unable to create (code %(Code)i, %(Details)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:47
+msgid "Open Phidget using InterfaceKit"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:52
+#, python-format
+msgid "Unable to open InterfaceKit (code %(Code)i, %(Details)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:57
+msgid "Close Phidget using InterfaceKit"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:62
+#, python-format
+msgid "Unable to close InterfaceKit (code %(Code)i, %(Details)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:67
+msgid "Attaching Phidget Kit"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:73
+#, python-format
+msgid "Unable to connect to InterfaceKit (code %(Code)i, %(Details)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:84
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:97
+#, python-format
+msgid "Unable to connect to obtain sensor value (code %(Code)i, %(Details)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:101
+#, python-format
+msgid "Sensor Value: %(inputlevel)d)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:107
+#, python-format
+msgid "Set Output Port: %(outputPort)i To: %(outputValue)i "
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:115
+msgid "Unable to connect to set output value"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:121
+msgid "Unable to get value from output port"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPhidgets.py:124
+#, python-format
+msgid "Sensor Value: %(currentOutputPort)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakXferDispatch.py:363
+#, python-format
+msgid "File was likely removed during processing: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:45
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:52
+#, python-format
+msgid "FilePath: %(path)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:76
+#, python-format
+msgid "Resized picture to %(pictureSize)s in %(timer)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:79
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:106
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:129
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:150
+msgid "Error: Convert binary (ImageMagick) not found"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:102
+#, python-format
+msgid ""
+"Cropped zone size: %(Width)sx%(Height)s Position: x: %(XPos)s y: %(YPos)s in "
+"%(timer)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:125
+#, python-format
+msgid "Rotated picture by %(rotateAngle)s degrees in %(timer)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:140
+msgid "pictureTransformations.Border(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:144
+#, python-format
+msgid "Color: %(Color)s Width: %(BorderWidth)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:173
+#, python-format
+msgid ""
+"Added watermark file %(Watermarkfile)s at position: x: %(XPos)s y: %(YPos)s "
+"Transparency: %(Dissolve)s percent in %(timer)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:178
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:212
+msgid "Error: Composite binary (ImageMagick) not found"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:208
+#, python-format
+msgid ""
+"Added text to the picture: %(Text)s Font: %(Cfgimgtextfont)s Gravity: "
+"%(Cfgimgtextgravity)s in %(timer)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:223
+#, python-format
+msgid "Running command to generate pencil tile: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:229
+#, python-format
+msgid "Running command to creaste sketch: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:239
+msgid "pictureTransformations.TiltShift(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:242
+#, python-format
+msgid "Running command to create tiltshift effect: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:252
+msgid "pictureTransformations.Charcoal(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:255
+#, python-format
+msgid "Running command to create charcoal effect: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:265
+msgid "pictureTransformations.ColorIn(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:268
+#, python-format
+msgid "Running command to create color-in effect: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:278
+msgid "pictureTransformations.VirtualPixel(): Start"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:279
+#, python-format
+msgid ""
+"pictureTransformations.VirtualPixel(): Applying a spread of: "
+"%(PixelsSpread)s pixels"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakPictureTransformations.py:283
+#, python-format
+msgid "pictureTransformations.VirtualPixel(): Running Command: %(Command)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:60
+msgid "Transferring file through XFer mechanism"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:68
+#, python-format
+msgid "Job Directory: %(xferJobDirectory)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:70
+#, python-format
+msgid "Job Filename: %(xferJobFileName)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:74
+#, python-format
+msgid "FTP Server Hash: %(xferFtpServerHash)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:94
+#, python-format
+msgid "Saving Job file to: %(newXferJobFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:99
+msgid "Transferring file through direct FTP"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:107
+#, python-format
+msgid "Transferring file through direct FTP, local file: %(sourceFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:110
+#, python-format
+msgid ""
+"Transferring file through direct FTP, remote file: %(destinationFilePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTransferUtils.py:116
+msgid "Unable to establish connection with the remote FTP server"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:40
+#, python-format
+msgid "Setting default filename to: %(emailObjFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:243
+#, python-format
+msgid "Email Object file set to: %(emailObjFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:264
+#, python-format
+msgid "Successfully added email to queue, file: %(emailObjFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakEmailObj.py:268
+msgid "Error adding email to queue"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:134
+#, python-format
+msgid "Initiate RRD Graph creation for source: %(currentSourceId)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:146
+#, python-format
+msgid "Processing: %(currentCaptureFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:154
+#, python-format
+msgid "Capture interval: %(captureInterval)s seconds"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:162
+#, python-format
+msgid "Currently processing Sensor: %(currentSensor)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:189
+#, python-format
+msgid "Preparing the RRD base file: %(SensorRRDFile)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:206
+#, python-format
+msgid "Adding Timestamp: %(currentTimestamp)s - Value: %(currentValue)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:229
+#, python-format
+msgid "PNG Graph created: %(pnggraph)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakStatsRrd.py:244
+#, python-format
+msgid "Creation of the RRD Graph disabled for source: %(currentSourceId)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSourcesUtils.py:48
+#, python-format
+msgid "Source: %(currentSource)s is active."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakSourcesUtils.py:52
+#, python-format
+msgid "Source: %(currentSource)s is inactive."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:157
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:196
+#, python-format
+msgid "Script Start Time set to: %(scriptStartTime)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:211
+msgid "Video creation is currently not allowed for the source"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:213
+msgid "Video creation allowed, starting the process"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:232
+msgid "---------------------------------------------------------------------------------"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:267
+#, python-format
+msgid "Video: %(VideoType)s: Picture format incorrect, deleting ...."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:276
+msgid "All pictures have been copied to target directory"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:280
+#, python-format
+msgid "Starting to process video format: %(videoformats)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:289
+#, python-format
+msgid "Processing completed for: %(TargetVideoFilename)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:304
+#, python-format
+msgid "Error for creating video for format: %(videoformats)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:311
+msgid "Video processing completed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:313
+msgid "No files available for processing, exiting"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:317
+#, python-format
+msgid "Video: Overall processing time: %(TotalCaptureTime)s ms"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakVideo.py:323
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:463
+msgid "-----------------------------------------------------------------------"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:55
+#, python-format
+msgid "Source Timezone is: %(sourceTimezone)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:60
+#, python-format
+msgid "Current source time: %(cfgnowsource)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:68
+#, python-format
+msgid "Extract time from: %(fileName)s using format %(dateFormat)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:76
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:111
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:132
+#, python-format
+msgid "Source timezone is: %(sourceTimezone)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:82
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:117
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:137
+#, python-format
+msgid "Picture date is: %(picDate)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:92
+#, python-format
+msgid "Extract EXIF time from: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:96
+#, python-format
+msgid "Failed to open %(filePath)s as a picture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakTimeUtils.py:126
+#, python-format
+msgid "Extract time from: %(filePath)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:113
+msgid "Set Capture Time to script start time (default at script startup)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:119
+msgid "Create Capture Status object and set script start date"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:124
+msgid "Load previous Capture Status Object (if available)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:134
+#, python-format
+msgid "Initializing the following capture driver: %(captureDriver)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:220
+#, python-format
+msgid "Capture Time set to: %(captureTime)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:229
+#, python-format
+msgid "Initiate capture process for source: %(currentSourceId)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:234
+#, python-format
+msgid "Delaying capture by %(CaptureDelay)s seconds."
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:241
+msgid "Capture manually disabled via administration panel"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:243
+msgid "Source is not active, not proceeding with capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:245
+msgid "Capture calendar is active but capture not in the correct timeframe"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:247
+msgid "Not enough time since last picture was captured, not proceeding"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:258
+#, python-format
+msgid "Begin processing of picture: %(currentPicture)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:328
+#, python-format
+msgid ""
+"Process found that previous capture(s) failed, error count: "
+"%(currentErrorCount)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:335
+msgid "Preparation of an email to inform that the system is back"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:339
+#, python-format
+msgid ""
+"Not enough capture errors to trigger an action. Threshold: "
+"%(currentErrorThreshold)s errors"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:343
+msgid "Deleting 'errorcount' file for source (to reset error counter)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:354
+msgid "Capture process completed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:357
+msgid "Unable to capture picture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:361
+#, python-format
+msgid "Previous Error Count was: %(previousErrorCount)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:373
+#, python-format
+msgid "Last Successful capture took place at: %(lastSuccessCapture)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:380
+#, python-format
+msgid ""
+"Error counter is: %(currentEmailCounter)s (Total: %(currentErrorCount)s), "
+"sending a reminder (= %(cfgemailalertreminder)s)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:388
+#, python-format
+msgid ""
+"Error email already sent, error counter since last email: "
+"%(currentEmailCounter)s, next email at: %(cfgemailalertreminder)s"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/cli/webcampak/core/wpakCapture.py:450
+#, python-format
+msgid "Capture: Overall capture time: %(TotalCaptureTime)s ms"
+msgstr ""
