@@ -51,7 +51,7 @@ sudo apt-get install --assume-yes mpgtx mencoder x264 libav-tools atomicparsley 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
 sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Misc and utilities\e[0m"
-sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util pwgen
+sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util pwgen gettext npm
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak GIT: Cloning GIT repository\e[0m"
@@ -153,8 +153,6 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Apache: Re-starting apache ...\e[0m"
 sudo service apache2 start
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Apache: Configuration completed\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
-
-chmod 0500 /home/${sysusername}/webcampak/resources
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Vsftpd: Configuration of vsftpd\e[0m"
 sudo mkdir /etc/vsftpd
