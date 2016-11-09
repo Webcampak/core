@@ -1,0 +1,10 @@
+Hello,
+
+You are receiving this email because your Webcampak finished processing of post-prod images.
+
+Those images are available in either:
+ - /pictures/process-videopost/ directory of the source
+ - /pictures/ direcotry of the destination source if you requested those pictures to be copied.
+
+Thanks,
+Your Webcampak
