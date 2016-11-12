@@ -36,6 +36,11 @@ parameters:
     dir_xfer_failed:        'failed/'
     
 
+    app_core:        '/home/webcampak/webcampak/'
+    app_cli:        '/home/webcampak/webcampak/apps/cli/'
+    app_api:        '/home/webcampak/webcampak/apps/api/'
+    app_ui:        '/home/webcampak/webcampak/apps/ui/'
+
 doctrine:
     dbal:
         path: "/home/webcampak/webcampak/resources/database/webcampak.db"
