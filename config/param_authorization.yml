@@ -1,0 +1,64 @@
+parameters:
+    # Applications available within Webcampak, used during DB Init
+    applications:
+     - WEB_DSP_PICTURES:
+        name: Pictures
+        description: Used to view pictures
+     - WEB_DSP_VIDEOS:
+        name: Videos
+        description: Used to view videos
+     - WEB_DSP_LOGS:
+        name: Logs
+        description: Used to view capture logs
+     - WEB_DSP_SYNCREPORTS:
+        name: Sync Reports
+        description: Used to view and add FTP Sync Reports
+     - WEB_DSP_XFERREPORTS:
+        name: XFer Reports
+        description: Used to view and add Xfer Reports
+     - WEB_DSP_DEVICES:
+        name: Connected Devices
+        description: Used to view connected devices
+     - WEB_DSP_STATS_SYSTEM:
+        name: System Statistics
+        description: Used to view system statistics
+     - WEB_DSP_STATS_SOURCES:
+        name: Sources Statistics
+        description: Used to view sources statistics
+     - WEB_CFG_SOURCES:
+        name: Sources Configuration
+        description: Users to configure sources
+     - WEB_CFG_SYSTEM:
+        name: System Configuration
+        description: Used to configure system
+     - WEB_CFG_ACCESSCONTROL:
+        name: Access Control
+        description: Used to configure access control
+     - WEB_CFG_ALERTS:
+        name: Alerts
+        description: Configure email alerts related to source capture
+     - WEB_RAW_LOGS:
+        name: Logs
+        description: Allow user to access all system logs directly from the browser
+
+    # Permissions available within Webcampak
+    permissions:
+     - SOURCES_CONFIGURATION_EXPERT: All configuration settings available in expert configuration mode. Includes ADVANCED and SIMPLE
+     - SOURCES_CONFIGURATION_ADVANCED: All configuration settings available in advanced configuration mode. Includes SIMPLE
+     - SOURCES_CONFIGURATION_SIMPLE: All configuration settings available in simple configuration mode
+
+    # All groups created by default during Webcampak init
+    groups:
+     - View:
+        description: Access source-specific details to view content (only)
+        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_STATS_SOURCES]
+        permissions: []
+     - Configure:
+        description: Access source-specific details to view content and configure sources
+        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES]
+        permissions: [SOURCES_CONFIGURATION_ADVANCED, SOURCES_CONFIGURATION_SIMPLE]
+     - Admin:
+        description: Access everything
+        applications: [WEB_DSP_PICTURES, WEB_DSP_VIDEOS, WEB_DSP_LOGS, WEB_DSP_SYNCREPORTS, WEB_DSP_XFERREPORTS, WEB_DSP_DEVICES, WEB_DSP_STATS_SYSTEM, WEB_DSP_STATS_SOURCES, WEB_CFG_SOURCES, WEB_CFG_SYSTEM, WEB_CFG_ACCESSCONTROL, WEB_CFG_ALERTS, WEB_RAW_LOG]
+        permissions: [SOURCES_CONFIGURATION_EXPERT, SOURCES_CONFIGURATION_ADVANCED, SOURCES_CONFIGURATION_SIMPLE]
+

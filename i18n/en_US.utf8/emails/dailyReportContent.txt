@@ -1,0 +1,12 @@
+Hello,
+
+This the capture report email for all your sources.
+
+#REPORTBODY#
+
+You currently have access to the following sources:
+#REPORTSOURCES#
+
+Your Webcampak.
+
+PS: Contact your webcampak administrator if you want to update your email subscriptions.

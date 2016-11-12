@@ -1,0 +1,17 @@
+Hello,
+
+Your Webcampak has not been able to capture or process a picture for #TIMESINCELASTCAPTURE# minutes.
+
+The system is configured to trigger an alarm if no new pictures have been processed for more than #SENDALERTAFTER# minutes.
+
+A reminder email will be sent every #SENDREMINDERAFTER# minutes until the incident is resolved or the alert disabled.
+
+Source Name: #SOURCENAME#
+Source ID: #SOURCEID#
+Last successful capture: #LASTSUCCESSFULCAPTUREDATE#
+Time since last capture: #TIMESINCELASTCAPTURE#
+Current server time: #CURRENTSERVERTIME#
+
+Thanks,
+Your Webcampak 
+

@@ -1,0 +1,360 @@
+{
+    "name": "config-source"
+    , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+    , "sections": [
+        {
+            "name": "source"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgsourceactive",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE",    "description": "Activation of the source, possible values: yes or no"}
+                , {"name": "cfgsourcetype",             "default": "testpicture",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Type of the source, possible values: gphoto, webcam, ipcam, rtsp, webfile, wpak"}
+                , {"name": "cfgsourcedebug",            "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Turn on detailed debugging, possible values: yes or no"}
+                , {"name": "cfgprocessraw",             "default": "yes",          "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Turn on RAW processing, otherwise discarded"}
+                , {"name": "cfgdebugprolong",           "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Do not delete log files automatically, possible values: yes or no - deprecated"}
+                , {"name": "cfgnocapture",              "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Block automated capture, possible values: yes or no"}
+                , {"name": "cfgenablexfer",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Enable XFer transfer mode instead of direct FTP"}
+                , {"name": "cfgminimumcapturevalue",    "default": "3",            "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Minimum capture interval - Number"}
+                , {"name": "cfgminimumcaptureinterval", "default": "seconds",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Minimum capture interval, possible values: minutes, seconds"}
+                , {"name": "cfgcapturedelay",           "default": "0",            "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Time to wait before capturing"}
+                , {"name": "cfgcapturedelaydate",       "default": "capture",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Use capture time or use script start time, possible values: capture or script"}
+                , {"name": "cfgcapturedelayinterval",   "default": "seconds",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Capture delay interval in minutes or seconds"}
+                , {"name": "cfgcapturetimezone",        "default": "Europe/Paris", "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Timezone used on the system"}
+                , {"name": "cfgsourcelanguage",         "default": "fr_FR.utf8",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Language used on the system"}
+            ]
+        }, {
+            "name": "cron"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcroncapturevalue",         "default": "5",        "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Capture interval"}
+                , {"name": "cfgcroncaptureinterval",    "default": "minutes",  "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Capture, possible values: minutes, seconds"}
+                , {"name": "cfgcroncalendar",           "default": "no",       "type": "yesno",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate time / day restrictions, if disabled, capture will be 24 / 7"}
+                , {"name": "cfgcronday1",               "default": null,       "type": "list",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Monday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Monday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday2",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Tuesday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Tuesday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday3",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Wednsesday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Wednsesday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday4",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Thursday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Thursday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday5",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Friday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Friday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday6",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Saturday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Saturday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcronday7",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure capture for Sunday"
+                    , "values": [
+                        {"name": "enableDisable",   "default": "yes", "type": "yesno",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable capture on Sunday"}
+                        , {"name": "startHour",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Hour"}
+                        , {"name": "startMinute",   "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start Minute"}
+                        , {"name": "endHour",       "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Hour"}
+                        , {"name": "endMinute",     "default": "00",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End Minute"}
+                    ]
+                }
+                , {"name": "cfgcrondailyhour",       "default": "1",        "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start daily video creation - Hour"}
+                , {"name": "cfgcrondailyminute",     "default": "0",        "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start daily video creation - Minute"}
+                , {"name": "cfgcroncustomvalue",     "default": "2",        "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Custom video creation interval"}
+                , {"name": "cfgcroncustominterval",  "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Custom video creation interval"}
+            ]
+        }, {
+            "name": "motion"
+            , "permission": "SOURCES_CONFIGURATION_EXPERT"
+            , "parameters": [
+                {"name": "cfgmotiondetectionactivate",           "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Activate motion detection"}
+                , {"name": "cfgmotiondetectioncapturevalue",     "default": "5",        "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection capture interval"}
+                , {"name": "cfgmotiondetectioncaptureinterval",  "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection Capture, possible values: minutes, seconds"}
+                , {"name": "cfgmotiondetectiononly",             "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture only in case of motion detection"}
+                , {"name": "cfgmotiondetectiondevice",           "default": "video0",   "type": "alphanum", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection V4L device - USB Webcam"}
+                , {"name": "cfgmotiondetectiondevicewidth",      "default": "1280",     "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam Width - width 1280"}
+                , {"name": "cfgmotiondetectiondeviceheight",     "default": "1024",     "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam Height - height 1024"}
+                , {"name": "cfgmotiondetectionthreshold",        "default": "15000",    "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Number of pixels changes to consider variation - threshold 15000"}
+                , {"name": "cfgmotiondetectionendevent",         "default": "60",       "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Wait xx seconds after last move before getting a new event, 0 means continuous capture - gap 60"}
+                , {"name": "cfgmotiondetectionmask",             "default": "no",       "type": "complex",  "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "PGM mask file that will be used to lock capture in certain areas."}
+            ]
+        }, {
+            "name": "gphoto"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgsourcegphotocameramodel"          ,"default": "Camera Model", "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera model as detected by gphoto2, only necessary in multi-camera environment"}
+                , {"name": "cfgsourcegphotocameraportdetail"    ,"default": "usb:001,001",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera USB port, only necessary in multi-camera environment"}
+                , {"name": "cfgsourcegphotocalibration"         ,"default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Apply specific settings to the camera as configured in the calibration page - experimental, may not be stable."}
+                , {"name": "cfgsourcegphotoowner"               ,"default": "",             "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera owner, only necessary in multi-camera environment"}
+                , {"name": "cfgsourcegphotohdractivate"         ,"default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Activate HDR captures, highly experimental, will take three shots in a row"}
+                , {"name": "cfgsourcegphotohdrexposureconfig"   ,"default": "/main/capturesettings/exposurecompensation", "type": "complex", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Camera parameter to activate gphoto2 - experimental"}
+                , {"name": "cfgsourcegphotohdrexposurelow"      ,"default": "0",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with low exposition - experimental"}
+                , {"name": "cfgsourcegphotohdrexposuremedium"   ,"default": "6",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with medium exposition - experimental"}
+                , {"name": "cfgsourcegphotohdrexposurehigh"     ,"default": "12",           "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with high exposition - experimental"}
+            ]
+        }, {
+            "name": "wpak-source"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgsourcewpaktype"            ,"default": "get", "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Specify type, can be 'get' when getting a picture from another source or 'rec' when receiving a picture from another source"}
+                , {"name": "cfgsourcewpakgetsourceid"   ,"default": "",    "type": "int",       "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Specify from which source picture should be copied - get"}
+            ]
+        }, {
+            "name": "webcam"
+            , "permission": "SOURCES_CONFIGURATION_EXPERT"
+            , "parameters": [
+                {"name": "cfgsourcewebcamsize"          ,"default": "1280x1024", "type": "complex", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Native resolution of the webcam"}
+                , {"name": "cfgsourcewebcamcamid"       ,"default": "disabled", "type": "complex",  "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Picture compression - 100: best"}
+                , {"name": "cfgsourcewebcambright"      ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam video device"}
+                , {"name": "cfgsourcewebcamcontrast"    ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Brightness - value in %"}
+                , {"name": "cfgsourcewebcamsaturation"  ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Contrast - value in %"}
+                , {"name": "cfgsourcewebcamgain"        ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Color - value in %"}
+            ]
+        }, {
+            "name": "ipcam"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgsourcecamiptemplate"           ,"default": "filedate", "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "IPCAM file template: filedate - using file upload date, webcampak - using webcampak date naming"}
+                , {"name": "cfgsourcecamiplimiterotation"   ,"default": "yes",      "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Restrict FTP upload to one picture per rotation"}
+                , {"name": "cfgsourcecamiphotlinkerror"     ,"default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Create hotlink error if no pictures are found"}
+            ]
+        }, {
+            "name": "webfile"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgsourcewebfileurl"           ,"default": "http://demo:omed@demo.webcampak.com/sources/source3/live/full-webcam.jpg", "type": "complex", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "URL of the remote file - can be a picture of a stream"}
+            ]
+        }, {
+            "name": "errors"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgemailerroractivate"            ,"default": "yes", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email in case of error"}
+                , {"name": "cfgemailcapturestats"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Once a day, send capture stats by email"}
+                , {"name": "cfgemailalertfailure"           ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "The email will be sent after X failures"}
+                , {"name": "cfgemailalertreminder"          ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Send a reminder every X failures after first alert failure"}
+                , {"name": "cfgemailalwaysnotify"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Always notify user when source is back online"}
+                , {"name": "cfgemaildirectalert"            ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident as the system tries to capture"}
+                , {"name": "cfgemailschedulealert"          ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident based on configured alert schedule"}
+                , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}
+                , {"name": "cfgphidgeterroractivate"        ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Restart the camera in case of error"}
+                , {"name": "cfgphidgetfailure"              ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "The camera will be restarted after X failures"}
+            ]
+        }, {
+            "name": "phidget"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgphidgetcameraport"     ,"default": "5"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Port used for power switch"}
+                , {"name": "cfgphidgetsensornb"     ,"default": "4"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Number of Phidget sensors that could be supported by the source"}
+                , {"name": "cfgphidgetactivate"     ,"default": "no"    ,"type": "yesno",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Enable sensor collection or not"}
+                , {"name": "cfgphidgetsensor1"      ,"default": null    ,"type": "list",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 1"
+                    , "values": [
+                        {"name": "phidgetSensor",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor template"}
+                        , {"name": "sensor",        "default": "",                  "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor port"}
+                        , {"name": "displayName",   "default": "Temperature","type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display name"}
+                        , {"name": "displayColor",  "default": "FF0000",            "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display color"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor2",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 2"
+                    , "values": [
+                        {"name": "phidgetSensor",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor template"}
+                        , {"name": "sensor",        "default": "",                  "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor port"}
+                        , {"name": "displayName",   "default": "Pressure",    "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display name"}
+                        , {"name": "displayColor",  "default": "FF0000",            "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display color"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor3",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 3"
+                    , "values": [
+                        {"name": "phidgetSensor",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor template"}
+                        , {"name": "sensor",        "default": "",                  "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor port"}
+                        , {"name": "displayName",   "default": "Humidity",      "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display name"}
+                        , {"name": "displayColor",  "default": "FF0000",            "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display color"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor4",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 3"
+                    , "values": [
+                        {"name": "phidgetSensor",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor template"}
+                        , {"name": "sensor",        "default": "",                  "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget Sensor port"}
+                        , {"name": "displayName",   "default": "",                  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display name"}
+                        , {"name": "displayColor",  "default": "",                  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Display color"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensorinsert1",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 1, insert phidget sensor inside pictur"
+                    , "values": [
+                        {"name": "insertPicture"            ,"default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"             ,"default": "800x250",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert size"}
+                        , {"name": "insertTransparency"     ,"default": "70",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Transparency"}
+                        , {"name": "insertXLocation"        ,"default": "10",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "X Location"}
+                        , {"name": "insertYLocation"        ,"default": "100",      "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensorinsert2",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 2, insert phidget sensor inside pictur"
+                    , "values": [
+                        {"name": "insertPicture"            ,"default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"             ,"default": "800x250",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert size"}
+                        , {"name": "insertTransparency"     ,"default": "70",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Transparency"}
+                        , {"name": "insertXLocation"        ,"default": "10",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "X Location"}
+                        , {"name": "insertYLocation"        ,"default": "100",      "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensorinsert3",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 3, insert phidget sensor inside pictur"
+                    , "values": [
+                        {"name": "insertPicture"            ,"default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"             ,"default": "800x250",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert size"}
+                        , {"name": "insertTransparency"     ,"default": "70",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Transparency"}
+                        , {"name": "insertXLocation"        ,"default": "10",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "X Location"}
+                        , {"name": "insertYLocation"        ,"default": "100",      "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensorinsert4",               "default": null,        "type": "list",     "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 4, insert phidget sensor inside pictur"
+                    , "values": [
+                        {"name": "insertPicture"            ,"default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"             ,"default": "800x250",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Insert size"}
+                        , {"name": "insertTransparency"     ,"default": "70",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Transparency"}
+                        , {"name": "insertXLocation"        ,"default": "10",       "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "X Location"}
+                        , {"name": "insertYLocation"        ,"default": "100",      "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Y Location"}
+                    ]
+                }
+            ]
+        }, {
+            "name": "phidget-display"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgphidgetsensorsgraph" ,"default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Create a graph, possible values: yes or no"}
+            ]
+        }, {
+            "name": "email"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+            ]
+        }, {
+            "name": "ftp-copy"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfglocalftppass"              ,"default": "tmppassword", "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "FTP password to connect to local directory, username is the source number, for example: source1"}
+                , {"name": "cfgftpmainserverid"         ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Main FTP Server to send pictures to"}
+                , {"name": "cfgftpmainserverraw"        ,"default": "no",          "type": "yesno",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Process RAW files"}
+                , {"name": "cfgftpmainserverretry"      ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "In case of transfer failure, the system will try again"}
+                , {"name": "cfgftpsecondserverid"       ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Secondary FTP Server to send pictures to"}
+                , {"name": "cfgftpsecondserverraw"      ,"default": "no",          "type": "yesno",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Process RAW files"}
+                , {"name": "cfgftpsecondserverretry"    ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgftphotlinkserverid"      ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgftphotlinkserverretry"   ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgftpphidgetserverid"      ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgftpphidgetserverretry"   ,"default": "",            "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+            ]
+        }, {
+            "name": "local-copy"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcopymainenable"        ,"default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable picture copy to another internal source"}
+                , {"name": "cfgcopymainsourceid"    ,"default": "",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Sources to copy picture to"}
+                , {"name": "cfgcopymainsourceraw"   ,"default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Include Raw file when copying file"}
+                , {"name": "cfgcopysecondenable"    ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Enable picture copy to another internal source"}
+                , {"name": "cfgcopysecondsourceid"  ,"default": "",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Sources to copy picture to"}
+                , {"name": "cfgcopysecondsourceraw" ,"default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Include Raw file when copying file"}
+            ]
+        }, {
+            "name": "archives"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgdeletelocalpictures"       ,"default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Delete local pictures once process completed, if yes it will not be possible to create videos."}
+                , {"name": "cfgsavepictures"            ,"default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Save pictures into archives"}
+                , {"name": "cfgcaptureminisize"         ,"default": "3000", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Minimum picture size in bytes, below this value pictures will get deleted"}
+                , {"name": "cfgcapturedeleteafterdays"  ,"default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Automatic deletion of files after X days - the whole day gets deleted"}
+                , {"name": "cfgcapturemaxdirsize"       ,"default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Automatically deleted once the whole source directory is bigger than X MB"}
+                , {"name": "cfgarchivesize"             ,"default": "",     "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create hotlink displaying an error message"}
+            ]
+        }, {
+            "name": "crop"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcropactivate"      ,"default": "no",   "type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate picture crop"}
+                , {"name": "cfgcropsizewidth"   ,"default": "1024", "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Width of the area to crop"}
+                , {"name": "cfgcropsizeheight"  ,"default": "768",  "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Height of the area to crop"}
+                , {"name": "cfgcropxpos"        ,"default": "10",   "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Location of the area to crop from top left corner"}
+                , {"name": "cfgcropypos"        ,"default": "10",   "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Location of the area to crop from top left corner"}
+            ]
+        }, {
+            "name": "rotate"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgrotateactivate"  ,"default": "no","type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate rotation"}
+                , {"name": "cfgrotateangle"   ,"default": "3.65", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Rotation angle - for exampke 3.65"}
+            ]
+        }, {
+            "name": "text"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgimagemagicktxt"        ,"default": "no",   "type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Add a text or legend on the picture"}
+                , {"name": "cfgimgtext"             ,"default": "Captured by Webcampak", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend to be added"}
+                , {"name": "cfgimgdateformat"       ,"default": "1", "type": "int","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Select date format no for not date , possible values: 1 to 7"}
+                , {"name": "cfgimgtextsize"         ,"default": "50", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font size"}
+                , {"name": "cfgimgtextgravity"      ,"default": "southwest", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend gravity"}
+                , {"name": "cfgimgtextfont"         ,"default": "Helvetica", "type": "alphanum","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font"}
+                , {"name": "cfgimgtextbasecolor"    ,"default": "black", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow color"}
+                , {"name": "cfgimgtextbaseposition" ,"default": "14,10", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow location from gravity"}
+                , {"name": "cfgimgtextovercolor"    ,"default": "white", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend color"}
+                , {"name": "cfgimgtextoverposition" ,"default": "11,10", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend location from gravity"}
+            ]
+        }, {
+            "name": "hotlink"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfghotlinkmax"            ,"default": "yes",          "type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Leave a full size version of the picture in hotlink directory"}
+                , {"name": "cfghotlinksize1"        ,"default": "1920x1280",    "type": "complex","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Hotlink 1 size - no do disable"}
+                , {"name": "cfghotlinksize2"        ,"default": "1280x720",     "type": "complex","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Hotlink 2 size - no do disable"}
+                , {"name": "cfghotlinksize3"        ,"default": "640x480",      "type": "complex","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Hotlink 3 size - no do disable"}
+                , {"name": "cfghotlinksize4"        ,"default": "",             "type": "complex","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Hotlink 4 size - no do disable"}
+                , {"name": "cfghotlinkerrorcreate"  ,"default": "yes",          "type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create hotlink displaying an error message"}
+
+            ]
+        }, {
+            "name": "watermark"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgpicwatermarkactivate"      ,"default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Insert a watermark in the picture"}
+                , {"name": "cfgpicwatermarkfile"        ,"default": "webcampak-logo.png", "type": "complex","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Filename of the watermark"}
+                , {"name": "cfgpicwatermarkdissolve"    ,"default": "70",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark transparency, possible values: 0 - 100"}
+                , {"name": "cfgpicwatermarkpositionx"   ,"default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark X position"}
+                , {"name": "cfgpicwatermarkpositiony"   ,"default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark Y position"}
+            ]
+        }
+    ]
+}
+
+
+
+

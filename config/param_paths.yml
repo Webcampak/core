@@ -1,0 +1,52 @@
+parameters:
+    # System configuration
+    sys_config: '/home/webcampak/webcampak/config/'
+    sys_username: 'francois'
+
+    # Webcampak directories
+    dir_config:        '/home/webcampak/webcampak/config/'
+    dir_sources:        '/home/webcampak/webcampak/sources/'
+    dir_etc:            '/home/webcampak/webcampak/resources/etc/'
+    dir_watermark:      '/home/webcampak/webcampak/resources/watermark/'
+    dir_init:           '/home/webcampak/webcampak/install/config/'
+    dir_bin:            '/home/webcampak/webcampak/bin/'
+    dir_resources:      '/home/webcampak/webcampak/resources/'
+    dir_cache:          '/home/webcampak/webcampak/resources/cache/'
+    dir_logs:           '/home/webcampak/webcampak/resources/logs/'
+    dir_emails:         '/home/webcampak/webcampak/resources/emails/'
+    dir_sync-reports:   '/home/webcampak/webcampak/resources/sync-reports/'
+    dir_xfer:           '/home/webcampak/webcampak/resources/xfer/'
+    dir_stats:          '/home/webcampak/webcampak/resources/stats/'
+    
+    dir_locale:         '/home/webcampak/webcampak/i18n/'
+    dir_locale_message: 'messages/'
+    dir_locale_emails:  'emails/'
+
+    dir_source_tmp:                 'tmp/'
+    dir_source_pictures:            'pictures/'
+    dir_source_videos:              'videos/'
+    dir_source_live:                'live/'
+    dir_source_watermark:           'resources/watermark/'
+    dir_source_capture:             'resources/capture/'
+    dir_source_resources_videos:    'resources/videos/'
+    dir_source_resources_reports:   'resources/reports/'
+
+    dir_xfer_queue:         'queued/'
+    dir_xfer_threads:       'threads/'
+    dir_xfer_failed:        'failed/'
+    
+
+doctrine:
+    dbal:
+        path: "/home/webcampak/webcampak/resources/database/webcampak.db"
+
+monolog:
+    handlers:
+        main:
+            path:  /home/webcampak/webcampak/resources/logs/symfony/%kernel.environment%.log
+
+
+
+
+
+

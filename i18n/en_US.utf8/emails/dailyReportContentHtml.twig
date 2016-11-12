@@ -1,0 +1,70 @@
+{% import _self as emailTable %}
+{% macro bytesToSize(bytes) %}
+{% spaceless %}
+    {% set kilobyte = 1024 %}
+    {% set megabyte = kilobyte * 1024 %}
+    {% set gigabyte = megabyte * 1024 %}
+    {% set terabyte = gigabyte * 1024 %}
+
+    {% if bytes < kilobyte %}
+        {{ bytes ~ ' B' }}
+    {% elseif bytes < megabyte %}
+        {{ (bytes / kilobyte)|number_format(2, '.') ~ ' KB' }}
+    {% elseif bytes < gigabyte %}
+        {{ (bytes / megabyte)|number_format(2, '.') ~ ' MB' }}
+    {% elseif bytes < terabyte %}
+        {{ (bytes / gigabyte)|number_format(2, '.') ~ ' GB' }}
+    {% else %}
+        {{ (bytes / terabyte)|number_format(2, '.') ~ ' TB' }}
+    {% endif %}
+{% endspaceless %}
+{% endmacro %}
+
+Hello, <br /><br />
+
+This is your daily capture status report. <br /><br />
+
+<table border=1>
+<tr>
+    <td rowspan='2'>ID</td>
+    <td rowspan='2'>Name</td>
+    <td rowspan='2'>Active</td>
+    <td>Schedule</td>
+    <td colspan='3' align="center">JPG</td>
+    <td colspan='3' align="center">RAW</td>
+    <td colspan='3' align="center">Total</td>
+</tr>
+<tr>
+    <td>Count</td>
+    <td>Count</td>
+    <td>Size</td>
+    <td>Score</td>
+    <td>Count</td>
+    <td>Size</td>
+    <td>Score</td>
+    <td>Count</td>
+    <td>Size</td>
+    <td>Score</td>
+</tr>
+{% for reportItem in emailReportArray %}
+    <tr>
+        <td>{{ reportItem.sourceId }}</td>
+        <td>{{ reportItem.sourceName }}</td>
+        <td>{{ reportItem.active }}</td>
+        <td>{{ reportItem.schedule.overall.plannedSlots }}</td>
+        <td>{{ reportItem.jpg.count }}</td>
+        <td>{{ emailTable.bytesToSize(reportItem.jpg.size) }}</td>
+        <td>{{ reportItem.schedule.jpg.successRate }}</td>
+        <td>{{ reportItem.raw.count }}</td>
+        <td>{{ emailTable.bytesToSize(reportItem.raw.size) }}</td>
+        <td>{{ reportItem.schedule.raw.successRate }}</td>
+        <td>{{ reportItem.total.count }}</td>
+        <td>{{ emailTable.bytesToSize(reportItem.total.size) }}</td>
+        <td>{{ reportItem.schedule.overall.score }} %</td>
+    </tr>    
+{% endfor %}     
+</table>
+<br /><br />
+Your Webcampak.
+<br /><br />
+PS: Contact your webcampak administrator if you want to update your email subscriptions.

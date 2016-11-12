@@ -1,0 +1,212 @@
+{
+    "name": "config-source-videocustom"
+    , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+    , "sections": [
+        {
+            "name": "create"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcustomvidname"             , "default": "Source",   "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Custom video name"}
+                , {"name": "cfgcustomstartday"          , "default": "07",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from day"}
+                , {"name": "cfgcustomstartmonth"        , "default": "08",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from month"}
+                , {"name": "cfgcustomstartyear"         , "default": "2010",     "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from year"}
+                , {"name": "cfgcustomstarthour"         , "default": "14",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from hour"}
+                , {"name": "cfgcustomstartminute"       , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from minute"}
+                , {"name": "cfgcustomendday"            , "default": "15",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at day"}
+                , {"name": "cfgcustomendmonth"          , "default": "08",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at month"}
+                , {"name": "cfgcustomendyear"           , "default": "2016",     "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at year"}
+                , {"name": "cfgcustomendhour"           , "default": "13",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at hour"}
+                , {"name": "cfgcustomendminute"         , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at minute"}
+                , {"name": "cfgcustomkeepstarthour"     , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeepstartminute"   , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeependhour"       , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeependminute"     , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomactive"            , "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate custom video creation"}
+                , {"name": "cfgvidminintervalvalue"     , "default": "0",        "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Minimum time between two pictures"}
+                , {"name": "cfgvidmininterval"          , "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Interval of this minimum time, possible values: seconds or minutes"}
+            ]
+        }, {
+            "name": "youtube"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideoyoutubeupload"    , "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Upload video to youtube"}
+                , {"name": "cfgvideoyoutubecategory", "default": "Education",    "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Youtube Category"}
+            ]
+        }, {
+            "name": "audio"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideoaddaudio"     , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Add audio to the video"}
+                , {"name": "cfgvideoaudiofile"  , "default": "",     "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Audio file or playlist to be added"}
+            ]
+        }, {
+            "name": "email"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgemailmovieactivate"     , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send email once video creation is completed"}
+            ]
+        }, {
+            "name": "flicker"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgdeflickeractivate" , "default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate deflicker on the video"}
+                , {"name": "cfgdeflickerdebug"  , "default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "When activated, picture will be split in two displaying portion of the picture next to each other"}
+            ]
+        }, {
+            "name": "watermark"
+            , "parameters": [
+                {"name": "cfgwatermarkactivate"     , "default": "no",  "type": "yesno",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Insert a watermark in the picture"}
+                , {"name": "cfgwatermarkfile"       , "default": "",    "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Filename of the watermark"}
+                , {"name": "cfgwatermarkdissolve"   , "default": "30",  "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark transparency, possible values: 0 - 100"}
+                , {"name": "cfgwatermarkpositionx"  , "default": "200", "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark X position"}
+                , {"name": "cfgwatermarkpositiony"  , "default": "300", "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark Y position"}
+            ]
+        }, {
+            "name": "legend"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideopreimagemagicktxt"          , "default": "no",             "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Add a text or legend on the picture"}
+                , {"name": "cfgvideopreimgtext"               , "default": "Webcampak - ",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "overposition Legend location from gravity"}
+                , {"name": "cfgvideopreimgdateformat"         , "default": "1",              "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Select date format - no for not date"}
+                , {"name": "cfgvideopreimgtextsize"           , "default": "50",             "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font size"}
+                , {"name": "cfgvideopreimgtextgravity"        , "default": "northwest",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend gravity"}
+                , {"name": "cfgvideopreimgtextfont"           , "default": "AvantGarde-Book","type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font"}
+                , {"name": "cfgvideopreimgtextbasecolor"      , "default": "black",          "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow color"}
+                , {"name": "cfgvideopreimgtextbaseposition"   , "default": "14,300",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow location from gravity"}
+                , {"name": "cfgvideopreimgtextovercolor"      , "default": "yellow",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend color"}
+                , {"name": "cfgvideopreimgtextoverposition"   , "default": "11,300",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend location from gravity"}
+            ]
+        }, {
+            "name": "maniplations"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideopreresize"     , "default": "no",        "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Resize picture before processing - useful for large pictures"}
+                , {"name": "cfgvideopreresizeres", "default": "1024x768",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Target resolution of the picture"}
+                , {"name": "cfgvideoeffect"      , "default": "no",        "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Effect to apply on videos"}
+            ]
+        }, {
+            "name": "filter"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgfilteractivate"        , "default": "no",       "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate file comparaison"}
+                , {"name": "cfgfilterwatermarkfile" , "default": "",         "type": "complex", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Filename of the watermark to be applied on images - not mandatory"}
+                , {"name": "cfgfiltervalue"         , "default": "0.12301",  "type": "complex", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Minimum distance between pictures - libpuzzle, if over this value file will be used"}
+            ]
+        }, {
+            "name": "phidget"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgphidgetsensornb" , "default": "4",  "type": "int",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Number of Phidget sensors that could be supported by the source"}
+                , {"name": "cfgphidgetsensor1", "default": null, "type": "list",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure sensor 1"
+                    , "values": [
+                        {"name": "phidgetSensor"        , "default": "",                     "type": "complex",  "description": "Phidget Sensor template"}
+                        , {"name": "displayName"        , "default": "Temperature",   "type": "complex",  "description": "Display name"}
+                        , {"name": "displayColor"       , "default": "FF0000",               "type": "alphanum", "description": "Display color"}
+                        , {"name": "insertPicture"      , "default": "no",       "type": "yesno",    "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"         , "default": "800x250",  "type": "complex",  "description": "Insert size"}
+                        , {"name": "insertTransparency" , "default": "70",       "type": "int",      "description": "Transparency"}
+                        , {"name": "insertXLocation"    , "default": "10",       "type": "int",      "description": "X Location"}
+                        , {"name": "insertYLocation"    , "default": "100",      "type": "int",      "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor2", "default": null, "type": "list",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure sensor 2"
+                    , "values": [
+                        {"name": "phidgetSensor"        , "default": "",                     "type": "complex",  "description": "Phidget Sensor template"}
+                        , {"name": "displayName"        , "default": "Temperature",   "type": "complex",  "description": "Display name"}
+                        , {"name": "displayColor"       , "default": "FF0000",               "type": "alphanum", "description": "Display color"}
+                        , {"name": "insertPicture"      , "default": "no",       "type": "yesno",    "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"         , "default": "800x250",  "type": "complex",  "description": "Insert size"}
+                        , {"name": "insertTransparency" , "default": "70",       "type": "int",      "description": "Transparency"}
+                        , {"name": "insertXLocation"    , "default": "10",       "type": "int",      "description": "X Location"}
+                        , {"name": "insertYLocation"    , "default": "100",      "type": "int",      "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor3", "default": null, "type": "list",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure sensor 3"
+                    , "values": [
+                        {"name": "phidgetSensor"        , "default": "",                     "type": "complex",  "description": "Phidget Sensor template"}
+                        , {"name": "displayName"        , "default": "Temperature",   "type": "complex",  "description": "Display name"}
+                        , {"name": "displayColor"       , "default": "FF0000",               "type": "alphanum", "description": "Display color"}
+                        , {"name": "insertPicture"      , "default": "no",       "type": "yesno",    "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"         , "default": "800x250",  "type": "complex",  "description": "Insert size"}
+                        , {"name": "insertTransparency" , "default": "70",       "type": "int",      "description": "Transparency"}
+                        , {"name": "insertXLocation"    , "default": "10",       "type": "int",      "description": "X Location"}
+                        , {"name": "insertYLocation"    , "default": "100",      "type": "int",      "description": "Y Location"}
+                    ]
+                }
+                , {"name": "cfgphidgetsensor4", "default": null, "type": "list",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Configure sensor 4"
+                    , "values": [
+                        {"name": "phidgetSensor"        , "default": "",                     "type": "complex",  "description": "Phidget Sensor template"}
+                        , {"name": "displayName"        , "default": "Temperature",   "type": "complex",  "description": "Display name"}
+                        , {"name": "displayColor"       , "default": "FF0000",               "type": "alphanum", "description": "Display color"}
+                        , {"name": "insertPicture"      , "default": "no",       "type": "yesno",    "description": "Insert in picture, possible values: yes or no"}
+                        , {"name": "insertSize"         , "default": "800x250",  "type": "complex",  "description": "Insert size"}
+                        , {"name": "insertTransparency" , "default": "70",       "type": "int",      "description": "Transparency"}
+                        , {"name": "insertXLocation"    , "default": "10",       "type": "int",      "description": "X Location"}
+                        , {"name": "insertYLocation"    , "default": "100",      "type": "int",      "description": "Y Location"}
+                    ]
+                }
+            ]
+        }, {
+            "name": "video"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideocodecH2641080pcreate"         , "default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "flv"}
+                , {"name": "cfgvideocodecH2641080pcreateflv"    , "default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pfps"          , "default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pwidth"        , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pheight"       , "default": "-3",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Pour mise a l echelle en 1080p use -3"}
+                , {"name": "cfgvideocodecH2641080pbitrate"      , "default": "10000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pcropwidth"    , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pcropheight"   , "default": "1080", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pcropx"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pcropy"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pcrop"         , "default": "180",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080p2pass"        , "default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH2641080pminsize"      , "default": "12000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcreate"        , "default": "no",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "flv"}
+                , {"name": "cfgvideocodecH264720pcreateflv"    , "default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pfps"          , "default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pwidth"        , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pheight"       , "default": "-3",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Pour mise a l echelle en 720p use -3"}
+                , {"name": "cfgvideocodecH264720pbitrate"      , "default": "10000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcropwidth"    , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcropheight"   , "default": "1080", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcropx"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcropy"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pcrop"         , "default": "180",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720p2pass"        , "default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264720pminsize"      , "default": "12000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcreate"       , "default": "no",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "flv"}
+                , {"name": "cfgvideocodecH264480pcreateflv"    , "default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pfps"          , "default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pwidth"        , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pheight"       , "default": "-3",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Pour mise a l echelle en 480p use -3"}
+                , {"name": "cfgvideocodecH264480pbitrate"      , "default": "10000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcropwidth"    , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcropheight"   , "default": "1080", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcropx"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcropy"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pcrop"         , "default": "180",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480p2pass"        , "default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264480pminsize"      , "default": "12000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcreate"       , "default": "no",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "flv"}
+                , {"name": "cfgvideocodecH264customcreateflv"    , "default": "yes",  "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customfps"          , "default": "10",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customwidth"        , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customheight"       , "default": "-3",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Pour mise a l echelle en custom use -3"}
+                , {"name": "cfgvideocodecH264custombitrate"      , "default": "10000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcropwidth"    , "default": "1920", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcropheight"   , "default": "1080", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcropx"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcropy"        , "default": "0",    "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customcrop"         , "default": "180",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264custom2pass"        , "default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgvideocodecH264customminsize"      , "default": "12000","type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+            ]
+        }
+    ]
+}
+
+
+
+

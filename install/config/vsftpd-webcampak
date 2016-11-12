@@ -1,0 +1,22 @@
+local_root=/home/tmpusername/webcampak/resources/
+## l'utilisateur est enfermé dans un dossier déterminé
+
+## droit de lecture(download)
+anon_world_readable_only=NO
+
+## droit d'écriture(upload)
+write_enable=YES
+anon_upload_enable=YES
+
+## créer des dossiers
+anon_mkdir_write_enable=YES
+
+## droit de renommer, supprimer...
+anon_other_write_enable=YES
+
+## pour gérer le chmod de l'utilisateur
+## activer l'option
+virtual_use_local_privs=YES
+## définir l'option local_umask
+local_umask=022
+anon_umask=022

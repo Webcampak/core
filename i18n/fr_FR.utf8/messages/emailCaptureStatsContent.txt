@@ -1,0 +1,18 @@
+Bonjour,
+
+Voici les statistiques de capture de la source #CURRENTSOURCE#.
+
+Acquisition d'image: #CAPTURESUCCESS#/#CAPTUREREQUEST# 
+Envoi FTP (Primaire): #MAINFTPSUCCESS#/#MAINFTPREQUEST# 
+Envoi FTP (Secondaire): #SECONDFTPSUCCESS#/#SECONDFTPREQUEST# 
+Envoi FTP (Hotlink): #HOTLINKFTPSUCCESS#/#HOTLINKFTPREQUEST# 
+
+Dernière capture: #LASTCAPTURE#
+
+Vous trouverez en pièce jointe un fichier contenant l'ensemble de ces valeurs.
+
+Merci.
+
+Votre Webcampak 
+ 
+ 

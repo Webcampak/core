@@ -1,0 +1,130 @@
+{
+    "name": "config-source-videopost"
+    , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+    , "sections": [
+        {
+            "name": "create"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcustomstartday"            , "default": "07",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from day"}
+                , {"name": "cfgcustomstartmonth"        , "default": "08",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from month"}
+                , {"name": "cfgcustomstartyear"         , "default": "2010",     "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from year"}
+                , {"name": "cfgcustomstarthour"         , "default": "14",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from hour"}
+                , {"name": "cfgcustomstartminute"       , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Start video from minute"}
+                , {"name": "cfgcustomendday"            , "default": "15",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at day"}
+                , {"name": "cfgcustomendmonth"          , "default": "08",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at month"}
+                , {"name": "cfgcustomendyear"           , "default": "2016",     "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at year"}
+                , {"name": "cfgcustomendhour"           , "default": "13",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at hour"}
+                , {"name": "cfgcustomendminute"         , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "End video at minute"}
+                , {"name": "cfgcustomkeepstarthour"     , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeepstartminute"   , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeependhour"       , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomkeependminute"     , "default": "00",       "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgcustomactive"            , "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate custom video creation"}
+                , {"name": "cfgvidminintervalvalue"     , "default": "0",        "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Minimum time between two pictures"}
+                , {"name": "cfgvidmininterval"          , "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Interval of this minimum time, possible values: seconds or minutes"}
+                , {"name": "cfgmovefilestosource"       , "default": "",         "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Interval of this minimum time, possible values: seconds or minutes"}
+            ]
+        }, {
+            "name": "crop"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgcropactivate"      , "default": "no",   "type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate picture crop"}
+                , {"name": "cfgcropsizewidth"   , "default": "1024", "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Width of the area to crop"}
+                , {"name": "cfgcropsizeheight"  , "default": "768",  "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Height of the area to crop"}
+                , {"name": "cfgcropxpos"        , "default": "10",   "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Location of the area to crop from top left corner"}
+                , {"name": "cfgcropypos"        , "default": "10",   "type": "int",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Location of the area to crop from top left corner"}
+            ]
+        }, {
+            "name": "email"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgemailmovieactivate"     , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send email once video creation is completed"}
+            ]
+        }, {
+            "name": "resize"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideosizeactivate" , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate picture resize"}
+                , {"name": "cfgvideosizewidth"  , "default": "300",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Resize picture - width"}
+                , {"name": "cfgvideosizeheight" , "default": "300",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Resize picture - height"}
+            ]
+        }, {
+            "name": "rotate"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgrotateactivate"  , "default": "no","type": "yesno","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate rotation"}
+                , {"name": "cfgrotateangle"   , "default": "3.65", "type": "float","permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Rotation angle - for exampke 3.65"}
+            ]
+        }, {
+            "name": "transition"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgtransitionactivate"        , "default": "no",   "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgtransitioncropsizewidth" , "default": "1024", "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Crop a picture - width"}
+                , {"name": "cfgtransitioncropsizeheight", "default": "768",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Crop a picture - height"}
+                , {"name": "cfgtransitioncropxpos"      , "default": "30",   "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Crop a picture location from x - top left corner"}
+                , {"name": "cfgtransitioncropypos"      , "default": "200",  "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Crop a picture location from y - top left corner"}
+            ]
+        }, {
+            "name": "thumbnail"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgthumbnailactivate"             , "default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgthumbnailsrccropsizewidth"   , "default": "1024", "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create a thumbnail from full picture crop width"}
+                , {"name": "cfgthumbnailsrccropsizeheight"  , "default": "768",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create a thumbnail from full picture crop height"}
+                , {"name": "cfgthumbnailsrccropxpos"        , "default": "30",   "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create a thumbnail from full picture crop location from x - top left corner"}
+                , {"name": "cfgthumbnailsrccropypos"        , "default": "200",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Create a thumbnail from full picture crop location from y - top left corner"}
+                , {"name": "cfgthumbnaildstsizewidth"       , "default": "1024", "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgthumbnaildstsizeheight"      , "default": "768",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgthumbnaildstxpos"            , "default": "30",   "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgthumbnaildstypos"            , "default": "200",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+                , {"name": "cfgthumbnailborder"             , "default": "yes",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": ""}
+            ]
+        }, {
+            "name": "flicker"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgdeflickeractivate" , "default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate deflicker on the video"}
+                , {"name": "cfgdeflickerdebug"  , "default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "When activated, picture will be split in two displaying portion of the picture next to each other"}
+            ]
+        }, {
+            "name": "watermark"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgwatermarkactivate"     , "default": "no",  "type": "yesno",     "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Insert a watermark in the picture"}
+                , {"name": "cfgwatermarkfile"       , "default": "",    "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Filename of the watermark"}
+                , {"name": "cfgwatermarkdissolve"   , "default": "30",  "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark transparency, possible values: 0 - 100"}
+                , {"name": "cfgwatermarkpositionx"  , "default": "200", "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark X position"}
+                , {"name": "cfgwatermarkpositiony"  , "default": "300", "type": "int",       "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Watermark Y position"}
+            ]
+        }, {
+            "name": "legend"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgvideopreimagemagicktxt"          , "default": "no",             "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Add a text or legend on the picture"}
+                , {"name": "cfgvideopreimgtext"               , "default": "Webcampak - ",   "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "overposition Legend location from gravity"}
+                , {"name": "cfgvideopreimgdateformat"         , "default": "1",              "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Select date format no for not date"}
+                , {"name": "cfgvideopreimgtextsize"           , "default": "50",             "type": "int",      "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font size"}
+                , {"name": "cfgvideopreimgtextgravity"        , "default": "northwest",      "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend gravity"}
+                , {"name": "cfgvideopreimgtextfont"           , "default": "AvantGarde-Book","type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend font"}
+                , {"name": "cfgvideopreimgtextbasecolor"      , "default": "black",          "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow color"}
+                , {"name": "cfgvideopreimgtextbaseposition"   , "default": "14,300",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend shadow location from gravity"}
+                , {"name": "cfgvideopreimgtextovercolor"      , "default": "yellow",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend color"}
+                , {"name": "cfgvideopreimgtextoverposition"   , "default": "11,300",         "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Legend location from gravity"}
+            ]
+        }, {
+            "name": "filter"
+            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
+            , "parameters": [
+                {"name": "cfgfilteractivate"        , "default": "no",       "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Activate file comparaison"}
+                , {"name": "cfgfilterwatermarkfile" , "default": "",         "type": "complex", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Filename of the watermark to be applied on images not mandatory"}
+                , {"name": "cfgfiltervalue"         , "default": "0.12301",  "type": "complex", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Minimum distance between pictures - libpuzzle, if over this value file will be used"}
+            ]
+        }
+    ]
+}
+
+
+
+
