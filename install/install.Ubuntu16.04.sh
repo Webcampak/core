@@ -49,7 +49,7 @@ sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video\e[0m"
 sudo apt-get install --assume-yes mpgtx mencoder x264 libav-tools atomicparsley gpac
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
-sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd
+sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd composer
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Misc and utilities\e[0m"
 sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util pwgen gettext npm
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
