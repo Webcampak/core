@@ -1,0 +1,14 @@
+Hello,
+
+The previously failing source is now able to capture pictures.
+
+Current Source Time: #CURRENTSOURCETIME#
+Last Capture Time: #LASTCAPTURETIME#
+
+You will not receive additional emails until next incident.
+
+Thanks.
+
+Your Webcampak.
+
+
