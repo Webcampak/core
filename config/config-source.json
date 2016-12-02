@@ -136,6 +136,7 @@
                 , {"name": "cfgemailalerttimereminder"      ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Send a reminder every x minutes"}
                 , {"name": "cfgemailalertscheduleslot"          ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "When schedule is configured, alert based on number of missing captures"}
                 , {"name": "cfgemailalertscheduleslotfailure"   ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Trigger an alarm is x captures are missing"}
+                , {"name": "cfgemailalertscheduleslotgrace"     ,"default": "0",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Grace period in minutes before triggerring an alarm"}
                 , {"name": "cfgemailalertscheduleslotreminder"  ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Send a reminder every x missing captures"}
                 , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}
                 , {"name": "cfgphidgeterroractivate"        ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Restart the camera in case of error"}
