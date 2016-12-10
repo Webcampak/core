@@ -8,9 +8,8 @@
             , "parameters": [
                 {"name": "cfgsourceactive",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE",    "description": "Activation of the source, possible values: yes or no"}
                 , {"name": "cfgsourcetype",             "default": "testpicture",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Type of the source, possible values: gphoto, webcam, ipcam, rtsp, webfile, wpak"}
-                , {"name": "cfgsourcedebug",            "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Turn on detailed debugging, possible values: yes or no"}
+                , {"name": "cfgsourcedebug",            "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Turn on detailed debugging for gphoto2, possible values: yes or no"}
                 , {"name": "cfgprocessraw",             "default": "yes",          "type": "yesno",    "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Turn on RAW processing, otherwise discarded"}
-                , {"name": "cfgdebugprolong",           "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Do not delete log files automatically, possible values: yes or no - deprecated"}
                 , {"name": "cfgnocapture",              "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Block automated capture, possible values: yes or no"}
                 , {"name": "cfgenablexfer",             "default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT",    "description": "Enable XFer transfer mode instead of direct FTP"}
                 , {"name": "cfgminimumcapturevalue",    "default": "3",            "type": "int",      "permission": "SOURCES_CONFIGURATION_ADVANCED",  "description": "Minimum capture interval - Number"}
@@ -97,33 +96,12 @@
                 , {"name": "cfgcroncustominterval",  "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Custom video creation interval"}
             ]
         }, {
-            "name": "motion"
-            , "permission": "SOURCES_CONFIGURATION_EXPERT"
-            , "parameters": [
-                {"name": "cfgmotiondetectionactivate",           "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Activate motion detection"}
-                , {"name": "cfgmotiondetectioncapturevalue",     "default": "5",        "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection capture interval"}
-                , {"name": "cfgmotiondetectioncaptureinterval",  "default": "minutes",  "type": "alphanum", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection Capture, possible values: minutes, seconds"}
-                , {"name": "cfgmotiondetectiononly",             "default": "no",       "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture only in case of motion detection"}
-                , {"name": "cfgmotiondetectiondevice",           "default": "video0",   "type": "alphanum", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Motion detection V4L device - USB Webcam"}
-                , {"name": "cfgmotiondetectiondevicewidth",      "default": "1280",     "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam Width - width 1280"}
-                , {"name": "cfgmotiondetectiondeviceheight",     "default": "1024",     "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam Height - height 1024"}
-                , {"name": "cfgmotiondetectionthreshold",        "default": "15000",    "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Number of pixels changes to consider variation - threshold 15000"}
-                , {"name": "cfgmotiondetectionendevent",         "default": "60",       "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Wait xx seconds after last move before getting a new event, 0 means continuous capture - gap 60"}
-                , {"name": "cfgmotiondetectionmask",             "default": "no",       "type": "complex",  "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "PGM mask file that will be used to lock capture in certain areas."}
-            ]
-        }, {
             "name": "gphoto"
             , "permission": "SOURCES_CONFIGURATION_ADVANCED"
             , "parameters": [
                 {"name": "cfgsourcegphotocameramodel"          ,"default": "Camera Model", "type": "yesno",    "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera model as detected by gphoto2, only necessary in multi-camera environment"}
                 , {"name": "cfgsourcegphotocameraportdetail"    ,"default": "usb:001,001",  "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera USB port, only necessary in multi-camera environment"}
-                , {"name": "cfgsourcegphotocalibration"         ,"default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Apply specific settings to the camera as configured in the calibration page - experimental, may not be stable."}
                 , {"name": "cfgsourcegphotoowner"               ,"default": "",             "type": "complex",  "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify camera owner, only necessary in multi-camera environment"}
-                , {"name": "cfgsourcegphotohdractivate"         ,"default": "no",           "type": "yesno",    "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Activate HDR captures, highly experimental, will take three shots in a row"}
-                , {"name": "cfgsourcegphotohdrexposureconfig"   ,"default": "/main/capturesettings/exposurecompensation", "type": "complex", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Camera parameter to activate gphoto2 - experimental"}
-                , {"name": "cfgsourcegphotohdrexposurelow"      ,"default": "0",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with low exposition - experimental"}
-                , {"name": "cfgsourcegphotohdrexposuremedium"   ,"default": "6",            "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with medium exposition - experimental"}
-                , {"name": "cfgsourcegphotohdrexposurehigh"     ,"default": "12",           "type": "int",      "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Capture with high exposition - experimental"}
             ]
         }, {
             "name": "wpak-source"
@@ -131,17 +109,6 @@
             , "parameters": [
                 {"name": "cfgsourcewpaktype"            ,"default": "get", "type": "alphanum",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Specify type, can be 'get' when getting a picture from another source or 'rec' when receiving a picture from another source"}
                 , {"name": "cfgsourcewpakgetsourceid"   ,"default": "",    "type": "int",       "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Specify from which source picture should be copied - get"}
-            ]
-        }, {
-            "name": "webcam"
-            , "permission": "SOURCES_CONFIGURATION_EXPERT"
-            , "parameters": [
-                {"name": "cfgsourcewebcamsize"          ,"default": "1280x1024", "type": "complex", "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Native resolution of the webcam"}
-                , {"name": "cfgsourcewebcamcamid"       ,"default": "disabled", "type": "complex",  "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Picture compression - 100: best"}
-                , {"name": "cfgsourcewebcambright"      ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Webcam video device"}
-                , {"name": "cfgsourcewebcamcontrast"    ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Brightness - value in %"}
-                , {"name": "cfgsourcewebcamsaturation"  ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Contrast - value in %"}
-                , {"name": "cfgsourcewebcamgain"        ,"default": "no",  "type": "complex",       "permission": "SOURCES_CONFIGURATION_EXPERT", "description": "Configuration via v4lctl - Color - value in %"}
             ]
         }, {
             "name": "ipcam"
@@ -161,13 +128,16 @@
             "name": "errors"
             , "permission": "SOURCES_CONFIGURATION_SIMPLE"
             , "parameters": [
-                {"name": "cfgemailerroractivate"            ,"default": "yes", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email in case of error"}
-                , {"name": "cfgemailcapturestats"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Once a day, send capture stats by email"}
-                , {"name": "cfgemailalertfailure"           ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "The email will be sent after X failures"}
-                , {"name": "cfgemailalertreminder"          ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Send a reminder every X failures after first alert failure"}
-                , {"name": "cfgemailalwaysnotify"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Always notify user when source is back online"}
-                , {"name": "cfgemaildirectalert"            ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident as the system tries to capture"}
-                , {"name": "cfgemailschedulealert"          ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Send an email to inform user about capture incident based on configured alert schedule"}
+                {"name": "cfgemailerroractivate"            ,"default": "yes", "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "Send an email in case of error"}
+                , {"name": "cfgemailcapturestats"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "Once a day, send capture stats by email"}
+                , {"name": "cfgemailalwaysnotify"           ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "Always notify user when source is back online"}
+                , {"name": "cfgemailalerttime"              ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "Alerts based on the amount of time since last capture"}
+                , {"name": "cfgemailalerttimefailure"       ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Trigger an alarm if no picture captured for x minutes"}
+                , {"name": "cfgemailalerttimereminder"      ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Send a reminder every x minutes"}
+                , {"name": "cfgemailalertscheduleslot"          ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE"    , "description": "When schedule is configured, alert based on number of missing captures"}
+                , {"name": "cfgemailalertscheduleslotfailure"   ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Trigger an alarm is x captures are missing"}
+                , {"name": "cfgemailalertscheduleslotgrace"     ,"default": "0",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Grace period in minutes before triggerring an alarm"}
+                , {"name": "cfgemailalertscheduleslotreminder"  ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Send a reminder every x missing captures"}
                 , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}
                 , {"name": "cfgphidgeterroractivate"        ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Restart the camera in case of error"}
                 , {"name": "cfgphidgetfailure"              ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "The camera will be restarted after X failures"}
@@ -253,11 +223,6 @@
             , "permission": "SOURCES_CONFIGURATION_ADVANCED"
             , "parameters": [
                 {"name": "cfgphidgetsensorsgraph" ,"default": "no", "type": "yesno", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Create a graph, possible values: yes or no"}
-            ]
-        }, {
-            "name": "email"
-            , "permission": "SOURCES_CONFIGURATION_SIMPLE"
-            , "parameters": [
             ]
         }, {
             "name": "ftp-copy"
