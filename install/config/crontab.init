@@ -2,7 +2,7 @@
 # All system processes sleep for 10s before starting to avoid disturbing capture
 */5 * * * * sleep 10 && /usr/local/bin/webcampak stats collect
 * * * * * sleep 10 && /usr/local/bin/webcampak xfer start
-*/20 * * * * sleep 10 && /usr/local/bin/webcampak stats consolidate
+0 * * * * sleep 10 && /usr/local/bin/webcampak stats consolidate
 */10 * * * * sleep 10 && /usr/local/bin/webcampak xfer dispatch
 * * * * * sleep 10 && /usr/local/bin/webcampak alerts capture
 0 6 * * * sleep 10 && /usr/local/bin/webcampak reports daily
