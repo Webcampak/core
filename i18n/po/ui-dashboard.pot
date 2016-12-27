@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-07 22:50-0500\n"
+"POT-Creation-Date: 2016-12-27 09:08-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,381 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable2.js:9
+msgid "Tuesday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcroncalendar.js:9
+msgid "Enable"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable7.js:9
+msgid "Sunday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable1.js:9
+msgid "Monday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable3.js:9
+msgid "Wednesday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable5.js:9
+msgid "Friday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable4.js:9
+msgid "Thursday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable6.js:9
+msgid "Saturday"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:13
+msgid "Calendar"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:26
+msgid "If disabled, the system will capture 24/7"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:37
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:54
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:71
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:88
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:105
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:122
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:139
+msgid "Between"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:42
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:59
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:76
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:93
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:110
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:127
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:144
+msgid "and"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/save/CancelButton.js:13
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/ButtonCancel.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonCancel.js:10
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/ButtonCancel.js:9
+msgid "Cancel"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/save/SaveButton.js:13
+msgid "Save"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgsourceactive.js:9
+msgid "Activate Source"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncaptureinterval.js:21
+msgid "Minutes"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncaptureinterval.js:22
+msgid "Seconds"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncapturevalue.js:9
+msgid "Capture every"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Main.js:13
+msgid "Capture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/sensors/Main.js:18
+msgid "Webcampak Sensors"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/sensors/ButtonClose.js:9
+msgid "Close"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/EmailButton.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/ButtonSend.js:9
+msgid "Send Email"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/SensorsButton.js:14
+msgid "Sensors"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/Main.js:12
+msgid "Details"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus10Button.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus10Button.js:14
+msgid "10"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus15Button.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus15Button.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:39
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:45
+msgid "15"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus5Button.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus5Button.js:14
+msgid "5"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/NextButton.js:14
+msgid "Next"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/PreviousButton.js:14
+msgid "Previous"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/PictureCombo.js:10
+msgid "Picture"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/PictureCombo.js:11
+msgid "Select Capture time"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/Main.js:13
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/date/Main.js:13
+msgid "Date & Time"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:15
+msgid "Email"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:21
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:63
+msgid "500"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:27
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:57
+msgid "200"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:33
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:51
+msgid "50"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/uptime/Main.js:15
+msgid "Uptime"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/sourcesstatus/Main.js:17
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/lastpictures/Main.js:13
+msgid "Last pictures captured"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/disk/Main.js:13
+msgid "Disk"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/capturestats/CaptureChart.js:51
+msgid "on"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/capturestats/Main.js:14
+msgid "Capture Statistics per source"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/cameras/Main.js:13
+msgid "Cameras"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:35
+msgid "Name"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:36
+msgid "Format"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:37
+msgid "Size"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:38
+msgid "AVI"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:39
+msgid "MP4"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/RememberMe.js:12
+msgid "Remember me"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/ButtonLogin.js:14
+msgid "Login"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Password.js:12
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:125
+msgid "Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Username.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Username.js:14
+msgid "Enter Username"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Label.js:9
+msgid "Sign into your account"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Main.js:29
+msgid "Forgot Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Email.js:14
+msgid "user@example.com"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Label.js:9
+msgid "Enter your email address for further reset instructions"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/ButtonReset.js:14
+msgid "Reset Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Main.js:27
+msgid "Back to Log In"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/ButtonChangePassword.js:14
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonChangePassword.js:10
+msgid "Change Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/CurrentPassword.js:12
+msgid "Current Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/NewPassword.js:12
+msgid "New Password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/Label.js:9
+msgid "Change your password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/NewPasswordConfirmation.js:12
+msgid "New Password (Confirm)"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/Label.js:9
+msgid "Select an action"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonLogout.js:10
+msgid "Logout"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/Main.js:21
+msgid "Webcampak Dashboard Authentication"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailBody.js:10
+msgid "Email Body"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendCC.js:9
+msgid "CC"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendCC.js:10
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendTo.js:10
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendBCC.js:10
+msgid "Add one or more email addresses"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendTo.js:9
+msgid "To:"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendBCC.js:9
+msgid "BCC"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailSubject.js:9
+msgid "Subject"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailSubject.js:10
+msgid "Email Subject"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailAttachments.js:9
+msgid "Attachments"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailAttachments.js:10
+msgid "No Attachments"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendFrom.js:9
+msgid "From:"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/Main.js:18
+msgid "Send an Email"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/toolbar/Logo.js:15
+msgid "Webcampak"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/Application.js:70
+msgid ""
+"You are about to leave the application. You might loose some content. Are "
+"you sure ?"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/Application.js:80
+msgid ""
+"Username is not valid. <br />  Can only contain letters, numbers, - and _"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:229
+msgid "Loading Configuration"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:441
+msgid "Configuration has been modified"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:445
+msgid "No configuration changes"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:572
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:587
+msgid "Configuration"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:573
+msgid "No configuration changes detected, nothing to save"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:588
+msgid "Configuration has been saved"
+msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/pictures/Pictures.js:210
 msgid "Captured on"
@@ -51,86 +426,14 @@ msgstr ""
 msgid "No Video available for this source"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:229
-msgid "Loading Configuration"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:441
-msgid "Configuration has been modified"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:445
-msgid "No configuration changes"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:572
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:587
-msgid "Configuration"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:573
-msgid "No configuration changes detected, nothing to save"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/config/Config.js:588
-msgid "Configuration has been saved"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/ServerAvailability.js:187
-msgid "Unable to communicate with server"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/ServerAvailability.js:188
-msgid ""
-"Webcampak app appears to be offline, please try again later<br />You can "
-"check online/offline status in the bottom right corner of your window"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/loading/Mask.js:147
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:166
-msgid "Error"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/loading/Mask.js:148
-msgid ""
-"Webcampak encountered an error, please contact support for instructions."
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:169
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:100
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:169
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ResetPassword.js:90
 msgid "Credentials missing"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:170
-msgid "Please enter a username and password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:205
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:218
-msgid "Authentication Failed"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:219
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:147
-msgid "Unable to authenticate to remote server"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:229
-msgid "Unsecured connection"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:230
-msgid "You connection is not encrypted, please use HTTPS"
-msgstr ""
-
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:101
 msgid "Please enter proper passwords (4 chars min.)"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:125
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Password.js:12
-msgid "Password"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:126
@@ -145,6 +448,11 @@ msgstr ""
 msgid "Password modification Failed"
 msgstr ""
 
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:147
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:219
+msgid "Unable to authenticate to remote server"
+msgstr ""
+
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:158
 msgid "Unsecured connections"
 msgstr ""
@@ -154,8 +462,30 @@ msgid ""
 "You connection is not encrypted, transmitting your credentials in clear-text"
 msgstr ""
 
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:166
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/loading/Mask.js:147
+msgid "Error"
+msgstr ""
+
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ChangePassword.js:167
 msgid "Password do not match"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:170
+msgid "Please enter a username and password"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:205
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:218
+msgid "Authentication Failed"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:229
+msgid "Unsecured connection"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/Authentication.js:230
+msgid "You connection is not encrypted, please use HTTPS"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/authentication/ResetPassword.js:91
@@ -182,22 +512,6 @@ msgstr ""
 msgid "Unable to communicate with to remote server"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:74
-msgid "Dashboard"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:98
-msgid "Pictures"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:125
-msgid "Videos"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:151
-msgid "Config"
-msgstr ""
-
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Email.js:183
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Email.js:197
 msgid "Info"
@@ -213,347 +527,33 @@ msgid ""
 "TO, Subject, Body"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/Application.js:70
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/loading/Mask.js:148
 msgid ""
-"You are about to leave the application. You might loose some content. Are "
-"you sure ?"
+"Webcampak encountered an error, please contact support for instructions."
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/Application.js:80
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/ServerAvailability.js:187
+msgid "Unable to communicate with server"
+msgstr ""
+
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/ServerAvailability.js:188
 msgid ""
-"Username is not valid. <br />  Can only contain letters, numbers, - and _"
+"Webcampak app appears to be offline, please try again later<br />You can "
+"check online/offline status in the bottom right corner of your window"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/PictureCombo.js:10
-msgid "Picture"
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:74
+msgid "Dashboard"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/PictureCombo.js:11
-msgid "Select Capture time"
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:98
+msgid "Pictures"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/date/Main.js:13
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/date/Main.js:13
-msgid "Date & Time"
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:125
+msgid "Videos"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:15
-msgid "Email"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:21
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:63
-msgid "500"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:27
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:57
-msgid "200"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:33
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:51
-msgid "50"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:39
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/Main.js:45
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus15Button.js:14
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus15Button.js:14
-msgid "15"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/Main.js:12
-msgid "Details"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/SensorsButton.js:14
-msgid "Sensors"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/details/EmailButton.js:14
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/ButtonSend.js:9
-msgid "Send Email"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus10Button.js:14
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus10Button.js:14
-msgid "10"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/NextButton.js:14
-msgid "Next"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/PreviousButton.js:14
-msgid "Previous"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Minus5Button.js:14
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/controls/quicknav/Plus5Button.js:14
-msgid "5"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/sensors/ButtonClose.js:9
-msgid "Close"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/pictures/sensors/Main.js:18
-msgid "Webcampak Sensors"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:35
-msgid "Name"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:36
-msgid "Format"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:37
-msgid "Size"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:38
-msgid "AVI"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/videos/controls/VideosList.js:39
-msgid "MP4"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable3.js:9
-msgid "Wednesday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable7.js:9
-msgid "Sunday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable1.js:9
-msgid "Monday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable6.js:9
-msgid "Saturday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable4.js:9
-msgid "Thursday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:13
-msgid "Calendar"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:26
-msgid "If disabled, the system will capture 24/7"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:37
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:54
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:71
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:88
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:105
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:122
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:139
-msgid "Between"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:42
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:59
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:76
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:93
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:110
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:127
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Main.js:144
-msgid "and"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable5.js:9
-msgid "Friday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcroncalendar.js:9
-msgid "Enable"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/calendar/Cfgcapturedayenable2.js:9
-msgid "Tuesday"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgsourceactive.js:9
-msgid "Activate Source"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncaptureinterval.js:21
-msgid "Minutes"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncaptureinterval.js:22
-msgid "Seconds"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Main.js:13
-msgid "Capture"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/source/Cfgcroncapturevalue.js:9
-msgid "Capture every"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/save/SaveButton.js:13
-msgid "Save"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/config/capture/save/CancelButton.js:13
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/ButtonCancel.js:9
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonCancel.js:10
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/ButtonCancel.js:14
-msgid "Cancel"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendBCC.js:9
-msgid "BCC"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendBCC.js:10
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendCC.js:10
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendTo.js:10
-msgid "Add one or more email addresses"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailAttachments.js:9
-msgid "Attachments"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailAttachments.js:10
-msgid "No Attachments"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailSubject.js:9
-msgid "Subject"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailSubject.js:10
-msgid "Email Subject"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendCC.js:9
-msgid "CC"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/Main.js:18
-msgid "Send an Email"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendTo.js:9
-msgid "To:"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/EmailBody.js:10
-msgid "Email Body"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/email/SendFrom.js:9
-msgid "From:"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/toolbar/Logo.js:15
-msgid "Webcampak"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/Label.js:9
-msgid "Select an action"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonLogout.js:10
-msgid "Logout"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/profile/ButtonChangePassword.js:10
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/ButtonChangePassword.js:14
-msgid "Change Password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/Label.js:9
-msgid "Change your password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/NewPasswordConfirmation.js:12
-msgid "New Password (Confirm)"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/NewPassword.js:12
-msgid "New Password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/changepassword/CurrentPassword.js:12
-msgid "Current Password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/Main.js:21
-msgid "Webcampak Dashboard Authentication"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Label.js:9
-msgid "Sign into your account"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Username.js:14
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Username.js:14
-msgid "Enter Username"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/RememberMe.js:12
-msgid "Remember me"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/Main.js:29
-msgid "Forgot Password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/login/ButtonLogin.js:14
-msgid "Login"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Label.js:9
-msgid "Enter your email address for further reset instructions"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/ButtonReset.js:14
-msgid "Reset Password"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Main.js:27
-msgid "Back to Log In"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/core/authentication/resetpassword/Email.js:14
-msgid "user@example.com"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/capturestats/Main.js:14
-msgid "Capture Statistics per source"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/capturestats/CaptureChart.js:51
-msgid "on"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/uptime/Main.js:15
-msgid "Uptime"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/sourcesstatus/Main.js:17
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/lastpictures/Main.js:13
-msgid "Last pictures captured"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/cameras/Main.js:13
-msgid "Cameras"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/view/dashboard/disk/Main.js:13
-msgid "Disk"
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Dashboard/app/controller/core/Navigation.js:151
+msgid "Config"
 msgstr ""
