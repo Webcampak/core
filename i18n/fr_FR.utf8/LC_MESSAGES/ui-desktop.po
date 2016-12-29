@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-27 11:57-0500\n"
-"PO-Revision-Date: 2016-12-29 11:57-0500\n"
+"PO-Revision-Date: 2016-12-29 12:10-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1336,7 +1336,7 @@ msgstr "Couleur d'ombre"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/postprod/text/Cfgvideopreimgtextoverposition.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/preprocess/Cfgvideopreimgtextoverposition.js:9
 msgid "Legend Coordinates"
-msgstr "Coordonnées de la légende"
+msgstr "Coordonnées légende"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/customvideos/preprocess/Cfgvideopreimgtextfont.js:10
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/text/Cfgimgtextfont.js:10
@@ -1385,7 +1385,7 @@ msgstr "Redimensionner l'image avant la création"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/postprod/text/Cfgvideopreimgtextbaseposition.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/preprocess/Cfgvideopreimgtextbaseposition.js:9
 msgid "Shadow Coordinates"
-msgstr "Coordonnées de l'ombre"
+msgstr "Coordonnées ombre"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/customvideos/preprocess/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/preprocess/Main.js:9
@@ -1598,7 +1598,7 @@ msgstr "RAW"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/copy/Cfgcopymainsourceid.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/copy/Cfgcopysecondsourceid.js:9
 msgid "Copy pictures to"
-msgstr "Copier les images vers"
+msgstr "Copier vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/copy/Cfgcopymainenable.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/copy/Cfgcopysecondenable.js:9
@@ -1616,12 +1616,12 @@ msgstr "Copier les images en interne"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/ftp/Cfgftpsecondserverretry.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/phidgets/graphs/Cfgftpphidgetserverretry.js:9
 msgid "Number of retries"
-msgstr "Nombre de tentatives"
+msgstr "Tentatives"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/ftp/Cfgftpsecondserverid.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/ftp/Cfgftpmainserverid.js:9
 msgid "Send pictures to"
-msgstr "Envoyer les images vers"
+msgstr "Envoyer vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/pictures/ftp/Cfgftphotlinkserverid.js:9
 msgid "Send hotlink pictures to"
@@ -1774,7 +1774,7 @@ msgstr "Création vidéo journalière"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftpmainserveraviretry.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkservermp4retry.js:9
 msgid "Retries"
-msgstr "Essais"
+msgstr "Tentatives"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkserveraviid.js:9
 msgid "Send hotlink AVI files to"
@@ -1798,7 +1798,7 @@ msgstr "Envoyer vidéos par FTP"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/preprocess/Cfgvideopreresizeres.js:9
 msgid "Picture size"
-msgstr "Dimension image"
+msgstr "Dimensions"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/icons/Videos.js:28
@@ -1958,7 +1958,7 @@ msgstr "Activer source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgminimumcapturevalue.js:9
 msgid "Minimum Interval"
-msgstr "Intervale minimum"
+msgstr "Intervale mini."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgemailerroractivate.js:9
 msgid "Email alerts"
@@ -1980,11 +1980,11 @@ msgstr "Timezone"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgphidgetactivate.js:9
 msgid "Capture Sensors"
-msgstr "Capturer capteurs"
+msgstr "Capteurs"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcroncapturevalue.js:9
 msgid "Capture every"
-msgstr "Capturer tous les"
+msgstr "Fréquence"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelaydate.js:9
 msgid "Picture date"
@@ -2000,7 +2000,7 @@ msgstr "Heure du script"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelay.js:9
 msgid "Capture delay"
-msgstr "Retard de capture"
+msgstr "Retard capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgnocapture.js:9
 msgid "Block capture"
