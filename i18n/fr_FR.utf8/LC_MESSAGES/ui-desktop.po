@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-27 11:57-0500\n"
-"PO-Revision-Date: 2016-12-27 12:36-0500\n"
+"PO-Revision-Date: 2016-12-29 11:57-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1754,51 +1754,51 @@ msgstr "Transition"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/postprod/transition/Cfgtransitionactivate.js:9
 msgid "Enable Transition"
-msgstr ""
+msgstr "Activer Transition"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/postprod/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/postprod/Main.js:9
 msgid "Post-prod Vids."
-msgstr ""
+msgstr "Vids. Post-prod"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/postprod/text/Main.js:9
 msgid "Insert a legend"
-msgstr ""
+msgstr "Insérer une légende"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/formats/Main.js:9
 msgid "Daily video creation"
-msgstr ""
+msgstr "Création vidéo journalière"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftpmainservermp4retry.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkserveraviretry.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftpmainserveraviretry.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkservermp4retry.js:9
 msgid "Retries"
-msgstr ""
+msgstr "Essais"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkserveraviid.js:9
 msgid "Send hotlink AVI files to"
-msgstr ""
+msgstr "Envoyer AVI hotlink vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftpmainservermp4id.js:9
 msgid "Send MP4 files to"
-msgstr ""
+msgstr "Envoyer fichier MP4 vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftphotlinkservermp4id.js:9
 msgid "Send hotlink MP4 files to"
-msgstr ""
+msgstr "Envoyer MP4 hotlink vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Cfgftpmainserveraviid.js:9
 msgid "Send AVI video files to"
-msgstr ""
+msgstr "Envoyer fichier AVI vers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/ftp/Main.js:9
 msgid "Send videos via FTP"
-msgstr ""
+msgstr "Envoyer vidéos par FTP"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/preprocess/Cfgvideopreresizeres.js:9
 msgid "Picture size"
-msgstr ""
+msgstr "Dimension image"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/videos/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/icons/Videos.js:28
@@ -1807,24 +1807,24 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:19
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/videos/Main.js:9
 msgid "Videos"
-msgstr ""
+msgstr "Vidéos"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/local/Main.js:9
 msgid "Local FTP Account"
-msgstr ""
+msgstr "Compte FTP Local"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/FtpServersList.js:15
 msgid "Host"
-msgstr ""
+msgstr "Hôte"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/FtpServersList.js:18
 msgid "Directory"
-msgstr ""
+msgstr "Répertoire"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/FtpServersList.js:36
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:61
 msgid "Xfer"
-msgstr ""
+msgstr "Xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/FtpServersList.js:54
 msgid "# Threads"
@@ -1838,27 +1838,27 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ftp/Main.js:21
 msgid "Remote FTP Servers"
-msgstr ""
+msgstr "Serveurs FTP distants"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiplimiterotation.js:9
 msgid "Limit hotlink processing to one picture per rotation"
-msgstr ""
+msgstr "Limiter les fichiers hotlink à un par rotation"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:17
 msgid "Define picture date based upon"
-msgstr ""
+msgstr "Définir la date de l'image à partir de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:21
 msgid "Date when file was save into /tmp/ directory"
-msgstr ""
+msgstr "Date à laquelle le fichier a été placée dans le repertoire /tmp/"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:22
 msgid "Picture filename (Webcampak) - (YYYYMMDDHHMMSS.jpg)"
-msgstr ""
+msgstr "Nom du fichier (Webcampak) - (YYYYMMDDHHMMSS.jpg)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:23
 msgid "Picture filename (Harbortronics) - (YYYYMMDD_HHMMSS.JPG)"
-msgstr ""
+msgstr "Nom du fichier (Harbortronics) - (YYYYMMDD_HHMMSS.JPG)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:24
 msgid "Canon IP Camera - (YYYYMMDDHHMMSSxxx.jpg)"
@@ -1866,52 +1866,52 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:25
 msgid "EXIF Metadata (date)"
-msgstr ""
+msgstr "Données EXIF (date)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiphotlinkerror.js:9
 msgid "Take actions if no new pictures in /tmp/ directory."
-msgstr ""
+msgstr "Prendre des actions si aucun fichier présent dans le répertoire /tmp/"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Main.js:9
 msgid "Configuration of \"<u>IP Camera (FTP) / Webcampak</u>\""
-msgstr ""
+msgstr "Configuration d'une  \"<u>Camera IP (FTP) / Webcampak</u>\""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Cfgsourcegphotocameramodel.js:9
 msgid "Camera Model"
-msgstr ""
+msgstr "Modèle d'appareil"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Cfgsourcegphotoowner.js:9
 msgid "Camera Owner (TAG)"
-msgstr ""
+msgstr "TAG Camera Owner"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Cfgsourcegphotoraw.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Cfgsourcewpakprocessraw.js:9
 msgid "Process RAW files"
-msgstr ""
+msgstr "Traiter les fichiers RAW"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Cfgsourcegphotocameraportdetail.js:9
 msgid "Camera Port"
-msgstr ""
+msgstr "Port Appareil"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Main.js:9
 msgid "Configuration of \"<u>D-SLR USB Camera (Gphoto2 PTP mode)</u>\""
-msgstr ""
+msgstr "Configuration d'un \"<u>Appareil photo reflex (mode Gphoto2 PTP)</u>\""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/gphoto/Main.js:20
 msgid "Multi-Cameras environment only"
-msgstr ""
+msgstr "Environements multi-appareils seulement"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Cfgcroncalendar.js:9
 msgid "Enable Calendar"
-msgstr ""
+msgstr "Activer Calendrier"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:9
 msgid "Capture Calendar"
-msgstr ""
+msgstr "Calendrier de capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:23
 msgid "If disabled, the system will capture 24/7"
-msgstr ""
+msgstr "Si désactivé, le système capture 24/7"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:33
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:47
@@ -1921,239 +1921,245 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:103
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/calendar/Main.js:117
 msgid "Between"
-msgstr ""
+msgstr "Entre"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Cfgsourcewpakgetsourceid.js:9
 msgid "Select source to get from"
-msgstr ""
+msgstr "Obtenir les images depuis"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Main.js:9
 msgid "Configuration of \"<u>Webcampak Source</u>\""
-msgstr ""
+msgstr "Configuration d'une \"<u>Source Webcampak</u>\""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Cfgsourcewpaktype.js:17
 msgid "Select capture mode"
-msgstr ""
+msgstr "Sélection du mode de capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Cfgsourcewpaktype.js:21
 msgid "Get: Pictures copied from an other source"
-msgstr ""
+msgstr "Obtenir: Images copiées depuis une autre source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/webcampak/Cfgsourcewpaktype.js:22
 msgid "Receive: Pictures sent by another source"
-msgstr ""
+msgstr "Recevoir: Images envoyées par une autre source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/link/Main.js:9
 msgid ""
 "Configuration of \"<u>Internet Picture</u>\" or \"<u>Video Streaming</u>\""
-msgstr ""
+msgstr "Configuration d'une \"<u>Image Internet</u>\" or \"<u>Flux Video</u>\""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/link/Cfgsourcewebfileurl.js:9
 msgid "URL File/Stream"
-msgstr ""
+msgstr "URL du fichier/flux"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourceactive.js:9
 msgid "Activate Source"
-msgstr ""
+msgstr "Activer source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgminimumcapturevalue.js:9
 msgid "Minimum Interval"
-msgstr ""
+msgstr "Intervale minimum"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgemailerroractivate.js:9
 msgid "Email alerts"
-msgstr ""
+msgstr "Alertes email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgprocessraw.js:9
 msgid "Process RAW"
-msgstr ""
+msgstr "Traiter RAW"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcedebug.js:9
 msgid "Gphoto2 Debug"
-msgstr ""
+msgstr "Debug Gphoto2"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturetimezone.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgservertimezone.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:27
 msgid "Timezone"
-msgstr ""
+msgstr "Timezone"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgphidgetactivate.js:9
 msgid "Capture Sensors"
-msgstr ""
+msgstr "Capturer capteurs"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcroncapturevalue.js:9
 msgid "Capture every"
-msgstr ""
+msgstr "Capturer tous les"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelaydate.js:9
 msgid "Picture date"
-msgstr ""
+msgstr "Date image"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelaydate.js:22
 msgid "Capture time"
-msgstr ""
+msgstr "Heure de capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelaydate.js:23
 msgid "Script start time"
-msgstr ""
+msgstr "Heure du script"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgcapturedelay.js:9
 msgid "Capture delay"
-msgstr ""
+msgstr "Retard de capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgnocapture.js:9
 msgid "Block capture"
-msgstr ""
+msgstr "Bloquer capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgenablexfer.js:9
 msgid "Enable Xfer"
-msgstr ""
+msgstr "Activer Xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfggphotoportscameras.js:9
 msgid "Source Type"
-msgstr ""
+msgstr "Type de source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:22
 msgid "Compact or DSLR USB Camera (Gphoto2 PTP mode)"
-msgstr ""
+msgstr "Appareil photo reflex USB (Gphoto2 PTP mode)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:23
 msgid "Webcampak Source"
-msgstr ""
+msgstr "Source Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:24
 msgid "USB Webcam"
-msgstr ""
+msgstr "Webcam USB"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:25
 msgid "IP Camera (FTP)"
-msgstr ""
+msgstr "Caméra IP (FTP)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:26
 msgid "Internet Picture (HTTP ou FTP)"
-msgstr ""
+msgstr "Image Internet (HTTP ou FTP)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:27
 msgid "Video Streaming (RTSP)"
-msgstr ""
+msgstr "Flux Vidéo (RTSP)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcetype.js:28
 msgid "Test Picture"
-msgstr ""
+msgstr "Image Test"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcelanguage.js:9
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcelanguage.js:23
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Cfgsourcelanguage.js:24
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/DesktopConfig.js:33
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/source/Main.js:9
 msgid "Source Configuration"
-msgstr ""
+msgstr "Configuration Source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/capture/Main.js:9
 msgid "Capture"
-msgstr ""
+msgstr "Capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/ButtonSave.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/Main.js:47
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/ButtonSave.js:9
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/Main.js:9
 msgid "Sources Configuration"
-msgstr ""
+msgstr "Configuration Sources"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailsendto.js:9
 msgid "Send email to"
-msgstr ""
+msgstr "Envoyer email à"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailalertreminder.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Cfgemailalertscheduledelayreminder.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Cfgemailalertscheduleslotreminder.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Cfgemailalerttimereminder.js:9
 msgid "Send a reminder every"
-msgstr ""
+msgstr "Envoyer un rappel tous les"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailalertfailure.js:9
 msgid "Send an email if capture is more than "
-msgstr ""
+msgstr "Envoyer un email si la capture est plus de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailreplyto.js:9
 msgid "Send email from (Reply-To)"
-msgstr ""
+msgstr "Envoyer un email depuis (Reply-To)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailsendcc.js:9
 msgid "Send a copy of the emails to (CC)"
-msgstr ""
+msgstr "Envoyer une copyer des emails à (CC)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemaildirectalert.js:9
 msgid "In-line email alert"
-msgstr ""
+msgstr "Alerte email en capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemaildirectalert.js:10
 msgid ""
 "Email alerts will be sent directly based on capture status (using minutes)"
 msgstr ""
+"Les alertes emails seront envoyées directement en fonction de l'état de la "
+"capture (minutes)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailalwaysnotify.js:9
 msgid "Always notify when source is back"
-msgstr ""
+msgstr "Toujours alerter lors du retour de la source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailalwaysnotify.js:10
 msgid "Send email when source comes back even if number of failure was low."
 msgstr ""
+"Envoyer un email quand la source est de retour même si le nombre d'échecs "
+"est faible"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailschedulealert.js:9
 msgid "Schedule-based email alerts"
-msgstr ""
+msgstr "Alertes email sur Calendrier"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Cfgemailschedulealert.js:10
 msgid ""
 "Email alerts are sent based on a pre-configured alert schedule (using "
 "iterations)"
-msgstr ""
+msgstr "Les alertes sont envoyées sur base d'un calendriere pré-configuré"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Main.js:9
 msgid "General Email Configuration"
-msgstr ""
+msgstr "Configuraiton email générale"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Main.js:22
 msgid "minutes or iterations late (0 = never)"
-msgstr ""
+msgstr "retard minutes ou itérations (0 = jamais)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/emails/Main.js:30
 msgid "minutes or iterations (0 = never)"
-msgstr ""
+msgstr "minutes ou itérations (0 = jamais)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Cfgemailalertscheduledelayfailure.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Cfgemailalerttimefailure.js:9
 msgid "Send an email if no capture for more than "
-msgstr ""
+msgstr "Envoyer un email si absence d'image pendant plus de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Cfgemailalertscheduledelay.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Cfgemailalerttime.js:9
 msgid "Enable Time based alerts"
-msgstr ""
+msgstr "Activer alertes Minutes"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Cfgemailalertscheduledelay.js:10
 msgid "Email alerts will be sent based on time since last planned capture"
 msgstr ""
+"Les alertes email seront envoyées sur base du temps écoulé depuis la "
+"dernière capture prévue"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Main.js:9
 msgid "Schedule Based Alerts (time since on-schedule last capture)"
-msgstr ""
+msgstr "Alertes sur base du calendrier (temps écoulé depuis dernière capture)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Main.js:21
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduledelay/Main.js:29
@@ -2161,86 +2167,86 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Main.js:21
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Main.js:29
 msgid "minutes"
-msgstr ""
+msgstr "minutes"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Cfgemailalertscheduleslot.js:9
 msgid "Enable Schedule Based Alerts"
-msgstr ""
+msgstr "Active alertes sur base du calendrier"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Cfgemailalertscheduleslot.js:10
 msgid "Email alerts will be sent based on the number of missing captures"
-msgstr ""
+msgstr "Alertes email seront envoyées sur base du nombre de captures en échec"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Cfgemailalertscheduleslotgrace.js:9
 msgid "Grace period"
-msgstr ""
+msgstr "Période de grace"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Main.js:9
 msgid "Schedule Based Alerts (missed captures)"
-msgstr ""
+msgstr "Alertes sur base calendrier (captures manquées)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Main.js:21
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Main.js:37
 msgid "missing captures"
-msgstr ""
+msgstr "captures manquantes"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/scheduleslot/Cfgemailalertscheduleslotfailure.js:9
 msgid "Send an email if no capture for more than"
-msgstr ""
+msgstr "Envoyer un email si pas de capture pour plus de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Cfgemailalerttime.js:10
 msgid "Email alerts will be sent based on time since last capture"
-msgstr ""
+msgstr "Alertes email envoyée selon le temps depuis la dernière capture"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/time/Main.js:9
 msgid "Time Based Alerts"
-msgstr ""
+msgstr "Alertes sur base du temps"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/advanced/Main.js:9
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/SourcesList.js:15
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/SourcesList.js:15
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/SourcesList.js:15
 msgid "Click here to select a source..."
-msgstr ""
+msgstr "Cliquez ici pour sélectionner une source..."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/SourceName.js:10
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/SourceName.js:10
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/SourceName.js:10
 msgid "No Source Selected"
-msgstr ""
+msgstr "Pas de source sélectionnée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/DiskUsage.js:16
 msgid "Disk Usage"
-msgstr ""
+msgstr "Utilisation disque"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/DiskUsage.js:36
 msgid "Disk usage evolution (GB) per day"
-msgstr ""
+msgstr "Evolution de l'utilisation disque (GB) par jour"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/DiskUsage.js:52
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/PicturesCount.js:48
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/PicturesSize.js:52
 msgid "on"
-msgstr ""
+msgstr "le"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/ButtonRefresh.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/ButtonRefresh.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/ButtonRefresh.js:9
 msgid "Refresh"
-msgstr ""
+msgstr "Rafraîchir"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/PicturesCount.js:32
 msgid "Number of Pictures per day"
-msgstr ""
+msgstr "Nombre d'images par jour"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/stats/Sources.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:29
 msgid "Sources Statistics"
-msgstr ""
+msgstr "Statistiques sources"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/PicturesSize.js:16
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/selection/VideosList.js:53
@@ -2248,43 +2254,43 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:50
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:24
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/sources/PicturesSize.js:36
 msgid "Total size (MB) per day"
-msgstr ""
+msgstr "Taille totale (MB) par jour"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Memory.js:16
 msgid "Memory (%)"
-msgstr ""
+msgstr "Mémoire (%)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Disk.js:19
 msgid "Hard Disk"
-msgstr ""
+msgstr "Disque dur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Range.js:9
 msgid "Range"
-msgstr ""
+msgstr "Intervale"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Range.js:22
 msgid "Most Recent"
-msgstr ""
+msgstr "Plus récent"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Range.js:23
 msgid "Hours"
-msgstr ""
+msgstr "Heures"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Range.js:24
 msgid "Days"
-msgstr ""
+msgstr "Jours"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Range.js:25
 msgid "Months"
-msgstr ""
+msgstr "Mois"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Bandwidth.js:19
 msgid "Bandwidth (/s)"
-msgstr ""
+msgstr "Bande passante (/s)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/stats/system/Cpu.js:17
 msgid "CPU (%)"
@@ -2294,15 +2300,15 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/stats/System.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:34
 msgid "System Statistics"
-msgstr ""
+msgstr "Statistiques système"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/selection/Main.js:23
 msgid "Select a picture below"
-msgstr ""
+msgstr "Sélectionnez une image ci-dessous"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/sensors/Main.js:9
 msgid "Webcampak Sensors"
-msgstr ""
+msgstr "Capteur Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/display/Thumbnails.js:34
 msgid "12:10"
@@ -2331,65 +2337,65 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/display/EmailButton.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/lostpassword/Email.js:10
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/display/SensorsButton.js:9
 msgid "Sensors"
-msgstr ""
+msgstr "Capteur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/display/Zoom.js:9
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/pictures/Main.js:9
 msgid "Webcampak Pictures"
-msgstr ""
+msgstr "Images Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/selection/VideosList.js:52
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/selection/VideosList.js:54
 msgid "AVI"
-msgstr ""
+msgstr "AVI"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/selection/VideosList.js:55
 msgid "MP4"
-msgstr ""
+msgstr "MP4"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/videos/Main.js:9
 msgid "Webcampak Videos"
-msgstr ""
+msgstr "Vidéos Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:20
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/Devices.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:61
 msgid "Connected Devices"
-msgstr ""
+msgstr "Périphériques connectés"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/Main.js:33
 msgid "Gphoto2: Connected Cameras"
-msgstr ""
+msgstr "Gphoto2: Appareils connectés"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/Main.js:41
 msgid "Refresh Devices"
-msgstr ""
+msgstr "Rafraîchir périphériques"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/Main.js:48
 msgid "Gphoto2: Cameras Capabilities"
-msgstr ""
+msgstr "Gphoto2: Détails appareil"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/devices/Main.js:57
 msgid "USB devices connected (lsusb)"
-msgstr ""
+msgstr "Périphériques USB connectés (lsusb)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/icons/Logs.js:28
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:16
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Logs.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:68
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/icons/AccessControl.js:28
 msgid "Access<br />Control"
@@ -2425,60 +2431,60 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/RememberMe.js:9
 msgid "Remember Me:"
-msgstr ""
+msgstr "Se souvenir:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/Password.js:9
 msgid "Password:"
-msgstr ""
+msgstr "Mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/lostpassword/ButtonSendPassword.js:14
 msgid "Send new Password"
-msgstr ""
+msgstr "Envoyer nouveau mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/lostpassword/Username.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/Username.js:9
 msgid "Username:"
-msgstr ""
+msgstr "Nom d'utilisateur:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/lostpassword/Email.js:9
 msgid "Email:"
-msgstr ""
+msgstr "Email:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/NewPassword.js:9
 msgid "New Password"
-msgstr ""
+msgstr "Nouveau mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/OldPassword.js:9
 msgid "Old Password"
-msgstr ""
+msgstr "Ancien mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/NewPasswordVerif.js:9
 msgid "New Password (verif)"
-msgstr ""
+msgstr "Nouveau mot de passe (confirmation)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/Main.js:9
 msgid "Change your password"
-msgstr ""
+msgstr "Modifier mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/Main.js:22
 msgid "Current Credentials"
-msgstr ""
+msgstr "Identifiants actuels"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/changepassword/Main.js:30
 msgid "New Credentials"
-msgstr ""
+msgstr "Nouveaux identifiants"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/ButtonConnect.js:13
 msgid "Connect"
-msgstr ""
+msgstr "Connexion"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/ButtonRecoverPassword.js:14
 msgid "Recover Lost Password"
-msgstr ""
+msgstr "Mot de passe perdu"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/authentication/Main.js:9
 msgid "Webcampak Authentication"
-msgstr ""
+msgstr "Authentification Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/settings/icons/DesktopCurrentIcons.js:11
 msgid "Current Desktop Icons"
@@ -2503,7 +2509,7 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/EmailBody.js:14
 msgid "Email Body"
-msgstr ""
+msgstr "Corps Email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/SendCC.js:10
 msgid "CC"
@@ -2513,7 +2519,7 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/SendTo.js:12
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/SendBCC.js:12
 msgid "Add one or more email addresses"
-msgstr ""
+msgstr "Ajouter une addresse ou plus"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/SendBCC.js:10
 msgid "BCC"
@@ -2521,103 +2527,103 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/EmailSubject.js:10
 msgid "Subject"
-msgstr ""
+msgstr "Sujet"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/EmailSubject.js:12
 msgid "Email Subject"
-msgstr ""
+msgstr "Sujet Email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/EmailAttachments.js:10
 msgid "Attachments"
-msgstr ""
+msgstr "Pièces jointes"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/EmailAttachments.js:12
 msgid "No Attachments"
-msgstr ""
+msgstr "Pas de pièce jointe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/SendFrom.js:10
 msgid "From:"
-msgstr ""
+msgstr "De:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/ButtonSend.js:9
 msgid "Send Email"
-msgstr ""
+msgstr "Envoyer email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/sendemail/Main.js:9
 msgid "Send an Email"
-msgstr ""
+msgstr "Envoyer un email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:13
 msgid "Sources Conf."
-msgstr ""
+msgstr "Conf. Sources"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:17
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/SyncReports.js:9
 msgid "Sync Reports"
-msgstr ""
+msgstr "Rapports Sync"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:18
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/XferReports.js:9
 msgid "Xfer Reports"
-msgstr ""
+msgstr "Rapports Xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:21
 msgid "System Stats."
-msgstr ""
+msgstr "Stats. Système"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:22
 msgid "Sources Stats."
-msgstr ""
+msgstr "Stats. Sources"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Taskbar.js:23
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/System.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:56
 msgid "System Conf."
-msgstr ""
+msgstr "Conf. Système"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/stats/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:24
 msgid "Statistics & Reports"
-msgstr ""
+msgstr "Rapports & Statistiques"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/Alerts.js:9
 msgid "Email Alerts"
-msgstr ""
+msgstr "Alertes email"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:9
 msgid "Webcampak"
-msgstr ""
+msgstr "Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:25
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:73
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:28
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:76
 msgid "Link to Webcampak documentation, available in English & French"
-msgstr ""
+msgstr "Lien vers la documentation Webcampak, disponibe en Anglais et Français"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:30
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:78
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:33
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:81
 msgid "Link to Webcampak.com blog"
-msgstr ""
+msgstr "Lien vers le blog Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:35
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:83
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/Main.js:38
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:86
 msgid "Link to Webcampak.com website"
-msgstr ""
+msgstr "Lien vers le site web Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/DesktopConfig.js:21
 msgid "Save Icons Locations"
@@ -2625,7 +2631,7 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/DesktopConfig.js:25
 msgid "Change Password"
-msgstr ""
+msgstr "Changer mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/DesktopConfig.js:29
 msgid "Français"
@@ -2633,11 +2639,11 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/bottom/exceptions/Exceptions.js:12
 msgid "Exception Message"
-msgstr ""
+msgstr "Message d'exception"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/bottom/exceptions/Main.js:9
 msgid "Exception"
-msgstr ""
+msgstr "Exception"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/bottom/Build.js:12
 msgid "Build: dev"
@@ -2653,25 +2659,25 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/destination/FTPServersList.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/source/FTPServersList.js:9
 msgid "FTP Server"
-msgstr ""
+msgstr "Serveur FTP"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/destination/Type.js:13
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/source/Type.js:13
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/Name.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/Name.js:9
 msgid "Report Name"
-msgstr ""
+msgstr "Nom du rapport"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/ButtonSave.js:9
 msgid "Run"
-msgstr ""
+msgstr "Lancer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/Main.js:9
 msgid "Create a Report"
-msgstr ""
+msgstr "Créer un rapport"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/reportadd/Main.js:33
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/Main.js:29
@@ -2682,11 +2688,11 @@ msgstr "Destination"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/ButtonXfer.js:9
 msgid "Re-run and Sync"
-msgstr ""
+msgstr "Relance et sync"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:15
 msgid "File Count"
-msgstr ""
+msgstr "Nombre de fichiers"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:17
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:24
@@ -2706,66 +2712,66 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/summary/SummaryList.js:22
 msgid "File Size"
-msgstr ""
+msgstr "Taille Fichier"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/Main.js:41
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/Main.js:58
 msgid "Results"
-msgstr ""
+msgstr "Résultats"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/details/ButtonClose.js:9
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ButtonAdd.js:9
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/Search.js:11
 msgid "Filter by Report Name or Source Name"
-msgstr ""
+msgstr "Filtrer par nom de rapport ou nom de source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ButtonRerun.js:9
 msgid "Re-run report"
-msgstr ""
+msgstr "Relancer rapport"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:22
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:69
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:58
 msgid "Queued"
-msgstr ""
+msgstr "En attente"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:59
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:21
 msgid "Started"
-msgstr ""
+msgstr "Démaré"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:60
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:22
 msgid "Completed"
-msgstr ""
+msgstr "Complété"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:65
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/ReportsList.js:66
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/syncreports/Main.js:9
 msgid "FTP Sync Reports"
-msgstr ""
+msgstr "Rapports FTP Sync"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/Search.js:11
 msgid "Filter by Thread UUID"
-msgstr ""
+msgstr "Filtrer par UUID Thread"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:13
 msgid "UUID"
@@ -2777,31 +2783,31 @@ msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:15
 msgid "Created"
-msgstr ""
+msgstr "Créé"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:16
 msgid "Updated"
-msgstr ""
+msgstr "Mis à jour"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:17
 msgid "Queue"
-msgstr ""
+msgstr "Attente"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:19
 msgid "Last Job"
-msgstr ""
+msgstr "Dernier Job"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:23
 msgid "Direction"
-msgstr ""
+msgstr "Direction"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/ReportsList.js:30
 msgid "Rate"
-msgstr ""
+msgstr "Taux"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/xferreports/Main.js:9
 msgid "FTP Xfer Reports"
-msgstr ""
+msgstr "Rapports FTP Xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/customvideos/CustomVideosLogs.js:13
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:13
@@ -2809,130 +2815,134 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/videos/VideosLogs.js:13
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/capture/CaptureLogs.js:13
 msgid "Line"
-msgstr ""
+msgstr "Ligne"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/customvideos/CustomVideosLogs.js:14
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/postprod/PostprodLogs.js:14
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/videos/VideosLogs.js:14
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/capture/CaptureLogs.js:14
 msgid "Content"
-msgstr ""
+msgstr "Contenu"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/Logs.js:9
 msgid "<- Please select a source to access logs"
-msgstr ""
+msgstr " <- Sélectionnez une source pur accédder aux logs"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:14
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:16
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:17
 msgid "Parameter"
-msgstr ""
+msgstr "Paramètre"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:18
 msgid "Old"
-msgstr ""
+msgstr "Ancien"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/ConfigurationLogs.js:19
 msgid "new"
-msgstr ""
+msgstr "Nouveau"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/configuration/Main.js:9
 msgid "Configuration Changes"
-msgstr ""
+msgstr "Configuration modifiée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/logs/Main.js:9
 msgid "Sources Logs"
-msgstr ""
+msgstr "Logs sources"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfggphotoportscameras.js:23
 msgid "Different DSLR cameras"
-msgstr ""
+msgstr "Appareils reflex différents"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfggphotoportscameras.js:24
 msgid "Identical DSLR cameras"
-msgstr ""
+msgstr "Appareils reflex identiques"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgxfermaxfilesperthread.js:9
 msgid "Maximum number of files in each Xfer thread"
-msgstr ""
+msgstr "Nombre maximum de fichier par thread xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgnetif.js:9
 msgid "Main network interface"
-msgstr ""
+msgstr "Interface réseau principale"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgxferthreads.js:9
 msgid "Number of Xfer transfer threads"
-msgstr ""
+msgstr "Nombre de threqds Xfer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgphidgetactivate.js:9
 msgid "Enable Phidget board"
-msgstr ""
+msgstr "Activer platine Phidgets"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfggphotoports.js:9
 msgid "Lookup for camera automatically"
-msgstr ""
+msgstr "Rechercher l'appareil automatiquement"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Cfgstatsactivate.js:9
 msgid "Enable Statistics Collection"
-msgstr ""
+msgstr "Collecter statistiques"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:9
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:17
 msgid "Network"
-msgstr ""
+msgstr "Réseau"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:33
 msgid "Gphoto"
-msgstr ""
+msgstr "Gphoto"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:41
 msgid "Global FTP Account (resources)"
-msgstr ""
+msgstr "Compte FTP global (resources)"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:49
 msgid "Phidget"
-msgstr ""
+msgstr "Phidget"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/general/Main.js:55
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiques"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/reboot/ButtonReboot.js:9
 msgid "Yes, Reboot"
-msgstr ""
+msgstr "Oui, Redémarrer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/reboot/Main.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:175
 msgid "Reboot"
-msgstr ""
+msgstr "Redémarrer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/reboot/Main.js:17
 msgid "Are you sure you want to reboot ?"
-msgstr ""
+msgstr "Souhaitez-vous vraiment redémarrer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/systemconfiguration/Main.js:9
 msgid "System Configuration"
-msgstr ""
+msgstr "Configuration Système"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/Application.js:84
 msgid ""
 "You are about to leave the application. You might loose some content. Are "
 "you sure ?"
 msgstr ""
+"Vous êtes sur le point de quitter l'application. Tout contenu non sauvegardé "
+"sera perdu. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/Application.js:98
 msgid ""
 "Username is not valid. <br />  Can only contain letters, numbers, - and _"
 msgstr ""
+"Nom d'utilisateur invalide. <br />  Ne peut contenir que des lettres, "
+"chiffres, - et _"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:160
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:191
@@ -2961,15 +2971,15 @@ msgstr "Info"
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:192
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:255
 msgid "Please select a source first"
-msgstr ""
+msgstr "Veuillez d'abord sélectionner une source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:176
 msgid "Delete Source?"
-msgstr ""
+msgstr "Supprimer source ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:177
 msgid "You are deleting a source permanently, this cannot be undone. Proceed ?"
-msgstr ""
+msgstr "Toute suppression est définitive. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:210
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:233
@@ -2999,146 +3009,150 @@ msgstr "Nombre d'enregistrements affichés:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/sources/Sources.js:251
 msgid "Manage users of source: "
-msgstr ""
+msgstr "Gérer les utilisateurs de la source:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/customers/Customers.js:82
 msgid "NEW_CUSTOMER"
-msgstr ""
+msgstr "NOUVEAU_CLIENT"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/customers/Customers.js:101
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/customers/Customers.js:130
 msgid "Please select a customer first"
-msgstr ""
+msgstr "Veuillez sélectionner un client"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/customers/Customers.js:115
 msgid "Delete Customer?"
-msgstr ""
+msgstr "Supprimer client ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/customers/Customers.js:116
 msgid ""
 "You are deleting this customer permanently, this cannot be undone. Proceed ?"
-msgstr ""
+msgstr "Toute suppression est définitive. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:148
 msgid "Manage applications of group: "
-msgstr ""
+msgstr "Gérer les applications du groupe:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:152
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:179
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:214
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:243
 msgid "Please select a group first"
-msgstr ""
+msgstr "Veuillez sélectionner un groupe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:175
 msgid "Manage permissions of"
-msgstr ""
+msgstr "Gérer les permissions de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:228
 msgid "Delete Group?"
-msgstr ""
+msgstr "Supprimer groupe ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/groups/Groups.js:229
 msgid "You are deleting a group permanently, this cannot be undone. Proceed ?"
-msgstr ""
+msgstr "Toute suppression est définitive. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:147
 msgid "Manage sources of"
-msgstr ""
+msgstr "Gérer les rouces de"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:233
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:287
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:323
 msgid "Please select a user first"
-msgstr ""
+msgstr "Selectionnez un utilisateur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:308
 msgid "Delete User?"
-msgstr ""
+msgstr "Supprimer utilisateur ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:309
 msgid "You are deleting a user permanently, this cannot be undone. Proceed ?"
-msgstr ""
+msgstr "Toute suppression est définitive. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:336
 msgid "Username too short"
-msgstr ""
+msgstr "Nom d'utilisateur trop court"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/accesscontrol/users/Users.js:341
 msgid "Username already exists"
-msgstr ""
+msgstr "L'utilisateur existe déjà"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/alerts/Alerts.js:322
 msgid "Loading grid, be patient..."
-msgstr ""
+msgstr "Chargement en cours"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:149
 msgid "NEW_SERVER"
-msgstr ""
+msgstr "NOUVEAU_SERVEUR"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:175
 msgid "Add new server"
-msgstr ""
+msgstr "Ajouter un nouveau serveur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:176
 msgid "This new server will be saved in configuration. Proceed ?"
-msgstr ""
+msgstr "Ce nouveau serveur sera ajouté à la configuration. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:200
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:232
 msgid "Please select a server first"
-msgstr ""
+msgstr "Selectionnez un serveur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:214
 msgid "Delete FTP Server ?"
-msgstr ""
+msgstr "Supprimer serveur FTP ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/ftp/Ftp.js:215
 msgid ""
 "You are deleting this FTP Server permanently, this cannot be undone. "
 "Proceed ?"
-msgstr ""
+msgstr "Toute suppression est définitive. Continuer ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:177
 msgid "Unsaved Server"
-msgstr ""
+msgstr "Serveur non sauvegardé"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:178
 msgid "You have an unsaved FTP server, you cannot exit the FTP tab."
 msgstr ""
+"Un serveur FTP n'a pas été sauvegardé, vous ne pouvez pas quitter l'onglet "
+"FTP."
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:211
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:212
 msgid "Configuration has been modified"
-msgstr ""
+msgstr "La configuration a été modifiée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:230
 msgid "Unsaved configuration"
-msgstr ""
+msgstr "Configuration non sauvegardée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:231
 msgid ""
 "Your configuration changes have not been saved and will be lost. <br /"
 ">Please Save your configuration or Cancel your changes"
 msgstr ""
+"Votre configuration n'a pas été sauvegardée.<br />Veuillez sauvegarder ou "
+"annuler vos changements"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:244
 msgid "Loading Configuration"
-msgstr ""
+msgstr "Chargement de la configuration"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:251
 msgid "Configuration of:"
-msgstr ""
+msgstr "Configuration de:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:333
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:249
 msgid "No configuration changes detected, nothing to save"
-msgstr ""
+msgstr "Pas de changements détectés, rien à sauvegarder"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/sourcesconfiguration/SourcesConfiguration.js:345
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:261
 msgid "Configuration has been saved"
-msgstr ""
+msgstr "Configuration sauvegardée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/pictures/Pictures.js:164
 msgid "Webcampak picture"
@@ -3162,7 +3176,7 @@ msgstr "Image Webcampak"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/videos/Videos.js:146
 msgid "No Video available for this source"
-msgstr ""
+msgstr "Pas de vidéo disponible pour la source"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/devices/Devices.js:85
 msgid "Loading Devices details"
@@ -3176,19 +3190,19 @@ msgstr "Identifiants absents"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:110
 msgid "Please enter proper passwords (4 chars min.)"
-msgstr ""
+msgstr "Veuillez entrer un mot de passe valide"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:136
 msgid "Password modification successful"
-msgstr ""
+msgstr "Changement de mot de passe réussi"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:143
 msgid "Unable to change password"
-msgstr ""
+msgstr "Impossible de modifier le mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:156
 msgid "Password modification Failed"
-msgstr ""
+msgstr "Echect de modification du mot de passe"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:157
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:201
@@ -3197,12 +3211,14 @@ msgstr "Echec d'authentification au serveur distant"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:168
 msgid "Unsecured connections"
-msgstr ""
+msgstr "Connexion non sécurisée"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:169
 msgid ""
 "Your connection is not encrypted, transmitting your credentials in clear-text"
 msgstr ""
+"Votre connecxion n'est pas chiffrée, les identifiants seront transmis en "
+"clair"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:176
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/loading/Mask.js:135
@@ -3211,7 +3227,7 @@ msgstr "Erreur"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/ChangePassword.js:177
 msgid "Password do not match"
-msgstr ""
+msgstr "Les mots de passe ne correspondent pas"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/Authentication.js:111
 msgid "Authentication Error"
@@ -3266,7 +3282,7 @@ msgstr "Impossible de communiquer avec le serveur distant"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/authentication/UserSettings.js:65
 msgid "Build: "
-msgstr ""
+msgstr "Build:"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/loading/Mask.js:133
 msgid "Exception happened on:"
@@ -3302,15 +3318,17 @@ msgstr "Veuillez vous assurer que les champs A, Sujet, Corps ont été remplis"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/WindowManagement.js:52
 msgid "Screen Size"
-msgstr ""
+msgstr "Taille Ecran"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/WindowManagement.js:53
 msgid "Your screen definition is not large enough to fit this window"
-msgstr ""
+msgstr "Votre définition d'écran n'est pas suffisante pour cette application"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/desktop/WindowManagement.js:53
 msgid "The window will be trimmed down but might display incorrectly"
 msgstr ""
+"La fenêtre sera automatiquement réduite, mais des problèmes d'affichage "
+"peuvent survenir"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:160
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/syncreports/SyncReports.js:201
@@ -3395,19 +3413,21 @@ msgstr "Logs de: "
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:132
 msgid "Restart Webcampak ?"
-msgstr ""
+msgstr "Redémarrer le Webcampak ?"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:133
 msgid "Are you sure ? Picture acquisition will be suspended during reboot"
 msgstr ""
+"Etes vous sûrs ? L'acquisition d'image sera impossible pendant le redémarrage"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:160
 msgid "Unable to perform reboot"
-msgstr ""
+msgstr "Impossible de redémarrer"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/controller/systemconfiguration/SystemConfiguration.js:176
 msgid "Reboot is in progress, please wait for 1mn before refreshing the page"
 msgstr ""
+"Redémarrage en cours, veuillez attendre 1mn avant de rafraîchir la page"
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/util/ErrorHandling.js:22
 msgid "Server error"

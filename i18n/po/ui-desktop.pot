@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-27 09:08-0500\n"
+"POT-Creation-Date: 2016-12-29 11:58-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -436,7 +436,8 @@ msgid "USE_ID"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/UsersList.js:45
-msgid "E-Mail"
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/shared/Email.js:10
+msgid "email"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/UsersList.js:46
@@ -508,15 +509,12 @@ msgstr ""
 msgid "Refresh available Sources"
 msgstr ""
 
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/shared/Email.js:10
-msgid "E-mail"
-msgstr ""
-
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/shared/ChangePwdFlag.js:10
 msgid "Change Password next Logon"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/users/Main.js:10
+#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/Main.js:30
 msgid "Add/Edit/Delete Users"
 msgstr ""
 
@@ -525,10 +523,6 @@ msgstr ""
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/menu/config/AccessControl.js:9
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/desktop/toolbar/top/Menu.js:51
 msgid "Access Control"
-msgstr ""
-
-#: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/Main.js:30
-msgid "Add/Edit/Delete users"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/accesscontrol/Main.js:36
@@ -1856,7 +1850,7 @@ msgid "Picture filename (Harbortronics) - (YYYYMMDD_HHMMSS.JPG)"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:24
-msgid "Canon IP Camera - (YYYYMMDDHHMMSSxxx.jpg)"
+msgid "Picture filename (Canon IP Camera) - (YYYYMMDDHHMMSSxxx.jpg)"
 msgstr ""
 
 #: /home/webcampak/webcampak/apps/ui/Sencha/App6.0/workspace/Desktop/app/view/sourcesconfiguration/capture/ipcamera/Cfgsourcecamiptemplate.js:25
