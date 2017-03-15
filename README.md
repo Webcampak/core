@@ -47,11 +47,7 @@ We are constantly adding new features, so the list might not be up-to-date, but 
 
 ## Setup
 
-Run the following command from a fresh ubuntu server install and follow instructions
-```
-bash <(curl -s https://raw.githubusercontent.com/Webcampak/core/master/init/install/install.Ubuntu16.04.sh)
-```
-After installation connect to your Webcampak's IP via https.
+Please refer to [Webcampak documentation](http://doc.webcampak.com/webcampak3.x/web/en/Develop/en_Install/)
 
 *Note*: Webcampak has been pre-configured and tested using system user "webcampak", you will need to replace paths if you want to use a different username.
 
