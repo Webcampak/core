@@ -15,10 +15,14 @@ Webcampak software is broken down in multiple repositories, one for each of its 
 | [CLI](https://github.com/Webcampak/cli)   | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4bb6ea486dc14ea398e5c3536bc86e75)](https://www.codacy.com/app/Webcampak/cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Webcampak/cli&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/Webcampak/cli.svg?branch=develop)](https://travis-ci.org/Webcampak/cli) | Contains the Python Cement command line interface used to drive Webcampak inner activities. |
 
 ## Demo
-A demo version of Webcampak is available at [https://demo.webcampak.com](https://demo.webcampak.com)
+A demo version of Webcampak is available at [https://cloud008.webcampak.com](https://cloud008.webcampak.com)
 
  - Login: demo
  - Password: omed
+
+## Documentation
+
+Webcampak documentation is available at [http://doc.webcampak.com/webcampak3.x/web/en/](http://doc.webcampak.com/webcampak3.x/web/en/)
 
 ## Features
 We are constantly adding new features, so the list might not be up-to-date, but should provide a good idea of Webcampak capabilities:
