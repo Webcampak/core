@@ -246,6 +246,7 @@ $extMethodsConfig = array(
       , 'folder'=>'Desktop/Sourcesconfiguration'
       , 'methods'=>array(
          'getWatermarkFiles'    =>array('len'=>1, 'applications'=>array('all'))
+         , 'getAudioFiles'      =>array('len'=>1, 'applications'=>array('all'))
          , 'getFonts'           =>array('len'=>1, 'applications'=>array('all'))
          , 'getPhidgetSensors'  =>array('len'=>1, 'applications'=>array('all'))
          , 'getCaptureSchedule' =>array('len'=>1, 'applications'=>array('all'))

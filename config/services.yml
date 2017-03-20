@@ -30,7 +30,7 @@ services:
 
     app.svc.sources:
         class: AppBundle\Services\SourcesService
-        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_sources%, %dir_watermark%, %dir_etc%]
+        arguments: ['@security.token_storage', '@doctrine', '@logger', %dir_sources%, %dir_watermark%, %dir_audio%, %dir_etc%]
 
     app.svc.groups:
         class: AppBundle\Services\GroupsService

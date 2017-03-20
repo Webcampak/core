@@ -8,6 +8,7 @@ parameters:
     dir_sources:        '/home/webcampak/webcampak/sources/'
     dir_etc:            '/home/webcampak/webcampak/resources/etc/'
     dir_watermark:      '/home/webcampak/webcampak/resources/watermark/'
+    dir_audio:          '/home/webcampak/webcampak/resources/audio/'
     dir_init:           '/home/webcampak/webcampak/install/config/'
     dir_bin:            '/home/webcampak/webcampak/bin/'
     dir_resources:      '/home/webcampak/webcampak/resources/'
