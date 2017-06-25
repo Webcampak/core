@@ -1,0 +1,15 @@
+Hello,
+
+Your camera has been power-cycled.
+
+Cameras detected before power-cycle:
+#CAMERASBEFORE#
+
+Cameras detected after power-cycle:
+#CAMERASAFTER#
+
+Thanks.
+
+Your Webcampak.
+
+

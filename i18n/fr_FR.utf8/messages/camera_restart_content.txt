@@ -1,0 +1,15 @@
+Bonjour,
+
+Votre appareil photo a été redémarré électriquement.
+
+Appareils détectés avant le redémarrage:
+#CAMERASBEFORE#
+
+Appareils détectés après le redémarrage:
+#CAMERASAFTER#
+
+Thanks.
+
+Your Webcampak.
+
+
