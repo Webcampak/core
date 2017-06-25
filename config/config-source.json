@@ -139,15 +139,22 @@
                 , {"name": "cfgemailalertscheduleslotgrace"     ,"default": "0",   "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Grace period in minutes before triggerring an alarm"}
                 , {"name": "cfgemailalertscheduleslotreminder"  ,"default": "100", "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED"  , "description": "Send a reminder every x missing captures"}
                 , {"name": "cfgemailsuccesspicturewidth"    ,"default": "1024",  "type": "int", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Specify the size of pictures to be sent along a success email"}
-                , {"name": "cfgphidgeterroractivate"        ,"default": "no",  "type": "yesno", "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "Restart the camera in case of error"}
-                , {"name": "cfgphidgetfailure"              ,"default": "3",   "type": "int",   "permission": "SOURCES_CONFIGURATION_SIMPLE", "description": "The camera will be restarted after X failures"}
+            ]
+        }, {
+            "name": "camera"
+            , "permission": "SOURCES_CONFIGURATION_ADVANCED"
+            , "parameters": [
+                {"name": "cfgphidgetcameraactivate"     ,"default": "no",   "type": "yesno", "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Restart the camera in case of error"}
+                , {"name": "cfgphidgetcamerasensorport" ,"default": "5",    "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Phidget port used to capture value of the relay"}
+                , {"name": "cfgphidgetcamerarelayport"  ,"default": "6",    "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Port used to control the relay"}
+                , {"name": "cfgphidgetcamerapause"      ,"default": "5",    "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Number of seconds to pause during power cycle"}
+                , {"name": "cfgphidgetcamerafailure"    ,"default": "3",    "type": "int",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "The camera will be restarted after X failures"}
             ]
         }, {
             "name": "phidget"
             , "permission": "SOURCES_CONFIGURATION_ADVANCED"
             , "parameters": [
-                {"name": "cfgphidgetcameraport"     ,"default": "5"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Port used for power switch"}
-                , {"name": "cfgphidgetsensornb"     ,"default": "4"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Number of Phidget sensors that could be supported by the source"}
+                {"name": "cfgphidgetsensornb"     ,"default": "4"     ,"type": "int",    "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Number of Phidget sensors that could be supported by the source"}
                 , {"name": "cfgphidgetactivate"     ,"default": "no"    ,"type": "yesno",  "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Enable sensor collection or not"}
                 , {"name": "cfgphidgetsensor1"      ,"default": null    ,"type": "list",   "permission": "SOURCES_CONFIGURATION_ADVANCED", "description": "Configure sensor 1"
                     , "values": [
