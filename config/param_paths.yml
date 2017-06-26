@@ -18,7 +18,8 @@ parameters:
     dir_sync-reports:   '/home/webcampak/webcampak/resources/sync-reports/'
     dir_xfer:           '/home/webcampak/webcampak/resources/xfer/'
     dir_stats:          '/home/webcampak/webcampak/resources/stats/'
-    
+    dir_schemas:        '/home/webcampak/webcampak/resources/schemas/'
+
     dir_locale:         '/home/webcampak/webcampak/i18n/'
     dir_locale_message: 'messages/'
     dir_locale_emails:  'emails/'
