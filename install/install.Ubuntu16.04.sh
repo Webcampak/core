@@ -183,15 +183,15 @@ sudo apt-get install --assume-yes build-essential make libusb-dev
 #wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20110615.tar.gz
 #wget http://www.phidgets.com/downloads/libraries/libphidget_2.1.8.20151217.tar.gz
 wget https://www.phidgets.com/downloads/phidget21/libraries/linux/libphidget/libphidget_2.1.8.20170607.tar.gz
-tar xfvz libphidget_2.1.8.20151217.tar.gz
-cd libphidget-2.1.8.20151217
+tar xfvz libphidget_2.1.8.20170607.tar.gz
+cd libphidget_2.1.8.20170607
 ./configure; make;
 sudo make install
 cd /home/${sysusername}/softs/
 #wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20110804.zip
 #wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20151217.zip
 wget https://www.phidgets.com/downloads/phidget21/libraries/any/PhidgetsPython/PhidgetsPython_2.1.8.20170607.zip
-unzip PhidgetsPython_2.1.8.20151217.zip
+unzip PhidgetsPython_2.1.8.20170607.zip
 cd PhidgetsPython
 python setup.py build
 sudo python setup.py install
