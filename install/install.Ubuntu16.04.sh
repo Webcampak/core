@@ -187,6 +187,8 @@ tar xfvz libphidget_2.1.8.20170607.tar.gz
 cd libphidget-2.1.8.20170607
 ./configure; make;
 sudo make install
+sudo cp udev/99-phidgets.rules /etc/udev/rules.d
+sudo udevadm control --reload
 cd /home/${sysusername}/softs/
 #wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20110804.zip
 #wget http://www.phidgets.com/downloads/libraries/PhidgetsPython_2.1.8.20151217.zip
