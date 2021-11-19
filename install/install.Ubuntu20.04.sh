@@ -38,12 +38,13 @@ elif [ "$(whoami)" != "webcampak" ] ; then
 		sudo usermod -aG sudo,adm,dialout,cdrom,floppy,audio,dip,video,plugdev,netdev,lxd webcampak
 		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new webcampak user ....\e[0m"		
 		su - webcampak
+		sysusername=$(whoami)
+		cd /home/${sysusername}/
 	fi
-else
-	sysusername=$(whoami)
-	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') You are currently connected as: $(whoami)\e[0m"
-	cd /home/${sysusername}/
 fi
+sysusername=$(whoami)
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') You are currently connected as: $(whoami)\e[0m"
+cd /home/${sysusername}/
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Distribution updated and upgrade\e[0m"
 sudo apt-get update --assume-yes
