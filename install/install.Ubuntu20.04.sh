@@ -36,7 +36,7 @@ elif [ "$(whoami)" != "webcampak" ] ; then
 		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') You will be asked for a password ....\e[0m"
 		sudo adduser --gecos "" webcampak
 		sudo usermod -aG sudo,adm,dialout,cdrom,floppy,audio,dip,video,plugdev,netdev,lxd webcampak
-		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new user ....\e[0m"		
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new webcampak user ....\e[0m"		
 		su - webcampak
 	fi
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: You are not running the script as under the webcampak user, exiting ....\e[0m"
