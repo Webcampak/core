@@ -28,6 +28,17 @@ if [ "$(whoami)" = "root" ] ; then
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: Do not run installation script as root, exiting ....\e[0m"
 	exit 0
 elif [ "$(whoami)" != "webcampak" ] ; then
+	if id webcampak &>/dev/null; then
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') A webcampak user is present on the system, please re-start the script with that user ....\e[0m"
+		exit 0
+	else
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') A webcampak user is not present on the system, creating it ....\e[0m"
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') You will be asked for a password ....\e[0m"
+		sudo adduser --gecos "" webcampak
+		sudo usermod -aG sudo,adm,dialout,cdrom,floppy,audio,dip,video,plugdev,netdev,lxd webcampak
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new user ....\e[0m"		
+		su - webcampak
+	fi
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: You are not running the script as under the webcampak user, exiting ....\e[0m"
 	exit 0	
 else
