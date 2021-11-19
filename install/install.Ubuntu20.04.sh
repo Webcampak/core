@@ -27,6 +27,9 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') "
 if [ "$(whoami)" = "root" ] ; then
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: Do not run installation script as root, exiting ....\e[0m"
 	exit 0
+elif [ "$(whoami)" != "webcampak" ] ; then
+	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: You are not running the script as under the webcampak user, exiting ....\e[0m"
+	exit 0	
 else
 	sysusername=$(whoami)
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') You are currently connected as: $(whoami)\e[0m"
