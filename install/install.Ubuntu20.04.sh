@@ -39,6 +39,7 @@ elif [ "$(whoami)" != "webcampak" ] ; then
 		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new webcampak user and exit ....\e[0m"		
 		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Please start it again ....\e[0m"		
 		su - webcampak
+		exit 0
 	fi
 fi
 sysusername=$(whoami)
