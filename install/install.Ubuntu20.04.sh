@@ -41,14 +41,16 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Software and dependencies ins
 sudo apt-get update
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of git and source control dependencies\e[0m"
 sudo apt-get install --assume-yes git vim
-echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of python and dependencies\e[0m"
-sudo apt-get install --assume-yes python-imaging python-opencv python-rrdtool python-configobj python-setuptools python-gdata python-psutil python-dateutil python-numpy python-pip librrd-dev virtualenv h264enc
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Install python3 and dependencies \e[0m"
+sudo apt install --assume-yes python3-pip python3-pil python3-opencv python3-rrdtool python3-configobj python3-setuptools python3-psutil python3-dateutil python3-numpy
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Install of other dependencies \e[0m"
+sudo apt install --assume-yes librrd-dev virtualenv h264enc
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of picture processing related tools\e[0m"
 sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib1g-dev libpuzzle-bin
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video\e[0m"
-sudo apt-get install --assume-yes mpgtx mencoder x264 libav-tools atomicparsley gpac
+sudo apt-get install --assume-yes mpgtx mencoder x264 ffmpeg atomicparsley gpac
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
-sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-gettext php-sqlite3 vsftpd composer
+sudo apt-get install --assume-yes apache2 php openssl php-cli libapache2-mod-php php-gd php-sqlite3 vsftpd composer
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Misc and utilities\e[0m"
 sudo apt-get install --assume-yes unzip ifstat lftp db5.3-util pwgen gettext npm
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
