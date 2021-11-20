@@ -30,6 +30,9 @@ set -e
 trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
 trap 'echo "\"${last_command}\" command filed with exit code $?."' EXIT
 
+# Set apt-get to non-interactive mode for the entire script
+export DEBIAN_FRONTEND=noninteractive
+
 if [ "$(whoami)" = "root" ] ; then
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: Do not run installation script as root, exiting ....\e[0m"
 	exit 0
