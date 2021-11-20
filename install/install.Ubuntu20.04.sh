@@ -20,10 +20,16 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\             Do not start this scr
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\             --------------------------------                   /!\ \e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\                                                                /!\ \e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\     This script has been created to run on a fresh             /!\ \e[0m"
-echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\     Ubuntu 16.04 server installation.                          /!\ \e[0m"
+echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\     Ubuntu 20.04 server installation.                          /!\ \e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') /!\                                                                /!\ \e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') "
+
+# Configuring the script to stop if any of the commands return an error
+set -e
+trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
+trap 'echo "\"${last_command}\" command filed with exit code $?."' EXIT
+
 if [ "$(whoami)" = "root" ] ; then
 	echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Warning: Do not run installation script as root, exiting ....\e[0m"
 	exit 0
@@ -38,8 +44,7 @@ elif [ "$(whoami)" != "webcampak" ] ; then
 		sudo usermod -aG sudo,adm,dialout,cdrom,floppy,audio,dip,video,plugdev,netdev,lxd webcampak
 		echo "webcampak  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/webcampak
 		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') The script will now be switching to the new webcampak user and exit ....\e[0m"		
-		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Please start it again ....\e[0m"		
-		su - webcampak
+		echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Please connect as this user and start the installation script again ....\e[0m"		
 		exit 0
 	fi
 fi
@@ -51,8 +56,6 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Distribution updated and upgr
 sudo apt-get update --assume-yes
 sudo apt-get dist-upgrade --assume-yes
 
-echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Software and dependencies installation\e[0m"
-sudo apt-get update
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of git and source control dependencies\e[0m"
 sudo apt-get install --assume-yes git vim
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Install python3 and dependencies \e[0m"
