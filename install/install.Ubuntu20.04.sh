@@ -143,6 +143,7 @@ fi
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: Installation of the CLI \e[0m"
 cd /home/${sysusername}/webcampak/apps/cli/
+sudo pip install --upgrade "pip < 21.0"
 sudo pip install -r requirements.txt
 sudo python setup.py install
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
