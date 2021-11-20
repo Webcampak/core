@@ -98,29 +98,29 @@ echo -e "\e[32m$(date +'%d %B %Y - %k:%M') GRUB: Configuration completed\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Webcampak: System directory creation\e[0m"
-mkdir /home/${sysusername}/webcampak/resources
-mkdir /home/${sysusername}/webcampak/resources/cache
-mkdir /home/${sysusername}/webcampak/resources/cache/symfony
-mkdir /home/${sysusername}/webcampak/resources/cache/syncreports
-mkdir /home/${sysusername}/webcampak/resources/database
-mkdir /home/${sysusername}/webcampak/resources/emails
-mkdir /home/${sysusername}/webcampak/resources/emails/failed
-mkdir /home/${sysusername}/webcampak/resources/emails/queued
-mkdir /home/${sysusername}/webcampak/resources/emails/sent
-mkdir /home/${sysusername}/webcampak/resources/ftp
-mkdir /home/${sysusername}/webcampak/resources/ftp/failed
-mkdir /home/${sysusername}/webcampak/resources/ftp/process
-mkdir /home/${sysusername}/webcampak/resources/ftp/queued
-mkdir /home/${sysusername}/webcampak/resources/ftp/sent
-mkdir /home/${sysusername}/webcampak/resources/logs
-mkdir /home/${sysusername}/webcampak/resources/logs/symfony
-mkdir /home/${sysusername}/webcampak/resources/logs/system
-mkdir /home/${sysusername}/webcampak/resources/logs/stats
-mkdir /home/${sysusername}/webcampak/resources/etc
-mkdir /home/${sysusername}/webcampak/resources/watermark
-mkdir /home/${sysusername}/webcampak/resources/audio
-mkdir /home/${sysusername}/webcampak/resources/stats/
-mkdir /home/${sysusername}/webcampak/resources/stats/consolidated/
+mkdir -p /home/${sysusername}/webcampak/resources
+mkdir -p /home/${sysusername}/webcampak/resources/cache
+mkdir -p /home/${sysusername}/webcampak/resources/cache/symfony
+mkdir -p /home/${sysusername}/webcampak/resources/cache/syncreports
+mkdir -p /home/${sysusername}/webcampak/resources/database
+mkdir -p /home/${sysusername}/webcampak/resources/emails
+mkdir -p /home/${sysusername}/webcampak/resources/emails/failed
+mkdir -p /home/${sysusername}/webcampak/resources/emails/queued
+mkdir -p /home/${sysusername}/webcampak/resources/emails/sent
+mkdir -p /home/${sysusername}/webcampak/resources/ftp
+mkdir -p /home/${sysusername}/webcampak/resources/ftp/failed
+mkdir -p /home/${sysusername}/webcampak/resources/ftp/process
+mkdir -p /home/${sysusername}/webcampak/resources/ftp/queued
+mkdir -p /home/${sysusername}/webcampak/resources/ftp/sent
+mkdir -p /home/${sysusername}/webcampak/resources/logs
+mkdir -p /home/${sysusername}/webcampak/resources/logs/symfony
+mkdir -p /home/${sysusername}/webcampak/resources/logs/system
+mkdir -p /home/${sysusername}/webcampak/resources/logs/stats
+mkdir -p /home/${sysusername}/webcampak/resources/etc
+mkdir -p /home/${sysusername}/webcampak/resources/watermark
+mkdir -p /home/${sysusername}/webcampak/resources/audio
+mkdir -p /home/${sysusername}/webcampak/resources/stats/
+mkdir -p /home/${sysusername}/webcampak/resources/stats/consolidated/
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') -------------------------------------------------------\e[0m"
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Setting up root crontab\e[0m"
