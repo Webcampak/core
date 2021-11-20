@@ -64,6 +64,8 @@ sudo apt-get install --assume-yes imagemagick jpeginfo gphoto2 libjpeg8-dev zlib
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of necessary tools to create video\e[0m"
 sudo apt-get install --assume-yes mpgtx mencoder x264 ffmpeg atomicparsley gpac
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Apache and PHP installation\e[0m"
+sudo apt remove ca-certificates
+sudo apt install ca-certificates
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get install --assume-yes apache2 openssl php5.6 php5.6-cli php5.6-xml php5.6-common libapache2-mod-php5.6 php5.6-gd php5.6-sqlite3 vsftpd composer
