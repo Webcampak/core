@@ -62,7 +62,7 @@ sudo apt-get dist-upgrade --assume-yes
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of git and source control dependencies\e[0m"
 sudo apt-get install --assume-yes git vim
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Install python3 and dependencies \e[0m"
-sudo apt install --assume-yes python-dev python-setuptools python3-pip python3-pil python3-opencv python3-rrdtool python3-configobj python3-setuptools python3-psutil python3-dateutil python3-numpy
+sudo apt install --assume-yes python3-dev python3-setuptools python3-pip python3-pil python3-opencv python3-rrdtool python3-configobj python3-setuptools python3-psutil python3-dateutil python3-numpy
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Install of other dependencies \e[0m"
 sudo apt install --assume-yes librrd-dev virtualenv h264enc
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Installation of picture processing related tools\e[0m"
