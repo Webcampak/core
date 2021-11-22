@@ -7,12 +7,12 @@ Webcampak is a set of tools to reliably capture high definition pictures, at pre
 
 Webcampak software is broken down in multiple repositories, one for each of its main components:
 
-| Repo        | Badges           | Description  |
-| ------------- |-------------| -----|
-| [Core](https://github.com/Webcampak/core) | n/a | Entry-point repository (the one you are currently on), contains all commons elements and installation scripts. |
-| [API](https://github.com/Webcampak/api)   | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9226d93ac8904771a42d982bd035b69e)](https://www.codacy.com/app/Webcampak/api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Webcampak/api&amp;utm_campaign=Badge_Grade) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/1e364327-6a65-41ba-a7c3-78d4f880119d/mini.png)](https://insight.sensiolabs.com/projects/1e364327-6a65-41ba-a7c3-78d4f880119d) | Contains the Symfony API used by the User Interface to communicate with the Webcampak. |
-| [UI](https://github.com/Webcampak/ui)     | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fef03024035d43988b42b099350971c7)](https://www.codacy.com/app/Webcampak/ui?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Webcampak/ui&amp;utm_campaign=Badge_Grade)   | Contains Sencha Extjs User Interfaces. |
-| [CLI](https://github.com/Webcampak/cli)   | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4bb6ea486dc14ea398e5c3536bc86e75)](https://www.codacy.com/app/Webcampak/cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Webcampak/cli&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/Webcampak/cli.svg?branch=develop)](https://travis-ci.org/Webcampak/cli) | Contains the Python Cement command line interface used to drive Webcampak inner activities. |
+| Repo        | Description  |
+| ------------- | -----|
+| [Core](https://github.com/Webcampak/core) | Entry-point repository (the one you are currently on), contains all commons elements and installation scripts. |
+| [API](https://github.com/Webcampak/api)   | Contains the Symfony API used by the User Interface to communicate with the Webcampak. |
+| [UI](https://github.com/Webcampak/ui)     | Contains Sencha Extjs User Interfaces. |
+| [CLI](https://github.com/Webcampak/cli)   | Contains the Python Cement command line interface used to drive Webcampak inner activities. |
 
 ## Demo
 A demo version of Webcampak is available at [https://cloud008.webcampak.com](https://cloud008.webcampak.com)
