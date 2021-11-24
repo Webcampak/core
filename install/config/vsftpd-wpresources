@@ -1,6 +1,9 @@
 ## l'utilisateur est enfermé dans un dossier déterminé
 local_root=/home/tmpusername/webcampak/resources/
 
+# Allow the user root folder to be writable
+allow_writeable_chroot=YES
+
 ## droit de lecture(download)
 anon_world_readable_only=NO
 
