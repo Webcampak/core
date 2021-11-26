@@ -171,10 +171,11 @@ sudo mkdir /etc/apache2/certs/
 sudo mv /etc/ssl/certs/ssl-cert-snakeoil.pem /etc/apache2/certs/cert.pem
 sudo mv /etc/ssl/private/ssl-cert-snakeoil.key /etc/apache2/certs/cert.key
 sudo cp /home/${sysusername}/webcampak/install/config/webcampak.apache2.conf /etc/apache2/sites-available/webcampak.conf
-#	sudo cp /home/${sysusername}/webcampak/init/config/webcampak.php5 /etc/apache2/mods-available/php5.conf
+sudo cp /home/${sysusername}/webcampak/install/config/webcampak.mutex.apache2.conf /etc/apache2/conf-available/mutex.conf
 sudo a2enmod ssl
 sudo a2ensite webcampak
 sudo a2dissite 000-default
+sudo a2enconf mutex.conf
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Apache: Updating configuration to run apache as: ${sysusername}\e[0m"
 sudo sed -i "s/www-data/${sysusername}/" /etc/apache2/envvars
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') Apache: Re-starting apache ...\e[0m"
