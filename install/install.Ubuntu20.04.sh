@@ -157,7 +157,7 @@ echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/bin/ifstat" | sudo tee -a /etc/sud
 #sudo echo "${sysusername} ALL=(ALL) NOPASSWD: /usr/local/bin/webcampak system*" > /etc/sudoers.d/webcampak
 sudo chmod 0440 /etc/sudoers.d/webcampak
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') System: Adding usb to group plugdev\e[0m"
-sudo usermod -aG plugdev
+sudo usermod -aG plugdev webcampak
 sudo cp /home/${sysusername}/webcampak/install/config/webcampak-udev-usb.rules /etc/udev/rules.d/
 sudo udevadm control --reload
 #TODO: Add Webcampak SSH Public Keys
