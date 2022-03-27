@@ -1,0 +1,25 @@
+[
+    {
+        "LOCATION": "BOTTOM_RIGHT",
+        "NAME": "www.webcampak.com",
+        "LINK": "http://www.webcampak.com"
+    },
+    {
+        "LOCATION": "TOP_LEFT_MENU",
+        "NAME": "Documentation",
+        "LINK": "http://www.webcampak.com/doc/",
+        "GLYPH": "xf02d"
+    },
+    {
+        "LOCATION": "TOP_LEFT_MENU",
+        "NAME": "Blog",
+        "LINK": "http://blog.webcampak.com",
+        "GLYPH": "xf0ac"
+    },
+    {
+        "LOCATION": "TOP_LEFT_MENU",
+        "NAME": "About",
+        "LINK": "http://www.webcampak.com",
+        "GLYPH": "xf0ac"
+    }
+]

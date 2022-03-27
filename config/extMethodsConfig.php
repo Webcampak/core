@@ -62,6 +62,14 @@ $extMethodsConfig = array(
          )
    )
 
+   , 'DesktopLinks'=>array(
+      'applications'=>array('all')
+    , 'folder'=>'Desktop'
+    , 'methods'=>array(
+          'getLinks'     =>array('len'=>1, 'applications'=>array('all'))
+       )
+   )
+
    , 'Administrative'=>array(
       'applications'=>array('all')
       , 'folder'=>'Desktop'

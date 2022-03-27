@@ -1,0 +1,16 @@
+Hello,
+
+You are receiving this email because we noticed an unexpected number of errors on the source.
+
+Current Source Time: #CURRENTSOURCETIME#
+Last Capture Time: #LASTCAPTURETIME#
+
+Please ensure all equipments are properly connected and powered.
+
+For more details about the incidents, please refer to system logs or contact support.
+
+You will not receive additional emails until the source is back online.
+
+Thanks.
+
+Your Webcampak
