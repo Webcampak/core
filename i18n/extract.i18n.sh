@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU General Public License along with Webcampak.
 # If not, see http://www.gnu.org/licenses/
 #declare -a supportLanguages=("fr_FR.utf8" "en_US.utf8")
-declare -a supportLanguages=("fr_FR.utf8")
+declare -a supportLanguages=("fr_FR.utf8" "it_IT.UTF-8")
 
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\e[0m"
 echo -e "\e[32m$(date +'%d %B %Y - %k:%M') |                 Welcome to Webcampak 3 i18n Script                  |\e[0m"
