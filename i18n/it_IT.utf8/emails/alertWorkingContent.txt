@@ -1,14 +1,13 @@
-Hello,
+Salve,
 
-The previously failing source is now able to capture pictures.
+La sergente che aveva riscontrato problemi è ora nuovamente in grado di catturare immagini.
 
 Current Source Time: #CURRENTSOURCETIME#
 Last Capture Time: #LASTCAPTURETIME#
 
-You will not receive additional emails until next incident.
+Non riceverai ulteriori email fino al prossimo problema.
 
-Thanks.
+Grazie.
 
-Your Webcampak.
-
+Webcampak.
 

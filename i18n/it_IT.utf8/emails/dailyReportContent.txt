@@ -1,12 +1,12 @@
-Hello,
+Salve,
 
-This the capture report email for all your sources.
+Questa email contiene il report di cattura per tutte le tue sorgenti.
 
 #REPORTBODY#
 
-You currently have access to the following sources:
+Al monento hai accesso alle seguenti sorgenti:
 #REPORTSOURCES#
 
-Your Webcampak.
+Webcampak.
 
-PS: Contact your webcampak administrator if you want to update your email subscriptions.
+PS: contatta il tuo amministrsatore di sistenma se vuoi aggiornare le tue sottoscrizione via email.

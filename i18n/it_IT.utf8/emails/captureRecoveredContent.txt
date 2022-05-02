@@ -1,12 +1,11 @@
-Hello,
+Salve,
 
-Your Webcampak has just processed a new picture for the source, closing the incident.
+Il tuo sistema ha appena processato una nuova immagine per la sorgente, chiudendo il problema.
 
-Source Name: #SOURCENAME#
-Source ID: #SOURCEID#
-Last successful capture: #LASTSUCCESSFULCAPTUREDATE#
-Current server time: #CURRENTSERVERTIME#
+Nome Sorgente: #SOURCENAME#
+ID Sorgente: #SOURCEID#
+Ultima cattura avvenuta: #LASTSUCCESSFULCAPTUREDATE#
+Ora corrente sul server: #CURRENTSERVERTIME#
 
-Thanks,
-Your Webcampak 
-
+Grazie.
+Webcampak 

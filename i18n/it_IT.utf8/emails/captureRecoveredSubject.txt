@@ -1,1 +1,1 @@
-#CURRENTHOSTNAME#: Capture is now working on source: #CURRENTSOURCENAME# (ID: #CURRENTSOURCEID#)
+#CURRENTHOSTNAME#: La cattura sta ora funzionando sulla sorgente: #CURRENTSOURCENAME# (ID: #CURRENTSOURCEID#)

@@ -1,10 +1,10 @@
-Source: {{ reportItem.sourceId }} - {{ reportItem.sourceName }}
-Active: {{ reportItem.active }}
-Total Capture Count: {{ reportItem.total.count }}
-Total Capture Size: {{ emailTable.bytesToSize(reportItem.total.size) }}
-Total Capture Score: {{ reportItem.schedule.overall.plannedSlots }} %
+Sorgente: {{ reportItem.sourceId }} - {{ reportItem.sourceName }}
+Attiva: {{ reportItem.active }}
+Numero totale di catture: {{ reportItem.total.count }}
+Dimensione totale delle catture: {{ emailTable.bytesToSize(reportItem.total.size) }}
+Punteggio totale delle catture: {{ reportItem.schedule.overall.plannedSlots }} %
 --------------------------------------------------------------------------------
-Scheduled Slots: {{ reportItem.schedule.overall.plannedSlots }}
+Slot programmati: {{ reportItem.schedule.overall.plannedSlots }}
 JPG Capture Count: {{ reportItem.jpg.count }}
 JPG Capture Size: {{ emailTable.bytesToSize(reportItem.jpg.size) }}
 JPG Success Rate: {{ reportItem.schedule.jpg.successRate }}

@@ -1,1 +1,1 @@
-#CURRENTHOSTNAME#: Webcampak Capture report, generated on #REPORTDATE#
+#CURRENTHOSTNAME#: Report di cattura, generato #REPORTDATE#

@@ -1,17 +1,16 @@
-Hello,
+Salve,
 
-Your Webcampak has not been able to capture or process a picture for #TIMESINCELASTCAPTURE# minutes.
+Il tuo sistema non è stato in gradi di completare il processo di cattura di un immagine per #TIMESINCELASTCAPTURE# minuti
 
-The system is configured to trigger an alarm if no new pictures have been processed for more than #SENDALERTAFTER# minutes.
+Il sistema è configurato per far scattare un allatme se non vengono processate nuove immagini per più di #SENDALERTAFTER# minuti.
 
-A reminder email will be sent every #SENDREMINDERAFTER# minutes until the incident is resolved or the alert disabled.
+Una mail di avviso verrà inviata ogni #SENDREMINDERAFTER# minuti, fino a che il problema sarà risolto o l'allarme disabilitato.
 
-Source Name: #SOURCENAME#
-Source ID: #SOURCEID#
-Last successful capture: #LASTSUCCESSFULCAPTUREDATE#
-Time since last capture: #TIMESINCELASTCAPTURE#
-Current server time: #CURRENTSERVERTIME#
+Nome Sorgente: #SOURCENAME#
+ID Sorgente: #SOURCEID#
+Ultima cattura avvenuta con successo: #LASTSUCCESSFULCAPTUREDATE#
+Tempo trascorso dall'ultima cattura: #TIMESINCELASTCAPTURE#
+Ora corrente sul server: #CURRENTSERVERTIME#
 
-Thanks,
-Your Webcampak 
-
+Grazie,
+Webcampak 

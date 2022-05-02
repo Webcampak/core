@@ -1,1 +1,1 @@
-#CURRENTHOSTNAME#: Capture error on source: #CURRENTSOURCENAME#(#CURRENTSOURCE#) - Last successful capture: #LASTCAPTURETIME#
+#CURRENTHOSTNAME#: Errore di cattura nella sergnete: #CURRENTSOURCENAME#(#CURRENTSOURCE#) - Ultiuma cattura avvenuta con successo: #LASTCAPTURETIME#
